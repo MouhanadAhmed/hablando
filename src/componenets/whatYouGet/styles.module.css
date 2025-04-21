@@ -4,7 +4,7 @@
     min-height: 100vh;
     min-width: 90vw;
     overflow: hidden;
-    background-image: url('../../../public/images/RectangleRed.png');
+    /* background-image: url('../../../public/images/RectangleRed.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: bottom ; */
@@ -14,25 +14,17 @@
     margin-bottom: 1rem;
     /* padding-bottom: 20rem; */
     /* padding-top: 18rem; */
-    background-position-y: -20vh;
+    /* background-position-y: -30vh; */
     /* background-position-x: 1100px; */
     /* margin-top: -14rem; */
+    background: #b10229;
+    color: white;
+    clip-path: polygon(101% 29%, 0 0, 0 71%, 100% 100%);
+
     position: relative;
 }
 
-.descSection::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    /* background-image: url('../../../public/images/RectangleRed.png'); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center ; /* same vertical offset */
-    opacity: 0.1; /* Adjust opacity here */
-    pointer-events: none;
-    z-index: 0;
-    background-size: auto;
-}
+
 
 .headerText {
     /* color: red; */
