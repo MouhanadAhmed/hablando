@@ -1,0 +1,20 @@
+
+
+.callButton {
+    /* background-color: rgba(198, 100, 121, 1); */
+    background: rgba(177, 2, 41, 0.5);
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px 15px;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.callButton i {
+    color: rgba(198, 100, 121, 1);
+    padding-right: 10px;
+}
+
