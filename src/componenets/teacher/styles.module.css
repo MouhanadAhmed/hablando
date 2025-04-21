@@ -4,6 +4,7 @@
     min-height: 100vh;
     min-width: 200vw;
     /* overflow: hidden; */
+    margin-top: 100vh;
 }
 
 .headerText {

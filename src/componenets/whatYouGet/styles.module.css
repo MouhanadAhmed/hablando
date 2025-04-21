@@ -1,29 +1,25 @@
 .descSection {
-    /* background: linear-gradient(180deg, #000000 0%, #000000 100%); */
-    /* background: linear-gradient(202.86deg, #000000 6.71%, #43000F 101.59%); */
     min-height: 100vh;
     min-width: 90vw;
     overflow: hidden;
-    /* background-image: url('../../../public/images/RectangleRed.png'); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position: bottom ; */
+    background: #db0130;
+    color: white;
+    clip-path: polygon(101% 29%, 0 0, 0 71%, 100% 100%);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 1rem;
-    /* padding-bottom: 20rem; */
-    /* padding-top: 18rem; */
-    /* background-position-y: -30vh; */
-    /* background-position-x: 1100px; */
-    /* margin-top: -14rem; */
-    background: #b10229;
-    color: white;
-    clip-path: polygon(101% 29%, 0 0, 0 71%, 100% 100%);
+  
+    /* Add this line 👇 */
 
-    position: relative;
+  }
+  
+.aboveLine{
+    position: absolute;
+    z-index: -2;
+    left: 0;
+    right: 0;
 }
-
 
 
 .headerText {

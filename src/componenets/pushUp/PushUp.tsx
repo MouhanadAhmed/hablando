@@ -37,8 +37,8 @@ import Image from "next/image";
 const PushUp = () => {
 
   return (
-    <div className='h-[350vh] w-[100vw] mt-[100vh]'>
-    <div className="w-[100vw]">
+    <div className=' w-[100vw] mb-24'>
+    <div className="w-[100vw] max-h-screen">
     <Image
          src="/images/pushUp.png"
          alt="Teacher Image"
@@ -46,6 +46,7 @@ const PushUp = () => {
          height={250}
          loading="lazy"
          className="object-contain"
+         style={{transform:"scale(0.5) translate(-774px, -2057px)"}}
        />
     </div>
     </div>

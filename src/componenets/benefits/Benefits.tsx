@@ -27,19 +27,19 @@ export default function Benefits() {
 
     return(
        <div className={`benefit-container  h-[300vh] w-[100vw] ${styles.benefitSection}`}>
-        <h3 className="font-anton text-8xl text-center pt-48 ">BENEFITS ALL OVER <span className="text-red-hablando">DUBAI</span></h3>
+        <h3 className="font-anton text-8xl text-center pb-64 ">BENEFITS ALL OVER <span className="text-red-hablando">DUBAI</span></h3>
         
 
 
-        <div className="container mx-auto">
-  <div className="flex flex-wrap gap-24 justify-center">
+        <div className="container mx-auto pt-12">
+  <div className="flex flex-wrap gap-24 justify-center ">
         <Image
           src="/images/restaurants.png"
           alt="restaurants Image"
           width={180}
           height={300}
           loading="lazy"
-          className="object-contain w-full md:w-1/6"
+          className="object-contain pt-12 w-full md:w-1/8"
           data-aos="fade-up"
           data-aos-delay="800"
         />  
@@ -49,7 +49,7 @@ export default function Benefits() {
           width={180}
           height={300}
           loading="lazy"
-          className="object-contain pt-72 w-full md:w-1/6"
+          className="object-contain pt-48 w-full md:w-1/6"
           data-aos="fade-up"
           data-aos-delay="1000"
         />   
@@ -59,7 +59,7 @@ export default function Benefits() {
           width={180}
           height={300}
           loading="lazy"
-          className=" w-full align-bottom pt-[660px] md:w-1/6"
+          className=" w-full align-bottom pt-72 md:w-1/8"
           data-aos="fade-up"
           data-aos-delay="1200"
         />
@@ -71,7 +71,7 @@ export default function Benefits() {
           width={180}
           height={300}
           loading="lazy"
-          className="object-contain pt-24 w-full md:w-1/6"
+          className="object-contain pb-48 w-full md:w-1/8"
           data-aos="fade-up"
           data-aos-delay="400"
         />  
@@ -81,7 +81,7 @@ export default function Benefits() {
           width={180}
           height={300}
           loading="lazy"
-          className="object-contain  w-full md:w-1/6"
+          className="object-contain pb-72 w-full md:w-1/8"
           data-aos="fade-up"
           data-aos-delay="200"
         />   
@@ -91,7 +91,7 @@ export default function Benefits() {
           width={180}
           height={300}
           loading="lazy"
-          className=" w-full align-bottom pt-72 md:w-1/6"
+          className=" w-full align-bottom pt-48 md:w-1/6"
           data-aos="fade-up"
           data-aos-delay="0"
         />

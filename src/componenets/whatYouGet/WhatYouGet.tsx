@@ -3,8 +3,8 @@ import styles from './styles.module.css'
 import Image from "next/image";
 
 const WhatYouGet = () => {
-  return <div className={styles.descSection}>
-
+  return <div className={styles.aboveLine}>
+  <div className={styles.descSection}>
   <div className="flex justify-center">
 
     <div className="max-w-md ps-24 pb-24">
@@ -23,6 +23,7 @@ const WhatYouGet = () => {
               />
     </div>
 
+  </div>
   </div>
   </div>
 };

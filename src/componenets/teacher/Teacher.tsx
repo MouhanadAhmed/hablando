@@ -23,7 +23,7 @@ const Teacher = () => {
   }, []);
 
   return (
-    <div className="teacher-container w-[100vw] pt-96 h-[170vh]">
+    <div className="teacher-container w-[100vw] pt-96 h-[100vh] mt-[80vh]">
       <div className="w-[100vw]">
         <Image
           src="/images/teacherImg.png"
@@ -32,6 +32,7 @@ const Teacher = () => {
           height={250}
           loading="lazy"
           className="object-contain"
+          style={{transform:"scale(0.9"}}
         />
       </div>
     </div>
