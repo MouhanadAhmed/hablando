@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import "tailwindcss";
+@plugin "daisyui";
+/* @font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Anton';
+  src: url('/fonts/Anton-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/fonts/BebasNeue-Regular.ttf') format('ttf');
+} */
+
 
 :root {
   --background: #ffffff;
@@ -23,4 +42,256 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+
+/* Home page background gradient */
+.bg-red-gradient{
+  background: linear-gradient(240.43deg, #000000 -0.34%, #43000F 100.82%);
+}
+/*  Typography */
+.font-montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-anton{
+  font-family: 'Anton', sans-serif;
+}
+
+.font-bebas-neue{
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.fs-80px{
+  font-size: 5rem;
+}
+
+.fs-34px{
+  font-size: 2.125rem;
+}
+
+
+/* Border gradient */
+.border-gradient{
+  border: 0.1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, red, white);
+  animation: borderAnimation 3s linear infinite;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.border-red-gradient{
+  border: 20px solid;
+
+  border-image-source: linear-gradient(159.22deg, #FF0000 0%, #FFFFFF 52.56%, #FF0000 100%);
+  border-radius: 10px;
+}
+
+
+@keyframes borderAnimation {
+  0% {
+      border-image-source: linear-gradient(0deg, red, white);
+  }
+  50% {
+      border-image-source: linear-gradient(90deg, red, white);
+  }
+  100% {
+      border-image-source: linear-gradient(180deg, red, white);
+  }
+}
+
+/* Card */
+.animated-border {
+  border: 0.1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, red, white);
+  animation: borderAnimation 3s linear infinite;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.homeCard  {
+  position: relative;
+  width: 19.875rem; /* Adjust size as needed */
+  height: 26.438rem;
+   /* overflow: hidden; */
+  transition: border 0.5s ease-in-out;
+}
+
+/* Card image */
+.homeCard img:not(.logo) {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+  filter: grayscale(100%) ;
+  transition: all 0.5s ease-in-out;
+  scale: 1;
+  margin-top: 0px;
+  padding-top: 0px;
+  transform: translateY(-20px);
+  margin: auto;
+}
+
+.homeCard:hover img:not(.logo) {
+  filter: grayscale(0%);
+  scale: 1;
+  transform: translateY(-80px);
+  transition: scale 0.5s ease-in-out;
+}
+
+.homeCard:hover #hablandoImg {
+  filter: grayscale(0%);
+  scale: 1;
+  transform: translateY(-80px);
+  transition: scale 0.5s ease-in-out;
+  object-fit: fill;
+}
+
+
+.homeCard:hover  {
+  /* filter: grayscale(0%); */
+  scale: 1.2;
+  /* transform: translateY(-80px); */
+  transition: scale 0.5s ease-in-out;
+}
+
+.homeCard:hover .explore-btn {
+/* border-color:  #d32f2f;; */
+background-color: #d32f2f;
+}
+
+.inactive-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hover-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.homeCard:hover .inactive-img {
+  opacity: 0;
+}
+
+.homeCard:hover .hover-img {
+  opacity: 1;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+}
+
+.card-content h2 {
+  font-weight: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  line-height: 100%;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: rgba(137, 134, 135, 1);; /* grey highlight */
+
+}
+
+.explore-btn {
+  background-color: transparent;
+border: 1px solid #B10229 !important;
+
+  color: white;
+  border: none;
+  padding: 0.625rem 5.5rem;
+  cursor: pointer;
+  /* border-radius: 5px; */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: background 0.3s;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: 'Bebas Neue', sans-serif;
+  line-height: 100%;
+}
+
+.explore-btn:hover {
+  background-color: #b71c1c;
+}
+
+
+/* Setting a max height for the logo */
+img.logo{
+  max-height: 76.16px;
+
+}
+
+.horizontal-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.sections-wrapper {
+  display: flex;
+  width: fit-content;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+@media (width <= 1350px) {
+svg{
+  display: none;
+  opacity: 0;
+}
+
+}@media (width >= 64rem) {
+svg{
+  transform: translateY(71px) scaleY(0.6) translateX(-72px) scaleX(1.0555)
+}
+
+}
+
+.text-red-hablando{
+  color: #B10229;
+
+}
+
+
+.animate-stroke {
+  stroke-dasharray: 2000;     /* Adjust based on path length */
+  stroke-dashoffset: -2000;    /* Start with full offset */
+  animation: draw 3s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;     /* Draws the line */
+  }
 }

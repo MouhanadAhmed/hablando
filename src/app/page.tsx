@@ -1,103 +1,182 @@
+'use client'
 import Image from "next/image";
+import Link from "next/link";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import bg from '../../public/background-curve.svg'
+import teacherIcon from '../../public/images/teacherIcon.png'
+import companyIcon from '../../public/images/companyIcon.png'
+import instituteIcon from '../../public/images/instituteIcon.png'
+import { useRef } from "react";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const dialogRef = useRef<HTMLDialogElement>(null);
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+  const openDialog = () => {
+    dialogRef.current?.showModal();
+  };
+
+
+
+  return (
+    // Main container with grid layout and gradient background
+    <div className="relative grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8  gap-16 sm:p-20  sm:py-0 font-[family-name:var(--font-geist-sans)]  bg-red-gradient">
+
+<svg height={673} viewBox="0 0 1411 673" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute -top-20 left-0 w-full h-full object-cover z-0 pointer-events-none animate-stroke">
+<path opacity="0.7" d="M1401.71 1C1411.39 82.8829 1401.71 157.002 1345.47 189.331C1231.52 254.837 1144.44 382.183 1115.15 437.668C965.753 697.101 715.878 290.834 735.736 449.447C755.595 608.06 720.564 773.048 594.643 579.089C586.557 566.634 493.771 413.104 314.457 428.457C239.629 434.863 125.587 462.373 5 579.089" stroke="#B10229" strokeWidth="12"/>
+</svg>
+
+
+      {/* Main content wrapper */}
+      <main className="flex flex-col gap-[0px]  row-start-2 items-center sm:items-start">
+        {/* Header section */}
+        <h3 className="font-montserrat text-center w-full uppercase text-white fs-34px">
+          Welcome to the
+        </h3>
+        <h1 className="font-anton w-full  text-center text-white fs-80px mb-24">
+          Hablando Community
+        </h1>
+
+        <div className="relative w-full  flex items-center justify-center  text-white">
+
+
+
+        {/* Cards container - column on mobile, row on large screens */}
+        <div className="flex gap-8 w-full items-center justify-center flex-col lg:flex-row  z-10">
+          {/* Hablando Card */}
+          <div className="border-gradient homeCard card lg:me-24  mb-24 lg:mb-0 ">
+            {/* Card background image */}
             <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+            id="hablandoImg"
+              src="/images/hablando-2x.png"
+              alt="Hablando Card"
+              width={180}
+              height={38}
+              priority
+              style={{ color: "transparent", margin: "unset", width: "100%", transform:"translateY(-49px)" }}
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+
+            {/* Card content wrapper */}
+            <div className="card-content flex flex-col items-center">
+              {/* Card logo */}
+              <Image
+                className="logo"
+                src="/images/Group 24-2x.png"
+                alt="Hablando logo"
+                width={150}
+                height={520}
+              />
+              <button className="explore-btn rounded-full">
+                LET'S EXPLORE
+              </button>
+            </div>
+          </div>
+
+          {/* Cat Card */}
+          <div className="border-gradient homeCard card lg:me-24  mb-24 lg:mb-0">
+            {/* Card background image */}
+            <Image
+              src="/images/catcard.png"
+              alt="cat card image"
+              width={180}
+              height={38}
+              priority
+            />
+
+            {/* Card content wrapper */}
+            <div className="card-content flex flex-col items-center">
+              {/* Card logo */}
+              <Image
+                className="logo py-4"
+                src="/images/Group 49.png"
+                alt="CatCard logo"
+                width={160}
+                height={820}
+              />
+              {/* Navigation link to CatCard page */}
+              {/* <Link href="/catcard"> */}
+                <button className="explore-btn rounded-full" onClick={openDialog}>
+                  LET'S EXPLORE
+                </button>
+              {/* </Link> */}
+            </div>
+          </div>
+
+          {/* Bailando Card */}
+          <div className="border-gradient homeCard card  ">
+            {/* Card background image */}
+            <Image
+              src="/images/bailando.png"
+              alt="Bailando card image"
+              width={180}
+              height={38}
+              priority
+            />
+
+            {/* Card content wrapper */}
+            <div className="card-content flex flex-col items-center">
+              {/* Card logo */}
+              <Image
+                className="logo py-4"
+                src="/images/Group-2x.png"
+                alt="Bailando logo"
+                width={160}
+                height={820}
+              />
+              <button className="explore-btn rounded-full">
+                LET'S EXPLORE
+              </button>
+            </div>
+          </div>
         </div>
+
+        {/* Animated SVG in background */}
+  </div>
+
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+
+
+  <dialog ref={dialogRef} id="my_modal_2" className="modal border-none">
+  <div className="modal-box bg-white text-black rounded-none w-9/12 max-w-5xl">
+    <p className="pt-4  text-center font-montserrat fs-34px uppercase font-normal">Welcome to the</p>
+    <h3 className=" text-lg  text-center font-anton fs-80px uppercase">CatCard</h3>
+    <p className="py-2 mb-8  text-center font-montserrat  fs-34px font-medium">Please select an option below</p>
+
+<div className="flex px-8 gap-8 items-center justify-center pb-8">
+
+<div className="card  card-border border-base-100 py-6 rounded-none">
+  <div className="card-body px-14">
+  <Link href="/catcard"> 
+    <Image src={teacherIcon} alt="teacherIcon"  className="mx-auto py-2"/>
+    <p className="text-center text-3xl py-2">A </p>
+    <h2 className=" font-anton uppercase text-center text-5xl text-red-hablando">Teacher</h2>
+    </Link>
+  </div>
+</div>
+<div className="card  card-border border-base-100 py-4  rounded-none">
+  <div className="card-body px-14">
+    <Image src={companyIcon} alt="companyIcon"  className="mx-auto py-2"/>
+    <p className="text-center text-3xl py-2">A </p>
+    <h2 className=" font-anton uppercase text-center text-5xl text-red-hablando">Company</h2>
+  </div>
+</div>
+<div className="card  card-border border-base-100 py-4  rounded-none">
+  <div className="card-body px-10">
+    <Image src={instituteIcon} alt="instituteIcon"  className="mx-auto py-2"/>
+    <p className="text-center text-3xl py-2">AN </p>
+    <h2 className=" font-anton uppercase text-center text-5xl text-red-hablando">institution</h2>
+  </div>
+</div>
+
+
+</div>
+
+  </div>
+  <form method="dialog" className="modal-backdrop">
+    <button>close</button>
+  </form>
+</dialog>
+
     </div>
   );
 }
