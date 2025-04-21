@@ -1,0 +1,87 @@
+.descSection {
+    /* background: linear-gradient(180deg, #000000 0%, #000000 100%); */
+    /* background: linear-gradient(202.86deg, #000000 6.71%, #43000F 101.59%); */
+    min-height: 100vh;
+    min-width: 90vw;
+    overflow: hidden;
+    background-image: url('../../../public/images/RectangleRed.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: bottom ; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* padding-bottom: 20rem; */
+    /* padding-top: 18rem; */
+    background-position-y: -20vh;
+    /* background-position-x: 1100px; */
+    /* margin-top: -14rem; */
+    position: relative;
+}
+
+.descSection::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    /* background-image: url('../../../public/images/RectangleRed.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ; /* same vertical offset */
+    opacity: 0.1; /* Adjust opacity here */
+    pointer-events: none;
+    z-index: 0;
+    background-size: auto;
+}
+
+.headerText {
+    /* color: red; */
+    font-size: 19.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.gallery {
+    max-width: 90vw;
+    position: relative;
+    /* width: 70%; */
+    height: 100vh;
+}
+
+.image {
+    /* position: absolute; */
+    /* width: 200px; */
+    height: auto;
+    /* border-radius: 8px; */
+}
+
+.img1 { top: 16%; left: 20%;  z-index: 21;}
+.img2 { top: 90%; left: 20%; z-index: 2;}
+.img3 { bottom: -33%; right: 27%; }
+.img4 { bottom: 5%; right: 35%; z-index: 1;}
+.img5 { bottom: 0.5%; left: 5%; }
+
+
+.title {
+    font-size: 25vw;
+    font-weight: bold;
+    text-align: right;
+    /* position: absolute; */
+    /* top: 55%; */
+    /* left: 53%; */
+    /* transform: translate(-50%, -50%); */
+    white-space: nowrap;
+    font-family: 'Bebas Neue', sans-serif;
+    /* z-index: 20; */
+}
+.descText {
+    font-size: 2.2rem;
+    /* font-weight: 400; */
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20rem 22rem;
+}
