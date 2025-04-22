@@ -41,7 +41,7 @@ export default function Benefits() {
           loading="lazy"
           className="object-contain pt-12 w-full md:w-1/8"
           data-aos="fade-up"
-          data-aos-delay="800"
+          data-aos-delay="1200"
         />  
         <Image
           src="/images/bookshop.png"
@@ -61,7 +61,7 @@ export default function Benefits() {
           loading="lazy"
           className=" w-full align-bottom pt-72 md:w-1/8"
           data-aos="fade-up"
-          data-aos-delay="1200"
+          data-aos-delay="1600"
         />
   </div>
   <div className="flex flex-wrap gap-24 justify-center">
@@ -73,7 +73,7 @@ export default function Benefits() {
           loading="lazy"
           className="object-contain pb-48 w-full md:w-1/8"
           data-aos="fade-up"
-          data-aos-delay="400"
+          data-aos-delay="1800"
         />  
         <Image
           src="/images/beachClub.png"
@@ -83,7 +83,7 @@ export default function Benefits() {
           loading="lazy"
           className="object-contain pb-72 w-full md:w-1/8"
           data-aos="fade-up"
-          data-aos-delay="200"
+          data-aos-delay="1600"
         />   
          <Image
           src="/images/fitness.png"
@@ -93,7 +93,7 @@ export default function Benefits() {
           loading="lazy"
           className=" w-full align-bottom pt-48 md:w-1/6"
           data-aos="fade-up"
-          data-aos-delay="0"
+          data-aos-delay="1400"
         />
   </div>  
   <div className="flex flex-wrap gap-24 pb-24 justify-center">
@@ -105,7 +105,7 @@ export default function Benefits() {
           loading="lazy"
           className="object-contain pt-62 w-full md:w-1/6"
           data-aos="fade-up"
-          data-aos-delay="200"
+          data-aos-delay="1000"
         />  
         <Image
           src="/images/melPlan.png"
@@ -115,7 +115,7 @@ export default function Benefits() {
           loading="lazy"
           className="object-contain  w-full md:w-1/6"
           data-aos="fade-up"
-          data-aos-delay="0"
+          data-aos-delay="800"
         />   
          <Image
           src="/images/entertainment.png"
@@ -125,7 +125,7 @@ export default function Benefits() {
           loading="lazy"
           className=" w-full align-bottom pt-96 md:w-1/6"
           data-aos="fade-up"
-          data-aos-delay="400"
+          data-aos-delay="1200"
         />
   </div>
 </div>
