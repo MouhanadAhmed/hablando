@@ -31,18 +31,74 @@ export default function CatCard() {
     path.style.strokeDasharray = pathLength.toString();
     path.style.strokeDashoffset = pathLength.toString();
   
-    gsap.to(path, {
-      strokeDashoffset: 0,
-      ease: "none",
-      scrollTrigger: {
-        trigger: '#line',
-        start: "top 20%",
-        end: "+=" + (window.innerHeight * 15),
-        scrub:  true ,
-        markers: false // ✅ shows scroll trigger debug markers
+    // gsap.to(path, {
+    //   strokeDashoffset: 0,
+    //   ease: "none",
+    //   scrollTrigger: {
+    //     trigger: '#line',
+    //     start: "top 20%",
+    //     end: "+=" + (window.innerHeight * 15),
+    //     scrub:  true ,
+    //     markers: false // ✅ shows scroll trigger debug markers
         
-      },
-    });
+    //   },
+    // });
+
+    const teaherSec =  document.querySelector('.teacher-container') ;
+    const rect    = teaherSec?.getBoundingClientRect();
+    const sectionStart = window.pageYOffset + rect?.top;
+    const sectionEnd   = sectionStart + rect?.height;
+
+
+    // console.log("teacherSec",teaherSec)
+    // // slower draw over first horizontal scroller
+    // gsap.to(path, {
+    //   strokeDashoffset: 0,
+    //   ease: "none",
+    //   scrollTrigger: {
+    //     trigger: teaherSec,
+    //     start: "top bottom",
+    //     end: "+=" + (window.innerHeight * 9.5),
+    //     scrub: true,
+    //     markers: true
+    //   },
+    //   // supply a reduced interpolation via duration proportion
+    //   duration: 3000000
+    // });    
+    
+    
+    // const benefitSec =  document.querySelector('.benefit-container') ;
+    // console.log("benefitSec",benefitSec)
+    // // slower draw over first horizontal scroller
+    // gsap.to(path, {
+    //   strokeDashoffset: 0,
+    //   ease: "none",
+    //   scrollTrigger: {
+    //     trigger: benefitSec,
+    //     start: "top ",
+    //     end: "+=" + (window.innerHeight * 8),
+    //     scrub: true,
+    //     markers: true
+    //   },
+    //   // supply a reduced interpolation via duration proportion
+    //   duration: 10
+    // });
+
+    const draw = gsap.to(path, { strokeDashoffset: 0, ease: "none", paused: true });
+
+ScrollTrigger.create({
+  trigger: "#line",
+  start: "top 60%",
+  end: "+=" + (window.innerHeight * 15),
+  onUpdate: (self) => {
+    let factor = 1;
+    // example: if we're within the y-range of your horizontal scroller:
+    if (window.scrollY >= sectionStart ) {
+      factor = 0.7;  // slow to 30% speed
+    }
+    draw.progress(self.progress * factor);
+  }
+});
 
     ScrollTrigger.refresh();
   }, []);
@@ -50,11 +106,13 @@ export default function CatCard() {
   return (
     <div  className={`${styles.backgroundGradient} relative z-0`}>
 
-      
+<div className="absolute left-[15%] top-280 translate-x-[-50%] z-10 text-center">
+  <p className="text-white text-2xl font-montserrat ">SCROLL <br/> DOWN</p>
+</div>
         {/* <div ref={svgContainerRef} className="absolute w-[30vw] left-[15%]  z-10"> */}
         {/* <div ref={svgContainerRef} className="absolute w-[30vw] left-[15%] z-10"> */}
         <div ref={svgContainerRef} className="absolute w-[30vw] -top-400 left-[15%] z-[-1] pointer-events-none">
-
+ 
 <svg width="1500" height="16718" viewBox="0 0 1500 16718" fill="none" xmlns="http://www.w3.org/2000/svg"   style={{ width: '80vw', height: 'auto' }}>
 <g clipPath="url(#clip0_79_6)">
 <g mask="url(#mask0_79_6)">
@@ -75,7 +133,10 @@ export default function CatCard() {
       <CatDesc  />
       <WhatYouGet />
       <Teacher/>
+      {/* <div className='teacher-container'> */}
+
       <Benefits />
+      {/* </div> */}
       <PushUp/>
       <Steps/>
     </div>
