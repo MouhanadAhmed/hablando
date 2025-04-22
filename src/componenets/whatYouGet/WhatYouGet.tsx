@@ -13,7 +13,7 @@ const WhatYouGet = () => {
     <p className="font-montserrat">Whether you're grabbing a coffee with colleagues, indulging in a beauty treatment, or enjoying a weekend brunch with friends, CAT Card helps you do it all—for less!</p>
     </div>
     
-    <div className="ps-48 flex pt-24 justify-end">
+    <div className="ps-24 flex pt-30 justify-end">
     <Image
                 className="ms-24 py-4"
                 src="/images/catCardImg.png"
