@@ -1,5 +1,5 @@
 import Image from "next/image";
-import callIcon from '../../../public/images/callIcon.png'
+import callIcon from '../../../public/images/Ellipse 3355.png'
 
 
 
@@ -138,14 +138,14 @@ export default function Steps(){
         </div>       
         
          {/* Call to action */}
-        <div className=" ps-34 pt-28 flex justify-center">
+        <div className=" ps-46 pt-18 flex justify-center">
          <a href="+971 527667527 ">
             <Image 
             src={callIcon}
-            width={150}
+            width={280}
             height={150}
             alt="call to action"
-            className="text-7xl ps-12  pt-24"
+            className="text-7xl   pt-12"
             ></Image>
           </a>
             {/* <p className="text-7xl font-anton ps-4 pt-30">4   </p> */}

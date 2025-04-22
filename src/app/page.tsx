@@ -43,16 +43,16 @@ export default function Home() {
         {/* Cards container - column on mobile, row on large screens */}
         <div className="flex gap-8 w-full items-center justify-center flex-col lg:flex-row  z-10">
           {/* Hablando Card */}
-          <div className="border-gradient homeCard card lg:me-24  mb-24 lg:mb-0 ">
+          <div className="border-gradient homeCard  lg:me-24  mb-24 lg:mb-0 ">
             {/* Card background image */}
             <Image
             id="hablandoImg"
-              src="/images/hablando-2x.png"
+              src="/images/hablando.png"
               alt="Hablando Card"
-              width={180}
-              height={38}
+              width={380}
+              height={380}
               priority
-              style={{ color: "transparent", margin: "unset", width: "100%", transform:"translateY(-49px)" }}
+              // style={{ color: "transparent", margin: "unset", width: "100%", transform:"translateY(-49px)" }}
             />
 
             {/* Card content wrapper */}
@@ -72,7 +72,7 @@ export default function Home() {
           </div>
 
           {/* Cat Card */}
-          <div className="border-gradient homeCard card lg:me-24  mb-24 lg:mb-0">
+          <div className="border-gradient homeCard  lg:me-24  mb-24 lg:mb-0">
             {/* Card background image */}
             <Image
               src="/images/catcard.png"
@@ -102,14 +102,16 @@ export default function Home() {
           </div>
 
           {/* Bailando Card */}
-          <div className="border-gradient homeCard card  ">
+          <div className="border-gradient homeCard   ">
             {/* Card background image */}
             <Image
               src="/images/bailando.png"
               alt="Bailando card image"
-              width={180}
-              height={38}
+              width={350}
+              height={380}
               priority
+              // style={{ color: "transparent", margin: "unset", width: "100%", transform:"translateY(-49px)" }}
+        id="bailandoImg"
             />
 
             {/* Card content wrapper */}
