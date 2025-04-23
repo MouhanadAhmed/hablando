@@ -45,9 +45,15 @@ export default function CatCard() {
     // });
 
     const teaherSec =  document.querySelector('.teacher-container') ;
-    const rect    = teaherSec?.getBoundingClientRect();
-    const sectionStart = window.pageYOffset + rect?.top;
-    const sectionEnd   = sectionStart + rect?.height;
+    let sectionStart:any;
+    if (teaherSec) {
+      const rect = teaherSec.getBoundingClientRect();
+       sectionStart = window.pageYOffset + rect.top;
+      const sectionEnd = sectionStart + rect.height;
+      
+      // Use sectionStart and sectionEnd here
+    }
+
 
 
     // console.log("teacherSec",teaherSec)
@@ -93,7 +99,7 @@ ScrollTrigger.create({
   onUpdate: (self) => {
     let factor = 1;
     // example: if we're within the y-range of your horizontal scroller:
-    if (window.scrollY >= sectionStart ) {
+    if (typeof sectionStart !== 'undefined' && window.scrollY >= sectionStart ) {
       factor = 0.7;  // slow to 30% speed
     }
     draw.progress(self.progress * factor);
