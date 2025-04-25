@@ -27,7 +27,7 @@ export default function Benefits() {
 
     return(
        <div className={`benefit-container  h-[300vh] w-[100vw] ${styles.benefitSection}`}>
-        <h3 className="font-anton text-8xl text-center pb-64 ">BENEFITS ALL OVER <span className="text-red-hablando">DUBAI</span></h3>
+        <h3 className={`font-anton text-8xl text-center pb-64  ${styles.benefitText}`}>BENEFITS ALL OVER <span className="text-red-hablando">DUBAI</span></h3>
         
 
 
@@ -71,9 +71,9 @@ export default function Benefits() {
           width={180}
           height={300}
           loading="lazy"
-          className="object-contain pb-48 w-full md:w-1/8"
+          className={`object-contain pb-48 w-full md:w-1/8 ${styles.beautyImg}`}
           data-aos="fade-up"
-          data-aos-delay="1800"
+          data-aos-delay="1400"
         />  
         <Image
           src="/images/beachClub.png"
@@ -81,9 +81,9 @@ export default function Benefits() {
           width={180}
           height={300}
           loading="lazy"
-          className="object-contain pb-72 w-full md:w-1/8"
+          className={`object-contain pb-72 w-full md:w-1/8 ${styles.beachImg}`}
           data-aos="fade-up"
-          data-aos-delay="1600"
+          data-aos-delay="1200"
         />   
          <Image
           src="/images/fitness.png"
@@ -91,19 +91,19 @@ export default function Benefits() {
           width={180}
           height={300}
           loading="lazy"
-          className=" w-full align-bottom pt-48 md:w-1/6"
+          className={` w-full align-bottom pt-48 md:w-1/6 ${styles.fitnessImg}`}
           data-aos="fade-up"
-          data-aos-delay="1400"
+          data-aos-delay="1000"
         />
   </div>  
-  <div className="flex flex-wrap gap-24 pb-24 justify-center">
+  <div className={`flex flex-wrap gap-24 pb-24 justify-center ${styles.lastRow}`}>
         <Image
           src="/images/wellness.png"
           alt="wellness Image"
           width={180}
           height={300}
           loading="lazy"
-          className="object-contain pt-62 w-full md:w-1/6"
+          className={`object-contain pt-62 w-full md:w-1/6 ${styles.wellnessImg}`}
           data-aos="fade-up"
           data-aos-delay="1000"
         />  
@@ -113,7 +113,7 @@ export default function Benefits() {
           width={180}
           height={300}
           loading="lazy"
-          className="object-contain  w-full md:w-1/6"
+          className={`object-contain  w-full md:w-1/6 ${styles.mealImg}`}
           data-aos="fade-up"
           data-aos-delay="800"
         />   
@@ -123,7 +123,7 @@ export default function Benefits() {
           width={180}
           height={300}
           loading="lazy"
-          className=" w-full align-bottom pt-96 md:w-1/6"
+          className={` w-full align-bottom pt-96 md:w-1/6 ${styles.entertainmentImg}`}
           data-aos="fade-up"
           data-aos-delay="1200"
         />

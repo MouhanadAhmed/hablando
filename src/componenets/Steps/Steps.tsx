@@ -1,6 +1,6 @@
 import Image from "next/image";
 import callIcon from '../../../public/images/Ellipse 3355.png'
-
+import styles from './styles.module.css'
 
 
 
@@ -8,8 +8,8 @@ export default function Steps(){
 
 
     return(
-        <div className="h-[280vh] p-24">
-        <div className="font-anton text-5xl ps-48 leading-normal "> 
+        <div className={`${styles.stepsSec}  h-[280vh] p-24`}>
+        <div className={`font-anton text-5xl ps-48 leading-normal ${styles.fourSteps}`}> 
         <span className="font-anton text-5xl text-red-hablando pe-4 pb-12">
         4 STEPS 
         </span> 
@@ -22,7 +22,7 @@ export default function Steps(){
         
 
 {/* step ONE */}
-        <div className=" ps-48 pt-18 flex ">
+        <div className={`${styles.stepOne} ps-48 pt-18 flex`}>
             <div>
             <p 
             className="text-4xl font-montserrat ps-8"   
@@ -61,7 +61,7 @@ export default function Steps(){
         
         
         {/* step TWO */}
-        <div className=" ps-48 pt-48 flex justify-end">
+        <div className={`${styles.stepTwo} ps-48 pt-48 flex justify-end`}>
  
 
             <div>
@@ -102,7 +102,7 @@ export default function Steps(){
 
 
         {/* step THREE */}
-        <div className=" ps-48 pt-48 flex justify-end">
+        <div className={`${styles.stepThree} ps-48 pt-48 flex justify-end`}>
  
 
             <div>
@@ -121,7 +121,7 @@ export default function Steps(){
         </div>
 
         {/* step FOUR */}
-        <div className=" ps-42 pt-26 flex ">
+        <div className={`${styles.stepFour} ps-42 pt-26 flex `}>
             <div>
             <p className="text-4xl font-montserrat ps-8"            data-aos="fade-right"
             data-aos-duration="2000">Step  </p>
@@ -138,7 +138,7 @@ export default function Steps(){
         </div>       
         
          {/* Call to action */}
-        <div className=" ps-46 pt-18 flex justify-center">
+        <div className={`${styles.callBtn} ps-46 pt-18 flex justify-center`}>
          <a href="+971 527667527 ">
             <Image 
             src={callIcon}

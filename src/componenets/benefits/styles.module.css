@@ -11,57 +11,32 @@
     background-position-y: top;
 }
 
-.headerText {
-    /* color: red; */
-    font-size: 19.2rem;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 10rem;
-    margin-bottom: 2rem;
-    font-family: 'Bebas Neue', sans-serif;
+
+@media screen and (min-width:1600px) and (max-width:2000px) {
+    .benefitSection {
+        transform: translateY(-550px) !important;
+        max-height: 1921px;
+        }
 }
+@media screen and (min-width:2500px) {
+    .benefitText {
+        padding: 18rem 0 !important;
+        }
+        .fitnessImg{
+            padding-top: 492px;
+        }
+        .beachImg{
+            padding-bottom: 0px;
+        }
+        .beautyImg{
+            padding-bottom: 0px;
+            padding-top: 114px;
+        }
+        .lastRow{
+            padding-top: 183px;
+            transform: translateX(-35px);
+        }
 
 
-.gallery {
-    max-width: 90vw;
-    position: relative;
-    /* width: 70%; */
-    height: 100vh;
-}
 
-.image {
-    /* position: absolute; */
-    /* width: 200px; */
-   /* overflow: hidden; */
-   min-width: 150vw;
-    max-height: 160vh;
-    /* transform: scale(0.9); */
-    /* border-radius: 8px; */
-}
-
-.img1 { top: 16%; left: 20%;  z-index: 21;}
-.img2 { top: 90%; left: 20%; z-index: 2;}
-.img3 { bottom: -33%; right: 27%; }
-.img4 { bottom: 5%; right: 35%; z-index: 1;}
-.img5 { bottom: 0.5%; left: 5%; }
-
-
-.title {
-    font-size: 25vw;
-    font-weight: bold;
-    text-align: right;
-    /* position: absolute; */
-    /* top: 55%; */
-    /* left: 53%; */
-    /* transform: translate(-50%, -50%); */
-    white-space: nowrap;
-    font-family: 'Bebas Neue', sans-serif;
-    /* z-index: 20; */
-}
-.descText {
-    font-size: 2.2rem;
-    /* font-weight: 400; */
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    padding: 20rem 22rem;
 }

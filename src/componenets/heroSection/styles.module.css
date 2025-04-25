@@ -44,11 +44,11 @@
 .img5 { top: 27%; left: 5%; z-index: 1; }   /* officeDark*/
 
 @media screen and (min-width:2000px) {
-.img1 { top: 2%; left: 20%;  z-index: 21; width: 20rem;} /* cat1*/
-.img2 { top: 35%; left: 18%; z-index: 2; width: 20rem;}  /* event*/
-.img3 { top: 50%; right: 7%;   width: 22rem;} /* conference*/
-.img4 { top: 24%; right: 16%; z-index: 1;  width: 20rem;} /* discussion*/
-.img5 { top: 25%; left: 9%; z-index: 1;  width: 20rem;}   /* officeDark*/
+.img1 { top: 0%; left: 16%;  z-index: 21; width: 20rem;} /* cat1*/
+.img2 { top: 38%; left: 18%; z-index: 2; width: 20rem;}  /* event*/
+.img3 { top: 57%; right: 7%;   width: 22rem;} /* conference*/
+.img4 { top: 26%; right: 16%; z-index: 1;  width: 20rem;} /* discussion*/
+.img5 { top: 28%; left: 9%; z-index: 1;  width: 20rem;}   /* officeDark*/
 }
 
 .title {
@@ -64,4 +64,11 @@
     white-space: nowrap;
     font-family: 'Bebas Neue', sans-serif;
     z-index: 20;
+}
+
+
+@media screen and (min-width: 1900px) {
+    .heroSection {
+        min-height: 117vh;
+    }
 }

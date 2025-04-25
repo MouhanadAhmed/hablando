@@ -97,4 +97,33 @@
       stroke-dashoffset: 0;
     }
   } */
-  
+.svgTop{
+    top: -1600px;
+}
+
+
+
+
+@media screen and (min-width:1400px) and (max-width:1520px) {
+    .svgTop{
+        top: -1427px;
+    }
+}
+@media screen and (min-width:1900px) and (max-width:2000px) {
+
+    .svgTop{
+        top: -2193px;
+    }
+    .svgTopScroll{
+        top: 1235px;
+    }
+}
+@media screen and (min-width:2001px)  {
+
+    .svgTopXL{
+        top: -3600px;
+    }
+    .svgTopScrollXL{
+        top: 967px;
+    }
+}

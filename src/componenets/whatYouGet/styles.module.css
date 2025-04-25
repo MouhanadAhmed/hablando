@@ -1,4 +1,4 @@
-.descSection {
+.whatYouGetSection {
     min-height: 100vh;
     min-width: 90vw;
     overflow: hidden;
@@ -73,3 +73,52 @@
     font-family: 'Montserrat', sans-serif;
     padding: 20rem 22rem;
 }
+
+.imageContainer {
+padding-top: 146px;
+padding-left: 90px;;
+}
+
+@media screen and (min-width:1400px) and (max-width:1500px) {
+    .imageContainer {
+        padding-top: 182px;
+        padding-left: 15px;;
+        }
+
+        .whatYouGetSection {
+            min-height: 111vh;
+        }
+}
+
+@media screen and (min-width:1600px) and (max-width:2000px) {
+    .whatYouGetSection {
+     min-height: 70vh;
+        }
+
+        .imageContainer {
+            padding-top: 213px;
+            padding-left: 275px;;
+            }
+}
+
+@media screen and (min-width:2540px) {
+    .imageContainer {
+        padding-top: 197px !important;
+        padding-left: 684px !important;
+        }
+}
+@media screen and (min-width:2530px) {
+    .imageContainer {
+        padding-top: 348px !important;
+        padding-left: 354px !important;
+        }
+}
+
+
+/* @media screen and (min-width:2560)  {
+    .imageContainer {
+        padding-top: 166px;
+        padding-left: 15px;;
+        margin-bottom: 75px;
+        }
+} */

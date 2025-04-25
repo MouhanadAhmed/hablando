@@ -61,3 +61,36 @@ background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
     padding: 20rem  22rem 0 22rem;
 }
+@media screen and (min-width:1400px) and (max-width:1499px) {
+
+
+
+    .descText {
+        font-size: 2rem;
+        padding: 24rem  22rem 0;
+    }
+}
+@media screen and (min-width:1600px) {
+
+    .descSection {
+        min-height: auto;
+    }
+
+
+    .descText {
+        padding: 14rem  22rem;
+    }
+}
+
+@media screen and (min-width:2000px) {
+
+    .descSection {
+        min-height: 37vh;
+        min-width: 90vw;
+    }
+
+
+    .descText {
+        padding: 5rem 22rem;
+    }
+}

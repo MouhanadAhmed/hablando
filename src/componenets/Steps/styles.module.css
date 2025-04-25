@@ -1,0 +1,115 @@
+
+
+
+@media screen and (min-width:1400px) and (max-width:1500px) {
+    .stepTwo {
+        padding-top: 146px;
+    }    
+    .stepThree {
+        padding-top: 166px;
+    }    
+    .stepFour {
+        padding-top: 92px;
+        padding-left: 137px;
+    }
+    
+}
+@media screen and (min-width:1600px) and (max-width:2000px) {  
+    .stepsSec {
+        height: auto ;
+        transform: translateY(-688px);
+    }
+
+
+    .fourSteps {
+        padding-left: 244px;
+    }
+
+    .stepOne {
+        /* padding-top: 185px; */
+        padding-left: 300px;
+    }
+    
+    .stepTwo {
+        padding-top: 270px;
+        padding-right: 102px;
+    }
+
+    .stepThree {
+        padding-top: 291px;
+        padding-right: 102px;
+    }
+
+    .stepFour {
+        padding-top: 171px;
+        padding-left: 258px;
+    }
+    .callBtn {
+        padding-top: 138px;
+        padding-left: 219px;
+        transform: scale(1.25);
+    }
+}
+@media screen and  (min-width:2000px) {  
+    .stepsSec {
+        height: auto ;
+        transform: translateY(-780px);
+        padding-left: 232px;
+        padding-right: 232px;
+    }
+
+
+    .fourSteps {
+        padding-left: 244px;
+    }
+
+    .stepOne {
+        padding-left: 350px;
+        padding-top: 128px;
+    }  
+    
+    .stepOne div:nth-child(2) {
+        padding-left: 138px;
+    }
+    
+    .stepTwo {
+        padding-top: 420px;
+        padding-right: 102px;
+    }
+
+    .stepTwo div:nth-child(1) {
+        padding-right: 108px;
+    }
+
+    .stepThree {
+        padding-top: 420px;
+        padding-right: 102px;
+    }
+    .stepThree div:nth-child(1) {
+        padding-right: 90px;
+    }
+    .stepFour {
+        padding-top: 281px;
+        padding-left: 278px;
+    }
+    .stepFour div:nth-child(1) {
+        padding-right: 90px;
+    }
+    .callBtn {
+        padding-top: 210px;
+        padding-left: 239px;
+        transform: scale(1.7);
+    }
+}
+
+
+@media screen and (min-width:2530px) and (max-width:2540px)  {
+    .stepsSec {
+        padding-top: 20.938rem !important;
+        }
+}
+@media screen and (min-width:2542px)  {
+    .stepsSec {
+        padding-top: 24.938rem !important;
+        }
+}

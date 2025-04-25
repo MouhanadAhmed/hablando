@@ -20,8 +20,8 @@
 
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -29,6 +29,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --breakpoint-3xl: 125rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -295,19 +296,26 @@ img.logo{
   overflow: hidden;
 }
 
-
+.svgSm{
+  transform: rotateY('180deg');
+}
 
 @media (width <= 1350px) {
-svg{
+  .svgLg{
   display: none;
   opacity: 0;
 }
 
+
+
 }@media (width >= 64rem) {
-svg{
+.svgLg ,svg{
   transform: translateY(71px) scaleY(0.6) translateX(-72px) scaleX(1.0555)
 }
-
+.svgSm {
+  display: none;
+  opacity: 0;
+}
 }
 
 .text-red-hablando{

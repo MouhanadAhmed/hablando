@@ -32,7 +32,7 @@
 // export default Teacher;
 import React, { useEffect } from "react";
 import Image from "next/image";
-
+import styles from './styles.module.css'
 
 const PushUp = () => {
 
@@ -45,7 +45,7 @@ const PushUp = () => {
          width={5000}
          height={250}
          loading="lazy"
-         className="object-contain"
+         className={`object-contain ${styles.pushUpImg}`}
          style={{transform:"scale(0.5) translate(-774px, -2057px)"}}
        />
     </div>
