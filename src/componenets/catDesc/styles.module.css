@@ -61,15 +61,248 @@ background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
     padding: 20rem  22rem 0 22rem;
 }
-@media screen and (min-width:1400px) and (max-width:1499px) {
 
 
 
+@media screen and (min-width:800px) and (max-width:849px) {
     .descText {
-        font-size: 2rem;
-        padding: 24rem  22rem 0;
+        font-size: 1.25rem;
+        padding: 21rem 9rem 0;
+    }
+}@media screen and (min-width:850px) and (max-width:899px) {
+    .descText {
+        font-size: 1.25rem;
+        padding: 19em 8em 0;
     }
 }
+@media screen and (min-width:900px) and (max-width:1023px) {
+    .descText {
+        font-size: 1.25rem;
+        padding: 27rem 10rem 0;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1044px) {
+    .descSection {
+        min-height: min-content
+    }
+    .descText{
+        font-size: 1.3rem;
+        padding: 12rem 11rem 0;
+    }
+}
+@media screen and (min-width:1045px) and (max-width:1073px) {
+    .descSection {
+        min-height: min-content
+    }
+    .descText{
+        font-size: 1.3rem;
+        padding: 14rem 11rem 0;
+    }
+}
+@media screen and (min-width:1073px) and (max-width:1083px) {
+    .descSection {
+        min-height: min-content
+    }
+    .descText{
+        font-size: 1.3rem;
+        padding: 18rem 11rem 0;
+    }
+}
+@media screen and (min-width:1083px) and (max-width:1103px) {
+    .descSection {
+        min-height: min-content
+    }
+    .descText{
+        font-size: 1.3rem;
+        padding: 20rem 11rem 0;
+    }
+}
+@media screen and (min-width:1103px) and (max-width:1132px) {
+    .descSection {
+        min-height: min-content
+    }
+    .descText{
+        font-size: 1.4rem;
+        padding: 21rem 11rem 0;
+    }
+}
+@media screen and (min-width:1132px) and (max-width:1162px) {
+    .descSection {
+        min-height: min-content
+    }
+    .descText{
+        font-size: 1.4rem;
+        padding: 26rem 11rem 0;
+    }
+}
+@media screen and (min-width:1162px) and (max-width:1172px) {
+    .descText{
+        font-size: 1.4rem;
+        padding: 30rem 11rem;
+    }
+}
+@media screen and (min-width:1172px) and (max-width:1200px) {
+    .descText{
+        font-size: 1.4rem;
+        padding: 30rem 11rem;
+    }
+
+    @media screen and (min-width:1180px) and (max-width:1200px) {
+        .descText{
+            font-size: 1.4rem;
+            padding: 33rem 11rem;
+        }
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1300px) {
+    .descText{
+        font-size: 1.4rem;
+        padding: 22rem 11rem;
+    }
+    @media screen and (min-width:1200px) and (max-width:1225px) {
+        .descText{
+            font-size: 1.4rem;
+            padding: 22rem 11rem;
+        }
+    }
+       @media screen and (min-width:1225px) and (max-width:1264px) {
+        .descText{
+            font-size: 1.4rem;
+            padding: 28rem 11rem;
+        }      
+        }      
+
+        @media screen and (min-width:1264px) and (max-width:1285px) {
+        .descText{
+            font-size: 1.4rem;
+            padding: 30rem 11rem;
+        }
+    }       @media screen and (min-width:1285px) and (max-width:1300px) {
+        .descText{
+            font-size: 1.4rem;
+            padding: 32rem 11rem;
+        }
+    }
+
+}
+
+@media screen and (min-width:1300px) and (max-width:1400px) {
+    .descText{
+        font-size: 1.4rem;
+        padding: 22rem 11rem;
+    }
+
+    @media screen and (min-width:1300px) and (max-width:1312px) {
+        .descText{
+            font-size: 1.4rem;
+            padding: 22rem 11rem;
+        }
+    } 
+       @media screen and (min-width:1312px) and (max-width:1360px) {
+        .descText{
+            font-size: 1.4rem;
+            padding: 28rem 11rem;
+        }
+    } 
+          @media screen and (min-width:1360px) and (max-width:1400px) {
+        .descText{
+            font-size: 1.4rem;
+            padding: 33rem 11rem;
+        }
+    }
+}
+@media screen and (min-width:1400px) and (max-width:1499px) {
+    .descText {
+        font-size: 1.75rem;
+        padding: 18rem  20rem 0;
+    }
+
+    @media screen and (min-width:1400px) and (max-width:1420px) {
+        .descText {
+            font-size: 1.75rem;
+            padding: 18rem  20rem 0;
+        }
+    }
+    @media screen and (min-width:1420px) and (max-width:1440px) {
+        .descText {
+            font-size: 1.75rem;
+            padding: 22rem  20rem ;
+        }
+    }
+    @media screen and (min-width:1440px) and (max-width:1450px) {
+        .descText {
+            font-size: 1.75rem;
+            padding: 23.5rem  20rem ;
+        }
+    }
+    @media screen and (min-width:1450px) and (max-width:1465px) {
+        .descText {
+            font-size: 1.75rem;
+            padding: 24.5rem  20rem ;
+        }
+    }
+    @media screen and (min-width:1465px) and (max-width:1480px) {
+        .descText {
+            font-size: 1.75rem;
+            padding: 26.5rem  20rem ;
+        }
+    }
+    @media screen and (min-width:1480px) and (max-width:1499px) {
+        .descText {
+            font-size: 1.75rem;
+            padding: 28.5rem  20rem ;
+        }
+    }
+}
+
+@media screen and (min-width:1499px) and (max-width:1600px) {
+    @media screen and (min-width:1499px) and (max-width:1524px) {
+        .descText {
+            font-size: 1.75rem;
+            padding: 28rem  20rem ;
+        }
+    }
+    @media screen and (min-width:1524px) and (max-width:1600px) {
+        .descText {
+            font-size: 1.75rem;
+            padding: 23rem  20rem ;
+        }
+    }
+    @media screen and (min-width:1524px) and (max-width:1540px) {
+        .descText {
+            font-size: 1.75rem;
+            padding: 25rem  20rem ;
+        }
+    }
+    @media screen and (min-width:1540px) and (max-width:1560px) {
+        .descText {
+            font-size: 1.75rem;
+            padding: 26rem  20rem ;
+        }
+    }
+    @media screen and (min-width:1560px) and (max-width:1580px) {
+        .descText {
+            font-size: 1.75rem;
+            padding: 28rem  20rem ;
+        }
+    }
+    @media screen and (min-width:1580px) and (max-width:1600px) {
+        .descText {
+            font-size: 1.75rem;
+            padding: 30rem  20rem ;
+        }
+    }
+}
+/* @media screen and (min-width:1424px) and (max-width:1438px) {
+    .descText {
+        padding-top: 302px;
+      }
+}
+@media screen and (min-width:1439px) and (max-width:1441px) {
+    .descText {
+      padding-top: 352px;
+    }
+} */
 @media screen and (min-width:1600px) {
 
     .descSection {
@@ -78,7 +311,7 @@ background-repeat: no-repeat;
 
 
     .descText {
-        padding: 14rem  22rem;
+        padding: 30rem  22rem;
     }
 }
 

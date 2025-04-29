@@ -41,7 +41,7 @@ export default function CatCard() {
 
 
   useEffect(() => {
-
+    console.log(window.innerHeight)
 
     const activeRef = isLargeScreen ? svgContainerRef : svgContainerRefXL;
     const inactiveRef = isLargeScreen ? svgContainerRefXL : svgContainerRef;   
@@ -151,7 +151,7 @@ ScrollTrigger.create({
     let factor = 1;
     // example: if we're within the y-range of your horizontal scroller:
     if (typeof sectionStart !== 'undefined' && window.scrollY > sectionStart*1.3 && window.innerWidth<1900 ) {
-      factor = 0.7;  // slow to 30% speed
+      factor = 0.9;  // slow to 30% speed
     }
     drawTween.progress(self.progress * factor);
   }
@@ -182,6 +182,7 @@ ScrollTrigger.create({
 </clipPath>
 </defs>
 </svg>
+
 
 
       </div>        

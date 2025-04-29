@@ -1,15 +1,6 @@
 .heroSection {
-    /* background: linear-gradient(180deg, #000000 0%, #000000 100%); */
-    /* background: linear-gradient(202.86deg, #000000 6.71%, #43000F 101.59%); */
     min-height: 150vh;
     min-width: 90vw;
- 
-    /* overflow: hidden; */
-    /* background-image: url('../../../public/images/heroBg.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right ;
-    background-position-y: bottom; */
 }
 
 .headerText {
@@ -22,7 +13,6 @@
     font-family: 'Bebas Neue', sans-serif;
 }
 
-
 .gallery {
     max-width: 90vw;
     position: relative;
@@ -32,9 +22,7 @@
 
 .image {
     position: absolute;
-    /* width: 200px; */
     height: auto;
-    /* border-radius: 8px; */
 }
 
 .img1 { top: 0%; left: 20%;  z-index: 21;} /* cat1*/
@@ -42,14 +30,6 @@
 .img3 { top: 58%; right: 7%; } /* conference*/
 .img4 { top: 28%; right: 16%; z-index: 1;} /* discussion*/
 .img5 { top: 27%; left: 5%; z-index: 1; }   /* officeDark*/
-
-@media screen and (min-width:2000px) {
-.img1 { top: 0%; left: 16%;  z-index: 21; width: 20rem;} /* cat1*/
-.img2 { top: 38%; left: 18%; z-index: 2; width: 20rem;}  /* event*/
-.img3 { top: 57%; right: 7%;   width: 22rem;} /* conference*/
-.img4 { top: 26%; right: 16%; z-index: 1;  width: 20rem;} /* discussion*/
-.img5 { top: 28%; left: 9%; z-index: 1;  width: 20rem;}   /* officeDark*/
-}
 
 .title {
     font-size: 16.4vw;
@@ -66,9 +46,30 @@
     z-index: 20;
 }
 
+@media screen and (min-width:800px) and (max-width:1023px) {
+    .img1 { top: 0%; left: 16%;  z-index: 21; width: 9rem;} /* cat1*/
+    .img2 { top: 28%; left: 25%; z-index: 2; width: 13rem;}  /* event*/
+    .img3 { top: 39%; right: 6%;   width: 13rem;} /* conference*/
+    .img4 { top: 16%; right: 16%; z-index: 1;  width: 10rem;} /* discussion*/
+    .img5 { top: 16%; left: 9%; z-index: 1;  width: 13rem;}   /* officeDark*/
+}
 
-@media screen and (min-width: 1900px) {
+
+@media screen and (min-width: 1900px) and (max-width:1949px) {
+    .heroSection {
+        min-height: 202vh;
+    }
+}
+@media screen and (min-width: 1950px) {
     .heroSection {
         min-height: 117vh;
     }
 }
+
+@media screen and (min-width:2000px) {
+    .img1 { top: 0%; left: 16%;  z-index: 21; width: 20rem;} /* cat1*/
+    .img2 { top: 38%; left: 18%; z-index: 2; width: 20rem;}  /* event*/
+    .img3 { top: 57%; right: 7%;   width: 22rem;} /* conference*/
+    .img4 { top: 26%; right: 16%; z-index: 1;  width: 20rem;} /* discussion*/
+    .img5 { top: 28%; left: 9%; z-index: 1;  width: 20rem;}   /* officeDark*/
+    }

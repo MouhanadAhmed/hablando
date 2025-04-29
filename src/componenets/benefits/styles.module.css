@@ -11,8 +11,13 @@
     background-position-y: top;
 }
 
-
-@media screen and (min-width:1600px) and (max-width:2000px) {
+@media screen and (min-width: 1900px) and (max-width:1949px) {
+    .benefitSection {
+        /* min-height: 300vh; */
+        transform: translateY(-849px) !important;
+           }
+}
+@media screen and (min-width:1949px) and (max-width:2000px) {
     .benefitSection {
         transform: translateY(-550px) !important;
         max-height: 1921px;

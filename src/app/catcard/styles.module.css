@@ -26,68 +26,6 @@
     z-index: 0;
 }
 
-.headerText {
-    /* color: red; */
-    font-size: 19.2rem;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 10rem;
-    margin-bottom: 2rem;
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-.callButton {
-    /* background-color: rgba(198, 100, 121, 1); */
-    background: rgba(177, 2, 41, 0.5);
-    font-size: 1.2rem;
-    color: white;
-    padding: 10px 15px;
-    /* border-radius: 5px; */
-    cursor: pointer;
-    font-weight: 700;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.callButton i {
-    color: rgba(198, 100, 121, 1);
-    padding-right: 10px;
-}
-
-.gallery {
-    max-width: 90vw;
-    position: relative;
-    /* width: 70%; */
-    height: 100vh;
-}
-
-.image {
-    /* position: absolute; */
-    /* width: 200px; */
-    height: auto;
-    /* border-radius: 8px; */
-}
-
-.img1 { top: 16%; left: 20%;  z-index: 21;}
-.img2 { top: 90%; left: 20%; z-index: 2;}
-.img3 { bottom: -33%; right: 27%; }
-.img4 { bottom: 5%; right: 35%; z-index: 1;}
-.img5 { bottom: 0.5%; left: 5%; }
-
-
-.title {
-    font-size: 25vw;
-    font-weight: bold;
-    /* position: absolute; */
-    top: 55%;
-    left: 53%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-    font-family: 'Bebas Neue', sans-serif;
-    z-index: 20;
-}
-
-
 /* #line {
     animation: draw 4s linear forwards;
   }
@@ -104,18 +42,96 @@
 
 
 
+@media screen and (min-width:800px) and (max-width:1023px) {
+    .svgTop{
+        top: 1200px;
+        left: 9%;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    .svgTop{
+        /* top: -948px; */
+        top: -788px;
+        left: 17%;
+    }
+
+    @media screen and (min-width:1024px) and (max-width:1065px) {
+        .svgTopScroll{
+            /* top: -948px; */
+            top: 1050px;
+            
+        }
+    }   
+     @media screen and (min-width:1065px) and (max-width:1100px) {
+        .svgTopScroll{
+            /* top: -948px; */
+            top: 1100px;
+            
+        }
+    }    
+      @media screen and (min-width:1100px) and (max-width:1172px) {
+        .svgTopScroll{
+            /* top: -948px; */
+            top: 1180px;
+            
+        }
+    } 
+       @media screen and (min-width:1172px) and (max-width:1200px) {
+        .svgTopScroll{
+            /* top: -948px; */
+            top: 1300px;
+            
+        }
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1250px) {
+    .svgTop{
+        /* top: -948px; */
+        top: -1013px;
+        left: 16%;
+    }
+    .svgTopScroll{
+        top: 70.813rem;
+    }
+}
+@media screen and (min-width:1250px) and (max-width:1300px) {
+    .svgTop{
+        /* top: -948px; */
+        top: -1013px;
+        left: 16%;
+    }
+    .svgTopScroll{
+        top: 76rem;
+    }
+}
+@media screen and (min-width:1300px) and (max-width:1400px) {
+    .svgTop{
+        /* top: -948px; */
+        top: -1213px;
+        left: 16%;
+    }
+}
+
 @media screen and (min-width:1400px) and (max-width:1520px) {
     .svgTop{
         top: -1427px;
+    }
+    .svgTopScroll{
+        top: 66rem;
+    }
+    @media screen and (min-width:1420px) and (max-width:1520px) {
+        .svgTopScroll{
+            top: 69rem;
+        }
     }
 }
 @media screen and (min-width:1900px) and (max-width:2000px) {
 
     .svgTop{
-        top: -2193px;
+        top: -1680px;
     }
     .svgTopScroll{
-        top: 1235px;
+        top: 1713px;
     }
 }
 @media screen and (min-width:2001px)  {

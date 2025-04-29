@@ -28,8 +28,8 @@ export default function RootLayout({
 
   useEffect(() => {
     AOS.init({
-      duration: 800, // animation duration in ms
-      once: false, // only animate once while scrolling down
+      duration: 300, // animation duration in ms
+      once: true, // only animate once while scrolling down
       
     })
   }, [])
