@@ -58,22 +58,21 @@ const Teacher = () => {
     const container = document.querySelector(".teacher-container");
 
     gsap.to(container, {
-      xPercent: -100, // move one full screen (100vw out of 200vw)
+      xPercent: -120, // move one full screen (100vw out of 200vw)
       ease: "none",
       scrollTrigger: {
         trigger: ".outer-container",
-        start: "top top",
+        start: "50vw",
         // end: () => "+=200vw", // Adjust scroll distance if needed
-        end: "+=1000", // Adjust scroll distance if needed
-        scrub: 1,
+        scrub: 2,
         pin: true,
         anticipatePin: 1,
-      },
+      } ,
     });
   }, []);
 
   return (
-    <div className="outer-container h-[100vh] mt-[100vh]  relative">
+    <div className="outer-container h-[200vh] pt-[50vw] relative">
       <div className="teacher-container flex w-[200vw]">
         {/* First Panel with Image */}
         <div className="w-[100vw] flex items-center justify-center ">
@@ -83,7 +82,7 @@ const Teacher = () => {
             width={5000}
             height={250}
             loading="lazy"
-            className={`object-contain scale-[0.9] ${styles.teacherImg}`}
+            className={`object-contain scale-[0.9] w-[100vw] ${styles.teacherImg}`}
           />
         </div>
 

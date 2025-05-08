@@ -6,47 +6,34 @@ const WhatYouGet = () => {
   if (typeof window !== 'undefined') {
     // Safe to use window here
     const width = window.innerWidth;
-    console.log("width",width)
+    console.log("width", width)
   }
-  
-  return <div className={` what-container ${styles.aboveLine}`}>
-  <div className={styles.whatYouGetSection}>
-  <div className="flex justify-center 3xl:justify-between 3xl:w-[72vw]">
 
-    <div className={`${styles.leftSection} max-w-md 3xl:w-full ps-24 3xl:ps-42 pb-24  3xl:hidden`}>
-    <h3 className="uppercase text-5xl 3xl:text-7xl  mb-12 font-anton">What you will get</h3>
-    <p className="mb-6 font-montserrat">With CAT Card, you’ll gain access to exclusive discounts at some of the best Dubai restaurants, beauty salons, gyms, cafés, entertainment spots, and more. </p>
-    <p className="font-montserrat">Whether you're grabbing a coffee with colleagues, indulging in a beauty treatment, or enjoying a weekend brunch with friends, CAT Card helps you do it all—for less!</p>
-    </div>   
-    
-     <div className="w-[40vw] pb-24 hidden 3xl:block" style={{marginLeft:"9rem"}}>
-    <h3 className="uppercase text-5xl 3xl:text-7xl mt-12  mb-12 font-anton">What you will get</h3>
-    <p className="mb-6 text-3xl font-montserrat">With CAT Card, you’ll gain access to exclusive discounts at some of the best Dubai restaurants, beauty salons, gyms, cafés, entertainment spots, and more. </p>
-    <p className="font-montserrat text-3xl">Whether you're grabbing a coffee with colleagues, indulging in a beauty treatment, or enjoying a weekend brunch with friends, CAT Card helps you do it all—for less!</p>
+  return <div className={`what-container`}>
+    <div>
+      <div className="flex justify-between lg:w-[75vw] mx-auto">
+
+        <div className="lg:max-w-[33vw] lg:pl-[8vw]">
+          <h3 className="uppercase text-5xl 2xl:text-[2.5vw]  mb-12 font-anton">What you will get</h3>
+          <p className="mb-6 lg:text-[1vw] font-montserrat">With CAT Card, you’ll gain access to exclusive discounts at some of the best Dubai restaurants, beauty salons, gyms, cafés, entertainment spots, and more. </p>
+          <p className="font-montserrat lg:text-[1vw]">Whether you're grabbing a coffee with colleagues, indulging in a beauty treatment, or enjoying a weekend brunch with friends, CAT Card helps you do it all—for less!</p>
+        </div>
+
+        <div>
+          <Image
+            className=" block lg:w-[35vw] lg:h-[20vw] lg:ml-[8vw] object-contain"
+            src="/images/catCardImg.png"
+            alt="CatCard image"
+            width={500}
+            height={500}
+            sizes="100vw"
+          />
+
+       
+        </div>
+
+      </div>
     </div>
-    
-    <div className={`${styles.imageContainer} justify-end 3xl:w-full`}>
-    <Image
-                className="ms-24 py-4 block 3xl:hidden"
-                src="/images/catCardImg.png"
-                alt="CatCard image"
-                width={500}
-                height={500}
-                sizes="100vw"
-              />
-
-    <Image
-                className="ms-24 py-4 hidden 3xl:block"
-                src="/images/catCardImg.png"
-                alt="CatCard image"
-                width={700}
-                height={700}
-                sizes="100vw"
-              />
-    </div>
-
-  </div>
-  </div>
   </div>
 };
 

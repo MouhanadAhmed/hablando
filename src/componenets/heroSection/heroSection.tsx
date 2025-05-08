@@ -5,16 +5,16 @@ import Image from "next/image";
 const HeroSection = () => {
   return <>
     <div className={`${styles.heroSection} ${styles.gallery}`}>
-    <h1
-  className={styles.title}
-  data-aos="fade-right"
-  data-aos-duration="2000"
-  data-aos-once="true"
->
-  WHAT IS CAT CARD ?
-</h1>
+      <h1
+        className={styles.title}
+        data-aos="fade-right"
+        data-aos-duration="2000"
+        data-aos-once="true"
+      >
+        WHAT IS CAT CARD ?
+      </h1>
 
-        {/* <div className="flex justify-end  items-center">
+      {/* <div className="flex justify-end  items-center">
 
         <h1 className={`text-white w-full text-right font-bold uppercase ${styles.headerText} ${styles.gallery}  ${styles.title}`}>what is Cat</h1>
               <Image
@@ -59,28 +59,28 @@ const HeroSection = () => {
 
       </div> */}
 
-            {/* <div className=''> */}
-            <Image src="/images/cat1.png" className={`${styles.image} ${styles.img1}`} alt="Office Desk" width={200}
-                height={820}  data-aos="fade-up"
-                data-aos-delay="600"/>
-            <Image src="/images/event.png" className={`${styles.image} ${styles.img2}`} alt="Event" width={300}
-                height={820}  data-aos="fade-up"
-                data-aos-delay="1000"/>
-            <Image src="/images/conference.png" className={`${styles.image} ${styles.img3}`} alt="Conference" width={300}
-                height={820}  data-aos="fade-up"
-                data-aos-delay="600"
-                />
-            <Image src="/images/disscussion.png" className={`${styles.image} ${styles.img4}`} alt="Discussion" width={200}
-                height={820}  data-aos="fade-up"
-                data-aos-delay="800"/>
-            <Image src="/images/officeDark.png" className={`${styles.image} ${styles.img5}`} alt="Office Dark" width={270}
-                height={820}  data-aos="fade-up"
-                data-aos-delay="800"/>
-        {/* </div> */}
-  </div>
+      {/* <div className=''> */}
+      <Image src="/images/cat1.png" className={`${styles.image} ${styles.img1}`} alt="Office Desk" width={200}
+        height={820} data-aos="fade-up"
+        data-aos-delay="600" />
+      <Image src="/images/event.png" className={`${styles.image} ${styles.img2}`} alt="Event" width={300}
+        height={820} data-aos="fade-up"
+        data-aos-delay="1000" />
+      <Image src="/images/conference.png" className={`${styles.image} ${styles.img3}`} alt="Conference" width={300}
+        height={820} data-aos="fade-up"
+        data-aos-delay="600"
+      />
+      <Image src="/images/disscussion.png" className={`${styles.image} ${styles.img4}`} alt="Discussion" width={200}
+        height={820} data-aos="fade-up"
+        data-aos-delay="800" />
+      <Image src="/images/officeDark.png" className={`${styles.image} ${styles.img5}`} alt="Office Dark" width={270}
+        height={820} data-aos="fade-up"
+        data-aos-delay="800" />
+      {/* </div> */}
+    </div>
   </>
 
-  
+
 
 };
 

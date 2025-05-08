@@ -326,11 +326,6 @@ img.logo{
 }
 
 
-
-}@media (width >= 64rem) {
-.svgLg ,svg{
-  transform: translateY(71px) scaleY(0.6) translateX(-72px) scaleX(1.0555)
-}
 .svgSm {
   display: none;
   opacity: 0;

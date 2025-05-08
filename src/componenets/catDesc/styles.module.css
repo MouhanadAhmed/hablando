@@ -394,11 +394,9 @@ background-repeat: no-repeat;
     }
 } */
 @media screen and (min-width:1600px) {
-
     .descSection {
         min-height: min-content;
     }
-
 
     .descText {
         padding: 30rem  22rem 10rem;
@@ -415,5 +413,33 @@ background-repeat: no-repeat;
 
     .descText {
         padding: 5rem 22rem;
+    }
+}
+
+/* OZ Code  */
+
+@media screen and (min-width:1024px) {
+    .descSection {
+        overflow: visible;
+    }
+
+    .descText {
+        font-size: 2vw;
+        max-width: 100vw;
+        width: 100%;
+        padding: 0  15vw 0rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .descSection {
+        min-height: 0 !important;
+    }
+
+    .descText {
+        font-size: 2vw;
+        max-width: 100vw;
+        width: 100%;
+        padding: 0  15vw 0rem;
     }
 }

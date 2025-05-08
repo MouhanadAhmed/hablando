@@ -7,7 +7,7 @@
     background-image: url('../../../public/images/bg.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position:center top ;
+    background-position: center top;
     backface-visibility: hidden;
     position: relative;
     background-position-y: 70vh;
@@ -20,8 +20,10 @@
     background-image: url('../../../public/images/bg.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center 70vh; /* same vertical offset */
-    opacity: 0.2; /* Adjust opacity here */
+    background-position: center 70vh;
+    /* same vertical offset */
+    opacity: 0.2;
+    /* Adjust opacity here */
     pointer-events: none;
     z-index: 0;
 }
@@ -35,7 +37,7 @@
       stroke-dashoffset: 0;
     }
   } */
-.svgTop{
+.svgTop {
     top: -1600px;
 }
 
@@ -43,69 +45,78 @@
 
 
 @media screen and (min-width:800px) and (max-width:1023px) {
-    .svgTop{
+    .svgTop {
         top: 1200px;
         left: 9%;
     }
 }
+
 @media screen and (min-width:1024px) and (max-width:1200px) {
-    .svgTop{
+    .svgTop {
         /* top: -948px; */
         top: -788px;
         left: 17%;
     }
 
     @media screen and (min-width:1024px) and (max-width:1065px) {
-        .svgTopScroll{
+        .svgTopScroll {
             /* top: -948px; */
             top: 1050px;
-            
+
         }
-    }   
-     @media screen and (min-width:1065px) and (max-width:1100px) {
-        .svgTopScroll{
+    }
+
+    @media screen and (min-width:1065px) and (max-width:1100px) {
+        .svgTopScroll {
             /* top: -948px; */
             top: 1100px;
-            
+
         }
-    }    
-      @media screen and (min-width:1100px) and (max-width:1172px) {
-        .svgTopScroll{
+    }
+
+    @media screen and (min-width:1100px) and (max-width:1172px) {
+        .svgTopScroll {
             /* top: -948px; */
             top: 1180px;
-            
+
         }
-    } 
-       @media screen and (min-width:1172px) and (max-width:1200px) {
-        .svgTopScroll{
+    }
+
+    @media screen and (min-width:1172px) and (max-width:1200px) {
+        .svgTopScroll {
             /* top: -948px; */
             top: 1300px;
-            
+
         }
     }
 }
+
 @media screen and (min-width:1200px) and (max-width:1250px) {
-    .svgTop{
+    .svgTop {
         /* top: -948px; */
         top: -1013px;
         left: 16%;
     }
-    .svgTopScroll{
+
+    .svgTopScroll {
         top: 70.813rem;
     }
 }
+
 @media screen and (min-width:1250px) and (max-width:1300px) {
-    .svgTop{
+    .svgTop {
         /* top: -948px; */
         top: -1013px;
         left: 16%;
     }
-    .svgTopScroll{
+
+    .svgTopScroll {
         top: 76rem;
     }
 }
+
 @media screen and (min-width:1300px) and (max-width:1400px) {
-    .svgTop{
+    .svgTop {
         /* top: -948px; */
         top: -1213px;
         left: 16%;
@@ -113,33 +124,51 @@
 }
 
 @media screen and (min-width:1400px) and (max-width:1520px) {
-    .svgTop{
+    .svgTop {
         top: -1427px;
     }
-    .svgTopScroll{
+
+    .svgTopScroll {
         top: 66rem;
     }
+
     @media screen and (min-width:1420px) and (max-width:1520px) {
-        .svgTopScroll{
+        .svgTopScroll {
             top: 69rem;
         }
     }
 }
+
 @media screen and (min-width:1900px) and (max-width:2000px) {
 
-    .svgTop{
+    .svgTop {
         top: -1680px;
     }
-    .svgTopScroll{
+
+    .svgTopScroll {
         top: 1713px;
     }
 }
-@media screen and (min-width:2001px)  {
 
-    .svgTopXL{
+@media screen and (min-width:2001px) {
+
+    .svgTopXL {
         top: -3600px;
     }
-    .svgTopScrollXL{
+
+    .svgTopScrollXL {
         top: 967px;
+    }
+}
+
+/* OZ Code */
+
+@media (min-width:1024px) {
+    .svgTopScroll {
+        top: 85vw;
+    }
+    .svgTop {
+        top: 0px !important;
+        bottom: unset !important;
     }
 }

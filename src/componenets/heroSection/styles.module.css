@@ -79,3 +79,11 @@
     .img4 { top: 26%; right: 16%; z-index: 1;  width: 20rem;} /* discussion*/
     .img5 { top: 28%; left: 9%; z-index: 1;  width: 20rem;}   /* officeDark*/
     }
+
+/* OZ Code  */
+
+@media (min-width:1024px) {
+    .heroSection {
+        min-height: 147vh;
+    }
+}
