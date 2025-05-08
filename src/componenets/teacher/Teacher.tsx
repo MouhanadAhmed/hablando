@@ -72,7 +72,7 @@ const Teacher = () => {
   }, []);
 
   return (
-    <div className="outer-container h-[200vh] pt-[50vw] relative">
+    <div className="outer-container h-[200vh] lg:pt-[50vw] relative">
       <div className="teacher-container flex w-[200vw]">
         {/* First Panel with Image */}
         <div className="w-[100vw] flex items-center justify-center ">
@@ -82,7 +82,7 @@ const Teacher = () => {
             width={5000}
             height={250}
             loading="lazy"
-            className={`object-contain scale-[0.9] w-[100vw] ${styles.teacherImg}`}
+            className={`object-contain max-lg:scale-[0.9] lg:w-[100vw] ${styles.teacherImg}`}
           />
         </div>
 
