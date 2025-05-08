@@ -41,7 +41,7 @@ const PushUp = () => {
     <div className="w-[100vw] max-h-screen">
     <Image
          src="/images/pushUp.png"
-         alt="Teacher Image"
+         alt="Push up Image"
          width={5000}
          height={250}
          loading="lazy"

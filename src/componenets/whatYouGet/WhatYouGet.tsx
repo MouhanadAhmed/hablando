@@ -9,7 +9,7 @@ const WhatYouGet = () => {
     console.log("width",width)
   }
   
-  return <div className={styles.aboveLine}>
+  return <div className={` what-container ${styles.aboveLine}`}>
   <div className={styles.whatYouGetSection}>
   <div className="flex justify-center 3xl:justify-between 3xl:w-[72vw]">
 

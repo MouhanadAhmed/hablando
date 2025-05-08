@@ -1,3 +1,18 @@
+@media screen and (min-width:800px) and (max-width:815px) {
+    .pushUpImg {
+        transform: scale(0.5) translate(-409px, -3063px) !important;
+    } 
+}
+@media screen and (min-width:815px) and (max-width:1000px) {
+    .pushUpImg {
+        transform: scale(0.5) translate(-409px, -2860px) !important;
+    } 
+}
+@media screen and (min-width:898px) and (max-width:1000px) {
+    .pushUpImg {
+        transform: scale(0.5) translate(-456px, -2060px) !important;
+    } 
+}
 @media screen and (min-width:1600px) and (max-width:1899px) {
     .pushUpImg {
         transform: scale(0.4) translate(-1440px,-3557px) !important;

@@ -52,6 +52,12 @@
     .img3 { top: 39%; right: 6%;   width: 13rem;} /* conference*/
     .img4 { top: 16%; right: 16%; z-index: 1;  width: 10rem;} /* discussion*/
     .img5 { top: 16%; left: 9%; z-index: 1;  width: 13rem;}   /* officeDark*/
+/* ipad Air */
+    @media screen and (width:820px) { 
+        .heroSection {
+            min-height: 120vh;
+        }
+    }
 }
 
 

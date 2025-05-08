@@ -69,13 +69,22 @@ background-repeat: no-repeat;
         font-size: 1.25rem;
         padding: 21rem 9rem 0;
     }
-}@media screen and (min-width:850px) and (max-width:899px) {
+    /* ipad Air */
+    @media screen and (width:820px) { 
+        .descSection {
+            min-height: auto;
+        }        
+        .descText {
+            padding-top: 0;
+        }
+    }
+}@media screen and (min-width:849px) and (max-width:899px) {
     .descText {
         font-size: 1.25rem;
         padding: 19em 8em 0;
     }
 }
-@media screen and (min-width:900px) and (max-width:1023px) {
+@media screen and (min-width:899px) and (max-width:1023px) {
     .descText {
         font-size: 1.25rem;
         padding: 27rem 10rem 0;
@@ -136,160 +145,241 @@ background-repeat: no-repeat;
     }
 }
 @media screen and (min-width:1162px) and (max-width:1172px) {
+    .descSection {
+        min-height: min-content
+    }
     .descText{
         font-size: 1.4rem;
-        padding: 30rem 11rem;
+        padding: 29rem 11rem 1.5rem;
     }
 }
 @media screen and (min-width:1172px) and (max-width:1200px) {
+    .descSection {
+        min-height: min-content
+    }
     .descText{
         font-size: 1.4rem;
-        padding: 30rem 11rem;
+        padding: 30rem 11rem 2rem;
     }
 
     @media screen and (min-width:1180px) and (max-width:1200px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText{
             font-size: 1.4rem;
-            padding: 33rem 11rem;
+            padding: 33rem 11rem 1rem;
         }
     }
 }
 @media screen and (min-width:1200px) and (max-width:1300px) {
+    .descSection {
+        min-height: min-content
+    }
     .descText{
         font-size: 1.4rem;
-        padding: 22rem 11rem;
+        padding: 20rem 11rem 0;
     }
     @media screen and (min-width:1200px) and (max-width:1225px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText{
             font-size: 1.4rem;
-            padding: 22rem 11rem;
+            padding: 20rem 11rem 4rem;
         }
     }
        @media screen and (min-width:1225px) and (max-width:1264px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText{
             font-size: 1.4rem;
-            padding: 28rem 11rem;
+            padding: 27rem 11rem 5rem;
         }      
         }      
 
         @media screen and (min-width:1264px) and (max-width:1285px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText{
             font-size: 1.4rem;
-            padding: 30rem 11rem;
+            padding: 28rem 11rem 8rem;
         }
     }       @media screen and (min-width:1285px) and (max-width:1300px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText{
             font-size: 1.4rem;
-            padding: 32rem 11rem;
+            padding: 32rem 11rem 4rem;
         }
     }
 
 }
 
 @media screen and (min-width:1300px) and (max-width:1400px) {
+    .descSection {
+        min-height: min-content
+    }
     .descText{
         font-size: 1.4rem;
-        padding: 22rem 11rem;
+        padding: 22rem 11rem 0;
     }
 
     @media screen and (min-width:1300px) and (max-width:1312px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText{
             font-size: 1.4rem;
-            padding: 22rem 11rem;
+            padding: 22rem 11rem 2.5rem;
         }
     } 
-       @media screen and (min-width:1312px) and (max-width:1360px) {
+       @media screen and (min-width:1312px) and (max-width:1330px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText{
             font-size: 1.4rem;
-            padding: 28rem 11rem;
+            padding: 23rem 11rem 3rem;
         }
     } 
-          @media screen and (min-width:1360px) and (max-width:1400px) {
+       @media screen and (min-width:1330px) and (max-width:1360px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText{
             font-size: 1.4rem;
-            padding: 33rem 11rem;
+            padding: 25rem 11rem 3rem;
+        }
+    } 
+          @media screen and (min-width:1360px) and (max-width:1380px) {
+            .descSection {
+                min-height: min-content
+            }
+        .descText{
+            font-size: 1.4rem;
+            padding: 28rem 11rem 0;
+        }
+    }
+          @media screen and (min-width:1380px) and (max-width:1400px) {
+            .descSection {
+                min-height: min-content
+            }
+        .descText{
+            font-size: 1.7rem;
+            padding: 32rem 11rem 0;
         }
     }
 }
 @media screen and (min-width:1400px) and (max-width:1499px) {
-    .descText {
+    /* .descText {
         font-size: 1.75rem;
         padding: 18rem  20rem 0;
-    }
+    } */
 
     @media screen and (min-width:1400px) and (max-width:1420px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText {
-            font-size: 1.75rem;
-            padding: 18rem  20rem 0;
+            font-size: 1.65rem;
+            padding: 18rem  20rem 10rem;
         }
     }
     @media screen and (min-width:1420px) and (max-width:1440px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText {
             font-size: 1.75rem;
-            padding: 22rem  20rem ;
+            padding: 21rem  20rem 5rem;
         }
     }
     @media screen and (min-width:1440px) and (max-width:1450px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText {
             font-size: 1.75rem;
-            padding: 23.5rem  20rem ;
+            padding: 23.5rem  20rem 8rem;
         }
     }
     @media screen and (min-width:1450px) and (max-width:1465px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText {
-            font-size: 1.75rem;
-            padding: 24.5rem  20rem ;
+            font-size: 1.5rem;
+            padding: 26rem  20rem  10rem;
         }
     }
     @media screen and (min-width:1465px) and (max-width:1480px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText {
             font-size: 1.75rem;
-            padding: 26.5rem  20rem ;
+            padding: 26.5rem  20rem 11rem;
         }
     }
     @media screen and (min-width:1480px) and (max-width:1499px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText {
             font-size: 1.75rem;
-            padding: 28.5rem  20rem ;
+            padding: 28.5rem  20rem 11rem;
         }
     }
 }
 
 @media screen and (min-width:1499px) and (max-width:1600px) {
-    @media screen and (min-width:1499px) and (max-width:1524px) {
+    @media screen and (min-width:1499px) and (max-width:1520px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText {
             font-size: 1.75rem;
-            padding: 28rem  20rem ;
+            padding: 29rem  20rem 14rem;
         }
     }
-    @media screen and (min-width:1524px) and (max-width:1600px) {
+    /* @media screen and (min-width:1524px) and (max-width:1600px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText {
             font-size: 1.75rem;
-            padding: 23rem  20rem ;
+            padding: 23rem  20rem 0;
         }
-    }
+    } */
     @media screen and (min-width:1524px) and (max-width:1540px) {
+        .descSection {
+            min-height: min-content
+        }
         .descText {
             font-size: 1.75rem;
-            padding: 25rem  20rem ;
+            padding: 25rem  20rem 10rem;
         }
     }
     @media screen and (min-width:1540px) and (max-width:1560px) {
         .descText {
             font-size: 1.75rem;
-            padding: 26rem  20rem ;
+            padding: 27rem  20rem 9rem;
         }
     }
     @media screen and (min-width:1560px) and (max-width:1580px) {
         .descText {
             font-size: 1.75rem;
-            padding: 28rem  20rem ;
+            padding: 28rem  20rem 11rem;
         }
     }
     @media screen and (min-width:1580px) and (max-width:1600px) {
         .descText {
             font-size: 1.75rem;
-            padding: 30rem  20rem ;
+            padding: 30rem  20rem 12rem;
         }
     }
 }
@@ -306,12 +396,12 @@ background-repeat: no-repeat;
 @media screen and (min-width:1600px) {
 
     .descSection {
-        min-height: auto;
+        min-height: min-content;
     }
 
 
     .descText {
-        padding: 30rem  22rem;
+        padding: 30rem  22rem 10rem;
     }
 }
 

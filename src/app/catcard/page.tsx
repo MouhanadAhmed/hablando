@@ -101,7 +101,24 @@ export default function CatCard() {
     if (teacherSec) {
       const rect = teacherSec.getBoundingClientRect();
       sectionStart = window.pageYOffset + rect.top;
+    }   
+     // Get vertical offset of .push-container for speed adjustment
+    const pushSec = document.querySelector('.push-container');
+    let sectionStart2: number | undefined;
+    if (pushSec) {
+      const rect = pushSec.getBoundingClientRect();
+      sectionStart2 = window.pageYOffset + rect.top;
+    }   
+      // Get vertical offset of .what you will get container for z-index adjustment
+    const whatSec = document.querySelector('.what-container');
+    let whatSectionStart: number | undefined;
+    let whatSectionEnd: number | undefined;
+    if (whatSec) {
+      const rect = whatSec.getBoundingClientRect();
+      whatSectionStart = window.pageYOffset + rect.top;
+      whatSectionEnd = window.pageYOffset + rect.bottom;
     }
+
 
 
 
@@ -150,8 +167,24 @@ ScrollTrigger.create({
   onUpdate: (self) => {
     let factor = 1;
     // example: if we're within the y-range of your horizontal scroller:
-    if (typeof sectionStart !== 'undefined' && window.scrollY > sectionStart*1.3 && window.innerWidth<1900 ) {
-      factor = 0.9;  // slow to 30% speed
+    if (typeof sectionStart !== 'undefined' && window.scrollY > sectionStart*1.2 && screenX >1900  ) {
+      factor = 0.7;  // slow to 30% speed
+    } 
+    //   if (typeof sectionStart2 !== 'undefined' && window.scrollY > sectionStart2 && screenX <1900 ) {
+    //   factor = 0.618;  // slow to 30% speed
+    // } 
+    //   if (typeof sectionStart2 !== 'undefined' && window.scrollY > sectionStart2 && screenX >1900 ) {
+    //   factor = 1.5;  // slow to 30% speed
+    // }  
+        if (typeof whatSectionStart !== 'undefined' &&  window.scrollY >= whatSectionStart   ) {
+          if (activeRef.current) {
+          activeRef.current.style.zIndex='3'
+    }
+    }     
+       if (typeof whatSectionEnd !== 'undefined' && window.scrollY > whatSectionEnd   ) {
+          if (activeRef.current) {
+          activeRef.current.style.zIndex='-1'
+    }
     }
     drawTween.progress(self.progress * factor);
   }
@@ -192,7 +225,7 @@ ScrollTrigger.create({
   <p className="text-white text-2xl font-montserrat ">SCROLL <br/> DOWN</p>
 </div>
 
-      <div ref={svgContainerRefXL} className={`absolute  w-[30vw] -top-800 left-[15%] z-[-1] pointer-events-none ${styles.svgTopXL}`}>
+      <div ref={svgContainerRefXL} className={`absolute  w-[30vw] -top-800 left-[15%] z-[3] pointer-events-none ${styles.svgTopXL}`}>
  
 <svg width="1500" height="16718" viewBox="0 0 1500 16718" fill="none" xmlns="http://www.w3.org/2000/svg"   style={{ width: '80vw', height: 'auto' }}>
 <g clipPath="url(#clip0_79_6)">
@@ -213,13 +246,54 @@ ScrollTrigger.create({
       <HeroSection />
       <CatDesc  />
       <WhatYouGet />
+      <div className='teacher-container'>
       <Teacher/>
-      {/* <div className='teacher-container'> */}
-
+      {/* <div className='h-[10px]'></div> */}
+      </div>
       <Benefits />
-      {/* </div> */}
       <PushUp/>
+      <div className='push-container'>
       <Steps/>
+    </div>
+    <div className='flex justify-evenly items-center pb-24'>
+      <div className='flex  justify-center items-center'>
+      <Image
+         src="/images/whatsappIcon.png"
+         alt="Push up Image"
+         width={50}
+         height={50}
+         loading="lazy"
+        //  className={`object-contain ${styles.pushUpImg}`}
+        //  style={{transform:"scale(0.5) translate(-774px, -2057px)"}}
+       />
+       <p className='ps-4 text-3xl text-bold font-anton'>+971 527667527 </p>
+      </div>     
+       <div className='flex  justify-center items-center'>
+      <Image
+         src="/images/instaIcon.png"
+         alt="Push up Image"
+         width={50}
+         height={50}
+         loading="lazy"
+        //  className={`object-contain ${styles.pushUpImg}`}
+        //  style={{transform:"scale(0.5) translate(-774px, -2057px)"}}
+       />
+       <p className='ps-4 text-3xl text-bold font-anton'>catcard </p>
+      </div>      
+          <div className='flex  justify-center items-center'>
+      <Image
+         src="/images/instaIcon.png"
+         alt="Push up Image"
+         width={50}
+         height={50}
+         loading="lazy"
+        //  className={`object-contain ${styles.pushUpImg}`}
+        //  style={{transform:"scale(0.5) translate(-774px, -2057px)"}}
+       />
+       <p className='ps-4 text-3xl text-bold font-anton'>HABLANDODUBAI </p>
+      </div>     
+
+    </div>
     </div>
 
   );

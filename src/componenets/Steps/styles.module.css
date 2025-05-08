@@ -1,5 +1,3521 @@
 
 
+@media screen and (min-width:799px) and (max-width:803px) {
+    .stepsSec {
+        transform: translateY(-78.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+            padding-top: 69px;
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 110px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 92px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 56px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 0px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:803px) and (max-width:805px) {
+    .stepsSec {
+        transform: translateY(-77.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+            padding-top: 69px;
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 110px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 110px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 56px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:805px) and (max-width:808px) {
+    .stepsSec {
+        transform: translateY(-78.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+            padding-top: 89px;
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 120px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 110px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 56px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:808px) and (max-width:809px) {
+    .stepsSec {
+        transform: translateY(-77.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+            padding-top: 100px;
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 120px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 110px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 56px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:809px) and (max-width:812px) {
+    .stepsSec {
+        transform: translateY(-77rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+            padding-top: 120px;
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 120px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 110px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 56px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:812px) and (max-width:814px) {
+    .stepsSec {
+        transform: translateY(-78.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+            padding-top: 140px;
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 120px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 110px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 56px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:814px) and (max-width:817px) {
+    .stepsSec {
+        transform: translateY(-77.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+            padding-top: 160px;
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 120px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 110px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 56px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:817px) and (max-width:821px) {
+    .stepsSec {
+        transform: translateY(-78.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+            padding-top: 190px;
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 120px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 110px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 56px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:821px) and (max-width:825px) {
+    .stepsSec {
+        transform: translateY(-77.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+            padding-top: 220px;
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 120px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 110px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 56px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:825px) and (max-width:828px) {
+    .stepsSec {
+        transform: translateY(-76.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+            padding-top: 240px;
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 120px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 110px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 56px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:828px) and (max-width:832px) {
+    .stepsSec {
+        transform: translateY(-77.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+            padding-top: 270px;
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 120px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 110px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 56px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:832px) and (max-width:837px) {
+    .stepsSec {
+        transform: translateY(-78.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+            padding-top: 310px;
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 120px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 110px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 56px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:837px) and (max-width:840px) {
+    .stepsSec {
+        transform: translateY(-78.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 280px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 120px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 120px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:840px) and (max-width:843px) {
+    .stepsSec {
+        transform: translateY(-78rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 300px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 130px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 66px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:843px) and (max-width:845px) {
+    .stepsSec {
+        transform: translateY(-77.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 300px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:845px) and (max-width:848px) {
+    .stepsSec {
+        transform: translateY(-77rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 320px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:848px) and (max-width:850px) {
+    .stepsSec {
+        transform: translateY(-77.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 340px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:850px) and (max-width:855px) {
+    .stepsSec {
+        transform: translateY(-79rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 380px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:855px) and (max-width:859px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 410px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:859px) and (max-width:864px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 445px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:864px) and (max-width:868px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 475px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:868px) and (max-width:871px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 510px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:871px) and (max-width:874px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 540px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:874px) and (max-width:877px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 560px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:877px) and (max-width:879px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 580px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 32px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:879px) and (max-width:881px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 600px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 62px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:881px) and (max-width:884px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 620px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 76px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 62px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:884px) and (max-width:888px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 635px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 96px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 62px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:888px) and (max-width:892px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 665px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 140px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 74px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 130px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 96px;
+        padding-left: 10px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 62px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (min-width:892px) and (max-width:896px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 685px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 150px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 94px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 150px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 96px;
+        padding-left: 15px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 62px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:896px) and (max-width:900px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 720px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+    .stepTwo {
+        padding-top: 150px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 94px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 150px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 96px;
+        padding-left: 15px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 62px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:900px) and (max-width:904px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 735px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+        .stepOneDesc, .stepFour {
+            padding-left: 50px;
+        }
+
+    .stepTwo {
+        padding-top: 150px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 94px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 190px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 86px;
+        padding-left: 15px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 62px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:904px) and (max-width:906px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 765px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+        .stepOneDesc, .stepFour {
+            padding-left: 50px;
+        }
+
+    .stepTwo {
+        padding-top: 150px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 94px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 190px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 86px;
+        padding-left: 15px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 62px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:906px) and (max-width:909px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 785px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+        .stepOneDesc, .stepFour {
+            padding-left: 50px;
+        }
+
+    .stepTwo {
+        padding-top: 150px;
+        padding-right: 40px;
+        padding-left: 150px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 94px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 190px;
+        padding-right: 40px;
+        padding-left: 150px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 86px;
+        padding-left: 15px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 62px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width:909px) and (max-width:915px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 790px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+            padding-top: 68px;
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+        .stepOneDesc, .stepFour {
+            padding-left: 50px;
+        }
+
+    .stepTwo {
+        padding-top: 200px;
+        padding-right: 40px;
+        padding-left: 150px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 94px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 170px;
+        padding-right: 40px;
+        padding-left: 150px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 90px;
+        padding-left: 15px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 62px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+    @media screen and (min-width:911px) and (max-width:915px) {
+        .stepOne {
+            padding-top: 108px;
+        }
+        .stepFour {
+            padding-top: 110px;
+            padding-left: 15px;
+        }
+
+    }
+}
+
+@media screen and (min-width:915px) and (max-width:1004px) {
+    .stepsSec {
+        transform: translateY(-82.188rem);
+        /* transform: translateY(calc(-10vw)); */
+        /* padding-bottom: 82.188rem; */
+        }
+
+        .fourSteps {
+            padding-left: 56px;
+            padding-top: 845px;
+        }
+
+        .stepOne {
+            padding-left: 21px;
+           
+        }
+        .stepOneH, .stepOneP {
+            padding-left: 79px;
+        }
+
+        .stepOneDesc, .stepFour {
+            padding-left: 50px;
+        }
+
+    .stepTwo {
+        padding-top: 200px;
+        padding-right: 40px;
+        padding-left: 150px;
+    }   
+    .stepTwoDesc,.stepOneDesc{
+        min-width: fit-content;
+    }
+    .stepTwoH {
+        padding-right: 94px;
+        padding-top: 20px;
+    }   
+    .stepTwoP {
+        padding-right: 44px;
+    }
+    .stepTwoStep {
+        padding-right: 80px;
+    }
+    .stepTwoNum {
+        padding-right: 103px;
+    }
+
+    .stepThree {
+        padding-top: 170px;
+        padding-right: 40px;
+        padding-left: 150px;
+    }    
+    .stepThreeDesc{
+        min-width: fit-content; 
+    }
+    .stepThreeH {
+        padding-right: 100px;
+        padding-top: 18px;
+    }
+    .stepThreeP {
+        padding-right: 55px;
+    }
+    .stepThreeStep{
+        padding-right: 47px;
+        padding-top: 18px;
+    }
+    .stepThreeNum {
+        padding-right: 68px;
+    }
+
+    .stepFour {
+        padding-top: 110px;
+        padding-left: 15px;
+    }
+
+    .stepFourDesc{
+        min-width: fit-content;
+    }
+    .stepFourH{
+        padding-left: 62px;
+        padding-top: 13px;
+    }
+    .stepFourP{
+        padding-left: 62px;
+    }
+    .callBtn {
+        padding-top: 62px;
+    }
+    .stepOneStep, .stepTwoStep,  .stepThreeStep, .stepFourStep {
+        font-size: 34px;
+    }
+    .stepOneNum, .stepTwoNum, .stepThreeNum, .stepFourNum {
+        font-size: 64px;
+    }    
+    .stepOneInide, .stepTwoInide, .stepThreeInide, .stepFourInide {
+        /* font-size: 64px; */
+        transform: scale(0.8);
+    }
+
+    @media screen and (min-width:920px) and (max-width:925px) {
+        .stepOne {
+            padding-top: 111px;
+           
+        }
+    }
+    @media screen and (min-width:925px) and (max-width:930px) {
+        .stepOne {
+            padding-top: 161px;
+           
+        }
+    }
+    @media screen and (min-width:930px) and (max-width:934px) {
+        .stepOne {
+            padding-top: 195px;
+           
+        }
+    }
+    @media screen and (min-width:934px) and (max-width:940px) {
+        .stepOne {
+            padding-top: 225px;
+           
+        }
+        .stepFour {
+            padding-top: 130px;
+            padding-left: 35px;
+        }
+    }
+    @media screen and (min-width:940px) and (max-width:944px) {
+        .stepOne {
+            padding-top: 255px;
+            padding-left: 35px;
+        }
+        .stepFour {
+            padding-top: 130px;
+            padding-left: 35px;
+        }
+    }
+    @media screen and (min-width:944px) and (max-width:948px) {
+        .stepOne {
+            padding-top: 300px;
+            padding-left: 35px;
+        }
+        .stepFour {
+            padding-top: 120px;
+            padding-left: 35px;
+        }
+    }
+    @media screen and (min-width:948px) and (max-width:952px) {
+        .stepOne {
+            padding-top: 330px;
+            padding-left: 35px;
+        }
+        .stepFour {
+            padding-top: 120px;
+            padding-left: 35px;
+        }
+    }
+    @media screen and (min-width:952px) and (max-width:957px) {
+        .fourSteps {
+            padding-left: 66px;
+            padding-top: 1140px;
+        }
+        .stepOne {
+            /* padding-top: 330px; */
+            padding-left: 35px;
+        }
+        .stepFour {
+            padding-top: 120px;
+            padding-left: 35px;
+        }
+    }
+    @media screen and (min-width:957px) and (max-width:962px) {
+        .fourSteps {
+            padding-left: 66px;
+            padding-top: 1180px;
+        }
+        .stepOne {
+            /* padding-top: 330px; */
+            padding-left: 35px;
+        }
+        .stepFour {
+            padding-top: 130px;
+            padding-left: 35px;
+        }
+    }
+    @media screen and (min-width:962px) and (max-width:969px) {
+        .fourSteps {
+            padding-left: 66px;
+            padding-top: 1210px;
+        }
+        .stepOne {
+            /* padding-top: 330px; */
+            padding-left: 35px;
+        }
+        .stepThree {
+            padding-top: 190px;
+            /* padding-left: 35px; */
+        }.stepFour {
+            padding-top: 140px;
+            padding-left: 35px;
+        }
+    }
+    @media screen and (min-width:969px) and (max-width:974px) {
+        .fourSteps {
+            padding-left: 66px;
+            padding-top: 1260px;
+        }
+        .stepOne {
+            /* padding-top: 330px; */
+            padding-left: 35px;
+        }
+        .stepThree {
+            padding-top: 190px;
+            /* padding-left: 35px; */
+        }.stepFour {
+            padding-top: 130px;
+            padding-left: 35px;
+        }
+    }
+    @media screen and (min-width:974px) and (max-width:979px) {
+        .fourSteps {
+            padding-left: 66px;
+            padding-top: 1300px;
+        }
+        .stepOne {
+            /* padding-top: 330px; */
+            padding-left: 35px;
+        }
+        .stepThree {
+            padding-top: 190px;
+            /* padding-left: 35px; */
+        }.stepFour {
+            padding-top: 130px;
+            padding-left: 35px;
+        }
+        .callBtn{
+            padding-top: 110px;
+        }
+    }
+    @media screen and (min-width:979px) and (max-width:982px) {
+        .fourSteps {
+            padding-left: 66px;
+            padding-top: 1330px;
+        }
+        .stepOne {
+            /* padding-top: 330px; */
+            padding-left: 35px;
+        }
+        .stepThree {
+            padding-top: 190px;
+            /* padding-left: 35px; */
+        }.stepFour {
+            padding-top: 130px;
+            padding-left: 35px;
+        }
+        .callBtn{
+            padding-top: 110px;
+        }
+    }
+    @media screen and (min-width:982px) and (max-width:985px) {
+        .fourSteps {
+            padding-left: 66px;
+            padding-top: 1360px;
+        }
+        .stepOne {
+            /* padding-top: 330px; */
+            padding-left: 35px;
+        }
+        .stepThree {
+            padding-top: 190px;
+            /* padding-left: 35px; */
+        }.stepFour {
+            padding-top: 130px;
+            padding-left: 35px;
+        }
+        .callBtn{
+            padding-top: 110px;
+        }
+    }
+    @media screen and (min-width:985px) and (max-width:989px) {
+        .fourSteps {
+            padding-left: 66px;
+            padding-top: 1390px;
+        }
+        .stepOne {
+            /* padding-top: 330px; */
+            padding-left: 35px;
+        }
+        .stepThree {
+            padding-top: 190px;
+            /* padding-left: 35px; */
+        }.stepFour {
+            padding-top: 130px;
+            padding-left: 35px;
+        }
+        .callBtn{
+            padding-top: 110px;
+        }
+    }
+    @media screen and (min-width:989px) and (max-width:993px) {
+        .fourSteps {
+            padding-left: 66px;
+            padding-top: 1420px;
+        }
+        .stepOne {
+            /* padding-top: 330px; */
+            padding-left: 35px;
+        }
+        .stepThree {
+            padding-top: 190px;
+            /* padding-left: 35px; */
+        }.stepFour {
+            padding-top: 130px;
+            padding-left: 35px;
+        }
+        .callBtn{
+            padding-top: 110px;
+        }
+    }
+    @media screen and (min-width:993px) and (max-width:1000px) {
+        .fourSteps {
+            padding-left: 66px;
+            padding-top: 1450px;
+        }
+        .stepOne {
+            /* padding-top: 330px; */
+            padding-left: 35px;
+        }
+        .stepThree {
+            padding-top: 210px;
+            /* padding-left: 35px; */
+        }.stepFour {
+            padding-top: 140px;
+            padding-left: 45px;
+        }
+        .callBtn{
+            padding-top: 110px;
+        }
+    }
+}
+
+
+
 
 @media screen and (min-width:1400px) and (max-width:1500px) {
     .stepsSec {
