@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     // Main container with grid layout and gradient background
-    <div className="relative grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8  gap-16 sm:p-20  sm:py-0 font-[family-name:var(--font-geist-sans)]  bg-red-gradient">
+    <div className="relative grid grid-rows-[20px_1fr_20px] items-center justify-items-center 2xl:min-h-screen p-8  gap-16 sm:p-20  sm:py-0 font-[family-name:var(--font-geist-sans)]  bg-red-gradient">
 
 <svg height={673} viewBox="0 0 1411 673" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute svgLg top-10 left-0 w-full h-full object-cover z-0 pointer-events-none animate-stroke">
 <path opacity="0.7" d="M1401.71 1C1411.39 82.8829 1401.71 157.002 1345.47 189.331C1231.52 254.837 1144.44 382.183 1115.15 437.668C965.753 697.101 715.878 290.834 735.736 449.447C755.595 608.06 720.564 773.048 594.643 579.089C586.557 566.634 493.771 413.104 314.457 428.457C239.629 434.863 125.587 462.373 5 579.089" stroke="#B10229" strokeWidth="12"/>
