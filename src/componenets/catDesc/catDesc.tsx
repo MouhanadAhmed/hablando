@@ -5,8 +5,8 @@ const CatDesc = () => {
   
 
   return (
-    <div className={styles.descSection}>
-    <p className={`${styles.descText} font-montserrat`}>CAT CARD is Dubai’s ultimate <span className="text-red-500 font-montserrat">membership program designed exclusively for TEACHERS.</span> As an educator, you dedicate your time and energy to shaping the future—now it’s time to enjoy some well-deserved benefits! </p>
+    <div className={`${styles.descSection}`}>
+    <p className={`${styles.descText} font-montserrat  lg:!max-w-[78vw] lg:w-full`}>CAT CARD is Dubai’s ultimate <span className="text-[#B10229] font-montserrat font-semibold">membership program designed exclusively for TEACHERS.</span> As an educator, you dedicate your time and energy to shaping the future—now it’s time to enjoy some well-deserved benefits! </p>
   </div>)
 };
 

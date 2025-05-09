@@ -60,20 +60,20 @@ const HeroSection = () => {
       </div> */}
 
       {/* <div className=''> */}
-      <Image src="/images/cat1.png" className={`${styles.image} ${styles.img1}`} alt="Office Desk" width={200}
+      <Image  src="/images/cat1.png" className={`lg:!w-[12vw] lg:!h-[12vw] ${styles.image} ${styles.img1}`} alt="Office Desk" width={200}
         height={820} data-aos="fade-up"
         data-aos-delay="600" />
-      <Image src="/images/event.png" className={`${styles.image} ${styles.img2}`} alt="Event" width={300}
+      <Image src="/images/event.png" className={`lg:!w-[20vw] lg:!h-[20vw] ${styles.image} ${styles.img2}`} alt="Event" width={300}
         height={820} data-aos="fade-up"
         data-aos-delay="1000" />
-      <Image src="/images/conference.png" className={`${styles.image} ${styles.img3}`} alt="Conference" width={300}
+      <Image src="/images/conference.png" className={`lg:!w-[20vw] lg:!h-[15vw] ${styles.image} ${styles.img3}`} alt="Conference" width={300}
         height={820} data-aos="fade-up"
         data-aos-delay="600"
       />
-      <Image src="/images/disscussion.png" className={`${styles.image} ${styles.img4}`} alt="Discussion" width={200}
+      <Image src="/images/disscussion.png" className={`lg:!w-[12vw] lg:!h-[16vw] ${styles.image} ${styles.img4}`} alt="Discussion" width={200}
         height={820} data-aos="fade-up"
         data-aos-delay="800" />
-      <Image src="/images/officeDark.png" className={`${styles.image} ${styles.img5}`} alt="Office Dark" width={270}
+      <Image src="/images/officeDark.png" className={`lg:!w-[16vw] lg:!h-[14vw] ${styles.image} ${styles.img5}`} alt="Office Dark" width={270}
         height={820} data-aos="fade-up"
         data-aos-delay="800" />
       {/* </div> */}

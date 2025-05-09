@@ -196,14 +196,14 @@ export default function CatCard() {
   return (
     <div className={`${styles.backgroundGradient} relative z-0`}>
       <Navbar />
-      <HeroSection />
       <div className='relative'>
-        <div ref={scrollDownRef} className={`absolute left-[15%] min-[1024px]:!top-0 ${styles.svgTopScroll} top-280 xl:hidden translate-x-[-50%] z-10 text-center`}>
-          <p className="text-white text-2xl font-montserrat ">SCROLL <br /> DOWN</p>
+      <HeroSection />
+        <div ref={scrollDownRef} className={`absolute left-[15%] lg:!top-[45vw] lg:left-[10vw] ${styles.svgTopScroll} top-280 xl:hidden translate-x-[-50%] z-10 text-center`}>
+          <p className="text-white text-2xl lg:text-[1.3vw] font-montserrat ">SCROLL <br /> DOWN</p>
         </div>
         {/* <div ref={svgContainerRef} className="absolute w-[30vw] left-[15%]  z-10"> */}
         {/* <div ref={svgContainerRef} className="absolute w-[30vw] left-[15%] z-10"> */}
-        <div ref={svgContainerRef} className={`absolute w-[30vw] ${styles.svgTop} lg:!left-[8vw] !top-20 z-[-1] pointer-events-none`}>
+        <div ref={svgContainerRef} className={`absolute w-[30vw] ${styles.svgTop} lg:!left-[3vw] lg:!top-[50vw] z-[-1] pointer-events-none`}>
 
           <svg width="1500" height="16718" viewBox="0 0 1500 16718" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: '85vw', height: 'auto' }}>
             <g clipPath="url(#clip0_79_6)">
@@ -217,6 +217,7 @@ export default function CatCard() {
               </clipPath>
             </defs>
           </svg>
+          
         </div>
 
 
@@ -241,7 +242,7 @@ export default function CatCard() {
 
         </div>
         <div className=''>
-          <div className='lg:pt-[48vw]'>
+          <div className='lg:pt-[0vw]'>
             <CatDesc />
           </div>
           <div className='lg:!pt-[65vw]'>

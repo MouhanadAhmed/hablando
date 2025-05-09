@@ -62,9 +62,9 @@ const Teacher = () => {
       ease: "none",
       scrollTrigger: {
         trigger: ".outer-container",
-        start: "50vw",
-        // end: () => "+=200vw", // Adjust scroll distance if needed
-        scrub: 2,
+        start: "top 150vw",
+        end: () => "+=4000", // Adjust scroll distance if needed
+        scrub: 1,
         pin: true,
         anticipatePin: 1,
       } ,
