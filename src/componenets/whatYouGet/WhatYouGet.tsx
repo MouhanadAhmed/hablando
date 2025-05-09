@@ -21,7 +21,7 @@ const WhatYouGet = () => {
 
         <div>
           <Image
-            className=" block w-[35vw] h-[20vw] mt-[12vw] ml-[8vw] lg:w-[35vw] lg:h-[20vw] lg:ml-[8vw] object-contain"
+            className=" block w-[35vw] h-[20vw] mt-[12vw] lg:mt-auto ml-[8vw] lg:w-[35vw] lg:h-[20vw] lg:ml-[8vw] object-contain"
             src="/images/catCardImg.png"
             alt="CatCard image"
             width={500}
