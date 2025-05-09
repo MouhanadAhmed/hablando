@@ -1,7 +1,6 @@
 .descSection {
     /* background: linear-gradient(180deg, #000000 0%, #000000 100%); */
     /* background: linear-gradient(202.86deg, #000000 6.71%, #43000F 101.59%); */
-    min-height: 100vh;
     min-width: 90vw;
     overflow: hidden;
     /* background-image: url('../../../public/images/catDescBg.png');
@@ -403,18 +402,7 @@ background-repeat: no-repeat;
     }
 }
 
-@media screen and (min-width:2000px) {
 
-    .descSection {
-        min-height: 37vh;
-        min-width: 90vw;
-    }
-
-
-    .descText {
-        padding: 5rem 22rem;
-    }
-}
 
 /* OZ Code  */
 
@@ -430,16 +418,16 @@ background-repeat: no-repeat;
         padding: 0  15vw 0rem;
     }
 }
-
-@media screen and (min-width:1024px) {
+/* MA Code  */
+@media screen and (min-width:768px) and (max-width:1024px) {
     .descSection {
         min-height: 0 !important;
     }
 
     .descText {
-        font-size: 2vw;
+        font-size: 2.9vw;
         max-width: 100vw;
         width: 100%;
-        padding: 0  15vw 0rem;
+        padding: 0vw 15vw 47vw;
     }
 }

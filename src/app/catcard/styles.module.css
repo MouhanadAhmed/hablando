@@ -172,3 +172,15 @@
         bottom: unset !important;
     }
 }
+/* OZ Code */
+
+@media (min-width:768px) and (max-width:1024px) {
+    .svgTopScroll {
+        top: 50vw;
+    }
+    .svgTop {
+        top: 60vw !important;
+        bottom: unset !important;
+        left: 8vw;
+    }
+}
