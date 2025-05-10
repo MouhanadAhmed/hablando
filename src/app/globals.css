@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import "tailwindcss";
 @plugin "daisyui";
-/* @font-face {
+ /* @font-face {
   font-family: 'Montserrat';
   src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('ttf');
 }
@@ -11,13 +11,15 @@
 @font-face {
   font-family: 'Anton';
   src: url('/fonts/Anton-Regular.ttf') format('ttf');
-}
+} */
 
 @font-face {
   font-family: 'Bebas Neue';
   src: url('/fonts/BebasNeue-Regular.ttf') format('ttf');
-} */
-
+} 
+.font-bebasNeue{
+  font-family: 'Bebas Neue', sans-serif;
+}
 
 :root {
   --background: #000000;
@@ -354,4 +356,9 @@ img.logo{
   to {
     stroke-dashoffset: 0;     /* Draws the line */
   }
+}
+
+.pin-spacer{
+  padding-top: none !important;
+  height: 0 !important;
 }

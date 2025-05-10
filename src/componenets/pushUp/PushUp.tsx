@@ -37,18 +37,17 @@ import styles from './styles.module.css'
 const PushUp = () => {
 
   return (
-    <div className=' w-[100vw] mb-24'>
-    <div className="w-[100vw] max-h-screen">
-    <Image
-         src="/images/pushUp.png"
-         alt="Push up Image"
-         width={5000}
-         height={250}
-         loading="lazy"
-         className={`object-contain ${styles.pushUpImg}`}
-         style={{transform:"scale(0.5) translate(-774px, -2057px)"}}
-       />
-    </div>
+    <div className=' max-md:w-[100vw] max-md:mt-[40vw]'>
+      <div className="max-md:w-[100vw] max-md:max-h-screen md:h-[235vw]">
+        <Image
+          src="/images/pushUp.png"
+          alt="Push up Image"
+          width={5000}
+          height={250}
+          loading="lazy"
+          className={`object-contain max-md:!min-w-[120vw] max-md:!max-h-[190vw] md:w-[50vw]`}
+        />
+      </div>
     </div>
   );
 };
