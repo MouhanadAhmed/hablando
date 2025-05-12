@@ -4,156 +4,197 @@ import styles from './styles.module.css'
 
 
 
-export default function Steps(){
+export default function Steps() {
 
 
-    return(
+    return (
 
 
-        <div className={`${styles.stepsSec}  h-[280vh] p-24`}>
-        <div className={`font-anton text-5xl ps-48 leading-normal ${styles.fourSteps}`}> 
-        <span className="font-anton text-5xl text-red-hablando pe-4 pb-12">
-        4 STEPS 
-        </span> 
-        SEAMLESS
-        <br/>
-        <span className="font-anton text-5xl mt-12 pt-12">
-        PROCESS
-        </span>
-       </div>
-        
+        <div className={`${styles.stepsSec} md:ml-[16vw]`}>
+            <div className={`hidden md:block font-anton text-[5vw] leading-[7vw]  ${styles.fourSteps}`}>
+                <span className="font-anton text-red-hablando ">
+                    4 STEPS
+                </span>                 SEAMLESS
+                <br />
+                <span className="font-anton ">
+                    PROCESS
+                </span>
+            </div>
+            <div className="hidden max-md:block mt-[35vw]">
+                <h1 className="text-[23vw] font-bebasNeue leading-[25vw] text-center">
 
-{/* step ONE */}
-        <div className={`${styles.stepOne} ps-48 pt-18 flex`}>
-            <div className={styles.stepOneInide}>
-            <p 
-            className={`text-4xl font-montserrat ps-8 ${styles.stepOneStep}`}  
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            >
-                Step  
-            </p>
-            <p 
-            className={`text-7xl font-anton ps-14 pt-2 ${styles.stepOneNum}  `}
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            >
-            1   
-            </p>
-            
+                    <span className="block text-[#B10229] text-center">4 STEPS </span>
+                    SEAMLESS PROCESS
+                </h1>
             </div>
 
-            <div className={styles.stepOneDesc}>
-            <p className={`ps-48 text-5xl font-bebas-neue mb-3 ${styles.stepOneH}`}  
-            data-aos="fade-left"
-            data-aos-duration="2000"
-            >
-                SUBMIT YOUR INFORMATION
-            </p>
-            <p 
-            className={`ps-48 text-xl w-[80%] font-montserrat ${styles.stepOneP} `}  
-            data-aos="fade-left"
-            data-aos-duration="2000"
-            >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat vestibulum dolor non pulvinar.
-            </p>
+            <div className="md:flex max-md:ml-[5vw] md:flex-col md:gap-[2vw] md:pt-[vw]">
+                {/* step ONE */}
+                <div className={` max-md:pt-[30vw] flex max-md:flex-col`}>
+                    <div className="md:text-center ">
+                        <p
+                            className={`max-md:text-[7vw] md:text-[2vw] md:pl-0 max-md:p-0 max-md:text-center text-4xl font-montserrat ps-8 ${styles.stepOneStep}`}
+                            data-aos="fade-right"
+                            data-aos-duration="2000"
+                        >
+                            Step
+                        </p>
+                        <p
+                            className={`max-md:text-[12vw] md:pt-[1vw] text-[7vw] md:text-[5vw] md:pl-0 max-md:p-0 max-md:text-center max-md:pt-[3vw]  font-anton ${styles.stepOneNum}  `}
+                            data-aos="fade-right"
+                            data-aos-duration="2000"
+                        >
+                            1
+                        </p>
+
+                    </div>
+
+                    <div className={`max-md:ml-[5vw] max-md:pt-[20vw] max-w-[80vw] max-md:text-center ${styles.stepOneDesc}`}>
+                        <p className={`md:ps-[12vw] leading-tight max-md:text-[16vw] md:text-[3vw] font-bebas-neue mb-3 ${styles.stepOneH}`}
+                            data-aos="fade-left"
+                            data-aos-duration="2000"
+                        >
+                            SUBMIT YOUR INFORMATION
+                        </p>
+                        <p
+                            className={`md:p-[12vw] md:max-w-[75vw] md:w-full md:pt-[1vw] text-[#959595] max-md:text-[5vw] md:text-[1.5vw] md:w-[80%] font-montserrat ${styles.stepOneP} `}
+                            data-aos="fade-left"
+                            data-aos-duration="2000"
+                        >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat vestibulum dolor non pulvinar.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div className="max-md:min-[750px]:mt-[2vw] md:flex md:flex-col md:gap-[10vw] md:pt-[10vw] md:pt-[14vw]">
+                    {/* step ONE */}
+                    <div className={`max-md:pt-[23vw] flex max-md:flex-col md:flex-row-reverse`}>
+                        <div className="md:text-center md:pr-[35vw] max-md:pr-[3vw]">
+                            <p
+                                className={`max-md:text-[7vw] md:text-[2vw] md:pl-0 max-md:p-0 max-md:text-center text-4xl font-montserrat ps-8 ${styles.stepOneStep}`}
+                                data-aos="fade-right"
+                                data-aos-duration="2000"
+                            >
+                                Step
+                            </p>
+                            <p
+                                className={`max-md:text-[12vw] md:pt-[1vw] md:text-[5vw] md:pl-0 max-md:p-0 max-md:text-center max-md:pt-[3vw] text-7xl font-anton ps-14 pt-2 ${styles.stepOneNum}  `}
+                                data-aos="fade-right"
+                                data-aos-duration="2000"
+                            >
+                                2
+                            </p>
+
+                        </div>
+
+                        <div className={`max-md:ml-[5vw] max-md:pt-[15vw] max-w-[80vw] max-md:text-center md:text-right ${styles.stepOneDesc}`}>
+                            <p className={`md:pe-[12vw] leading-tight max-md:text-[16vw] md:text-[3vw] font-bebas-neue mb-3 ${styles.stepOneH}`}
+                                data-aos="fade-left"
+                                data-aos-duration="2000"
+                            >
+                                AWAIT VALIDATION
+                            </p>
+                            <p
+                                className={`md:pe-[12vw] md:max-w-[75vw] md:w-full md:pt-[1vw] text-[#959595] max-md:text-[5vw] md:text-[1.5vw] md:w-[80%] font-montserrat ${styles.stepOneP} `}
+                                data-aos="fade-left"
+                                data-aos-duration="2000"
+                            >
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat vestibulum dolor non pulvinar.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div className={` max-md:pt-[37vw] max-md:ml-[2.5] md:ps-[42vw] md:ps-48 md:pt-18 flex max-md:flex-col`}>
+                    <div>
+                        <p
+                            className={`max-md:text-[7vw] max-md:p-0 max-md:text-center text-4xl font-montserrat ps-8 ${styles.stepOneStep}`}
+                            data-aos="fade-right"
+                            data-aos-duration="2000"
+                        >
+                            Step
+                        </p>
+                        <p
+                            className={`max-md:text-[12vw] max-md:p-0 max-md:text-center max-md:pt-[3vw] text-7xl font-anton ps-14 pt-2 ${styles.stepOneNum}  `}
+                            data-aos="fade-right"
+                            data-aos-duration="2000"
+                        >
+                            3
+                        </p>
+
+                    </div>
+
+                    <div className={`max-md:ml-[0vw] max-md:pt-[25vw] max-w-[80vw] max-md:text-center ${styles.stepOneDesc}`}>
+                        <p className={`md:ps-48 max-md:text-[16vw] text-5xl font-bebas-neue mb-3 ${styles.stepOneH}`}
+                            data-aos="fade-left"
+                            data-aos-duration="2000"
+                        >
+                            RECEIVE YOUR CARD
+                        </p>
+                        <p
+                            className={`md:ps-48 max-md:text-[5vw] text-xl md:w-[80%] font-montserrat ${styles.stepOneP} `}
+                            data-aos="fade-left"
+                            data-aos-duration="2000"
+                        >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat vestibulum dolor non pulvinar.
+                        </p>
+
+                    </div>
+                </div>
+                <div className={`max-md:min-[750px]:mt-[2vw] max-md:pt-[43vw] max-md:ml-[2.5] md:ps-[42vw] md:ps-48 md:pt-18 flex max-md:flex-col`}>
+                    <div>
+                        <p
+                            className={`max-md:text-[7vw] max-md:p-0 max-md:text-center text-4xl font-montserrat ps-8 ${styles.stepOneStep}`}
+                            data-aos="fade-right"
+                            data-aos-duration="2000"
+                        >
+                            Step
+                        </p>
+                        <p
+                            className={`max-md:text-[12vw] max-md:p-0 max-md:text-center max-md:pt-[3vw] text-7xl font-anton ps-14 pt-2 ${styles.stepOneNum}  `}
+                            data-aos="fade-right"
+                            data-aos-duration="2000"
+                        >
+                            4
+                        </p>
+
+                    </div>
+
+                    <div className={`max-md:ml-[5vw] max-md:pt-[25vw] max-w-[80vw] max-md:text-center ${styles.stepOneDesc}`}>
+                        <p className={`md:ps-48 max-md:text-[16vw] text-5xl font-bebas-neue mb-3 ${styles.stepOneH}`}
+                            data-aos="fade-left"
+                            data-aos-duration="2000"
+                        >
+                            ENJOY YOUR BENEFITS!
+                        </p>
+                        <p
+                            className={`md:ps-48 max-md:text-[5vw] text-xl md:w-[80%] font-montserrat ${styles.stepOneP} `}
+                            data-aos="fade-left"
+                            data-aos-duration="2000"
+                        >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat vestibulum dolor non pulvinar.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* Call to action */}
+            <div className={`${styles.callBtn} pt-[20vw] md:ps-46 md:pt-18 flex justify-center`}>
+                <a href="+971 527667527 ">
+                    <Image
+                        src={callIcon}
+                        width={280}
+                        height={150}
+                        alt="call to action"
+                        className="max-md:size-[40vw] object-contain  md:pt-12"
+                    ></Image>
+                </a>
+                {/* <p className="text-7xl font-anton ps-4 pt-30">4   </p> */}
+
 
             </div>
-        </div>
-        
-        
-        {/* step TWO */}
-        <div className={`${styles.stepTwo} ps-48 pt-48 flex justify-end`}>
- 
-
-            <div className={styles.stepTwoDesc}>
-            <p 
-            className={`pe-48 pt-12 text-end text-5xl font-bebas-neue mb-3 ${styles.stepTwoH}`}
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            >
-                AWAIT VALIDATION
-            </p>
-            <p 
-            className={`pe-24 text-end text-xl w-[90%] font-montserrat ${styles.stepTwoP}`}
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat vestibulum dolor non pulvinar.
-            </p>
-
-            </div>
-
-            <div  className={styles.stepTwoInide}>
-            <p 
-            className={`text-4xl text-end font-montserrat pe-56 pt-4 ${styles.stepTwoStep}`}
-            data-aos="fade-left"
-            data-aos-duration="2000"
-            >
-                Step  
-            </p>
-            <p 
-            className={`text-7xl text-end font-anton pe-64 pt-2 ${styles.stepTwoNum}`}
-            data-aos="fade-left"
-            data-aos-duration="2000"
-            >
-                2  
-            </p>
-            </div>
-        </div>
-
-
-        {/* step THREE */}
-        <div className={`${styles.stepThree} ps-48 pt-48 flex justify-end`}>
- 
-
-            <div className={styles.stepThreeDesc}>
-            <p className={`pe-48 pt-12 text-end text-5xl font-bebas-neue mb-3 ${styles.stepThreeH}`}             data-aos="fade-right"
-            data-aos-duration="2000">RECEIVE YOUR CARD</p>
-            <p className={`pe-24 text-end text-xl w-[90%] font-montserrat ${styles.stepThreeP}`}             data-aos="fade-right"
-            data-aos-duration="2000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat vestibulum dolor non pulvinar.</p>
-            </div>
-
-            <div  className={styles.stepThreeInide}>
-            <p className={`text-4xl text-end font-montserrat pe-48 pt-4 ${styles.stepThreeStep}`}             data-aos="fade-left"
-            data-aos-duration="2000">Step  </p>
-            <p className={`text-7xl text-end font-anton pe-54 pt-2 ${styles.stepThreeNum}`}          data-aos="fade-left"
-            data-aos-duration="2000"   >3   </p>
-            </div>
-        </div>
-
-        {/* step FOUR */}
-        <div className={`${styles.stepFour} ps-42 pt-26 flex `}>
-            <div  className={styles.stepFourInide}>
-            <p className={`text-4xl font-montserrat ps-8 ${styles.stepFourStep} `}           data-aos="fade-right"
-            data-aos-duration="2000">Step  </p>
-            <p className={`text-7xl font-anton ps-14 pt-2 ${styles.stepFourNum} `}            data-aos="fade-right"
-            data-aos-duration="2000">4   </p>
-            </div>
-
-            <div className={styles.stepFourDesc}>
-            <p className={`ps-48 pt-12 text-5xl font-bebas-neue mb-3 ${styles.stepFourH}`}            data-aos="fade-left"
-            data-aos-duration="2000">ENJOY YOUR BENEFITS!</p>
-            <p className={`ps-48 text-xl w-[80%] font-montserrat ${styles.stepFourP}`}            data-aos="fade-left"
-            data-aos-duration="2000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat vestibulum dolor non pulvinar.</p>
-            </div>
-        </div>       
-        
-         {/* Call to action */}
-        <div className={`${styles.callBtn} ps-46 pt-18 flex justify-center`}>
-         <a href="+971 527667527 ">
-            <Image 
-            src={callIcon}
-            width={280}
-            height={150}
-            alt="call to action"
-            className="text-7xl   pt-12"
-            ></Image>
-          </a>
-            {/* <p className="text-7xl font-anton ps-4 pt-30">4   </p> */}
-
-      
-        </div>
         </div>
 
     )

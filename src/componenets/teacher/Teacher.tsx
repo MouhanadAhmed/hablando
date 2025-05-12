@@ -54,36 +54,47 @@ import styles from './styles.module.css'
 gsap.registerPlugin(ScrollTrigger);
 
 const Teacher = () => {
-  useEffect(() => {
-    const container = document.querySelector(".teacher-container");
+  // useEffect(() => {
+  //   const container = document.querySelector(".teacher-container");
 
-    gsap.to(container, {
-      xPercent: -100, // move one full screen (100vw out of 200vw)
-      ease: "none",
-      scrollTrigger: {
-        trigger: ".outer-container",
-        start: "top top",
-        // end: () => "+=200vw", // Adjust scroll distance if needed
-        end: "+=1000", // Adjust scroll distance if needed
-        scrub: 1,
-        pin: true,
-        anticipatePin: 1,
-      },
-    });
-  }, []);
+  //   gsap.to(container, {
+  //     xPercent: 130, // move one full screen (100vw out of 200vw)
+  //     ease: "none",
+  //     duration: 10000,
+  //     zIndex: 1000,
+  //     scrollTrigger: {
+  //       trigger: ".outer-container",
+  //       start: "top 80%",
+  //       end: 'top 80%', // Adjust scroll distance if needed
+  //       scrub: 1,
+  //       pin: true,
+  //     },
+  //   });
+  // }, []);
 
   return (
-    <div className="outer-container h-[100vh] mt-[100vh]  relative">
-      <div className="teacher-container flex w-[200vw]">
+    <div className="outer-container md:h-[210vw] md:pt-[50vw] relative">
+      <div className="flex w-[200vw]">
         {/* First Panel with Image */}
-        <div className="w-[100vw] flex items-center justify-center ">
+        <div className="md:hidden teacher-container max-md:!-left-[20%] max-md:w-[130vw] z-[1000] max-md:absolute max-md:-left-[10vw] w-[100vw] flex items-center justify-center ">
           <Image
             src="/images/teacherImg.png"
             alt="Teacher Image"
             width={5000}
             height={250}
             loading="lazy"
-            className={`object-contain scale-[0.9] ${styles.teacherImg}`}
+            className={`object-contain relative z-[1000] md:w-[100vw]`}
+          />
+          <div className="absolute w-[calc(100%-100px)] h-[250px] left-0 bottom-0 z-[1000] bg-gradient-to-t from-black to-transparent" />
+        </div>
+        <div className="hidden md:block">
+          <Image
+            src="/images/teacherImg.png"
+            alt="Teacher Image"
+            width={5000}
+            height={250}
+            loading="lazy"
+            className={`object-contain relative z-[1000] absolute bottom-[10vw] -z-[1] -left-[0] md:w-[100vw]`}
           />
         </div>
 
