@@ -1,33 +1,37 @@
-.backgroundGradient {
-    /* background: linear-gradient(180deg, #000000 0%, #000000 100%); */
-    /* background: linear-gradient(202.86deg, #000000 6.71%, #43000F 101.59%); */
-    min-height: 100vh;
-    min-width: 90vw;
-    overflow: hidden;
-    background-image: url('../../../public/images/bg.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center top;
-    backface-visibility: hidden;
-    position: relative;
-    background-position-y: 70vh;
-}
+@media (min-width: 768px) {
+    .backgroundGradient {
+        /* background: linear-gradient(180deg, #000000 0%, #000000 100%); */
+        /* background: linear-gradient(202.86deg, #000000 6.71%, #43000F 101.59%); */
+        min-height: 100vh;
+        min-width: 90vw;
+        overflow: hidden;
+        background-image: url('../../../public/images/bg.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center top;
+        backface-visibility: hidden;
+        position: relative;
+        background-position-y: 70vh;
+        z-index: -10;
+    }
+    
+    .backgroundGradient::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: url('../../../public/images/bg.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center 70vh;
+        /* same vertical offset */
+        opacity: 0.2;
+        /* Adjust opacity here */
+        pointer-events: none;
+        z-index: -10;
 
-.backgroundGradient::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: url('../../../public/images/bg.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center 70vh;
-    /* same vertical offset */
-    opacity: 0.2;
-    /* Adjust opacity here */
-    pointer-events: none;
-    z-index: 0;
+    }
+    
 }
-
 /* #line {
     animation: draw 4s linear forwards;
   }
