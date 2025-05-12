@@ -38,7 +38,7 @@ const PushUp = () => {
 
   return (
     <div className=' max-md:w-[100vw] max-md:mt-[40vw]'>
-      <div className="max-md:w-[100vw] max-md:max-h-screen md:h-[235vw]">
+      <div className="max-md:w-[100vw] max-md:max-w-[100vw] md:!h-[210vw]">
         <Image
           src="/images/pushUp.png"
           alt="Push up Image"

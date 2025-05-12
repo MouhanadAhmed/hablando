@@ -121,7 +121,7 @@
 
 /* MA Code  */
 
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width:768px) {
     .img1 {
         top: 0vw;
         left: 13vw;
@@ -183,7 +183,7 @@
 
 /* OZ Code  */
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
     .heroSection {
         min-height: 90vw;
     }

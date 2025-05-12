@@ -237,7 +237,7 @@ export default function CatCard() {
         {/* <div ref={svgContainerRef} className="absolute w-[30vw] left-[15%]  z-10"> */}
         {/* <div ref={svgContainerRef} className="absolute w-[30vw] left-[15%] z-10"> */}
         <div className="relative">
-          <div ref={scrollDownRefSm} className={`absolute max-md:left-[14vw] max-md:-top-[70px] max-md:text-left max-md:font-semibold left-[8%] lg:left-[10%] lg:!-top-[45vw] lg:!left-[10vw] ${styles.svgTopScrollSm} top-280 xl:hidden translate-x-[-50%] z-10 text-center`}>
+          <div ref={scrollDownRefSm} className={`absolute max-md:left-[14vw] max-md:-top-[70px] max-md:text-left max-md:font-semibold left-[8%] md:left-[10%] md:!-top-[45vw] md:!left-[10vw] ${styles.svgTopScrollSm} top-280 xl:hidden translate-x-[-50%] z-10 text-center`}>
             <p className="text-white text-[5vw] md:text-[1.3vw] font-montserrat w-full">SCROLL <br /> DOWN</p>
           </div>
           <div ref={svgContainerRefSm} className={`absolute w-[30vw] ${styles.svgTopSm} !left-[0vw] lg:!left-[3vw] md:!-top-[40vw] z-[-1] pointer-events-none`}>
@@ -260,13 +260,13 @@ export default function CatCard() {
             </div>
 
           </div>
-          <div ref={scrollDownRef} className={`absolute  left-[8%] lg:left-[10%] md:!-top-[50vw] lg:!-top-[45vw] lg:left-[10vw] ${styles.svgTopScroll} top-280 xl:hidden translate-x-[-50%] z-10 text-center`}>
-            <p className="text-white text-2xl lg:text-[1.3vw] font-montserrat ">SCROLL <br /> DOWN</p>
+          <div ref={scrollDownRef} className={`absolute  left-[8%] md:left-[10%] md:!-top-[40vw] md:!-top-[50vw] md:left-[10vw] ${styles.svgTopScroll} top-280 xl:hidden translate-x-[-50%] z-10 text-center`}>
+            <p className="text-white text-2xl md:text-[2.3vw] font-montserrat ">SCROLL <br /> DOWN</p>
           </div>
           {/* <div ref={svgContainerRef} className="absolute w-[30vw] left-[15%]  z-10"> */}
           {/* <div ref={svgContainerRef} className="absolute w-[30vw] left-[15%] z-10"> */}
-          <div ref={svgContainerRef} className={`absolute w-[30vw] ${styles.svgTop} !left-[0vw] lg:!left-[3vw] md:!-top-[40vw] z-[-1] pointer-events-none`}>
-          <svg className='max-lg:!w-[90vw] max-md:hidden' width="1500" height="16718" viewBox="0 0 1500 16718" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: '85vw', height: 'auto' }}>
+          <div ref={svgContainerRef} className={`absolute w-[30vw] ${styles.svgTop} !left-[0vw] md:!left-[3vw] md:!-top-[40vw] z-[-1] pointer-events-none`}>
+          <svg className='max-md:!w-[90vw] max-md:hidden' width="1500" height="16718" viewBox="0 0 1500 16718" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: '85vw', height: 'auto' }}>
               <g clipPath="url(#clip0_283_359)">
                 <path id='line' fillRule="evenodd" clipRule="evenodd" d="M104.046 5.74651e-10C111.226 -6.67801e-05 117.046 5.82035 117.046 13L117.05 431.001L117.056 431.905C117.537 469.847 148.204 500.514 186.146 500.994L187.05 501H1333.05C1386.07 501 1429.05 543.981 1429.05 597V1137.5C1429.05 1190.52 1386.07 1233.5 1333.05 1233.5H187.047C148.387 1233.5 117.046 1264.84 117.046 1303.5V2627.5C117.046 2666.16 148.386 2697.5 187.046 2697.5H696.551V1956.5C696.551 1903.48 739.53 1860.5 792.55 1860.5H1407.05C1460.07 1860.5 1503.05 1903.48 1503.05 1956.5V2627.5C1503.05 2680.52 1460.07 2723.5 1407.05 2723.5H722.551V2941.5C722.551 2994.52 679.57 3037.5 626.551 3037.5H232.551C193.891 3037.5 162.551 3068.84 162.551 3107.5V4936.84C162.551 4983.01 206.429 5016.43 250.809 5004.41L251.857 5004.12C251.857 5004.12 292.657 4996.17 316.775 4985.49C380 4957.5 637.5 4733.13 637.5 4733.13C747.207 4633.73 948.5 4453 1055.43 4386.6C1101 4369.5 1161 4376.5 1213.8 4380.5C1262 4386.6 1324.79 4395.66 1380.84 4448.79C1437.3 4502.32 1482.41 4590.89 1486.43 4730.49C1497.96 4822.22 1496.53 4883.52 1496.08 4895.87L1496.02 4897.49C1496.01 4897.88 1496 4898.2 1496 4898.76V6471.12L1495.99 6472.36C1495.33 6524.83 1452.58 6567 1400 6567H266.05C227.39 6567 196.05 6598.34 196.05 6637V7296.5C196.05 7335.16 227.39 7366.5 266.05 7366.5H1309.5C1362.52 7366.5 1405.5 7409.48 1405.5 7462.5V8166.5L1405.49 8167.74C1404.83 8220.19 1362.11 8262.5 1309.5 8262.5H736.25C704.36 8262.5 678.5 8288.36 678.5 8320.25V8422.5C678.5 8475.52 635.52 8518.5 582.5 8518.5H548C514.03 8518.5 486.5 8546.03 486.5 8580L492.55 11730.8L492.54 11731.9C491.98 11780.1 458 11811.5 407.91 11826.1L179.213 11902.7L178.39 11902.8C143.596 11907.3 117.5 11937 117.5 11972.2V13002L117.495 13002.3C117.466 13003.5 117.294 13004.6 116.995 13005.6V13760.5H367.5C420.519 13760.5 463.5 13803.5 463.5 13856.5V14020C463.5 14073 420.519 14116 367.5 14116H186.995C133.975 14116 90.9951 14073 90.9951 14020V13788.5C68.7752 13794.8 52.5 13815.3 52.5 13839.5V14343.5C52.5 14382.2 83.8401 14413.5 122.5 14413.5H1002.53C1003.59 14374.9 1035.18 14344 1074 14344H1344C1397.02 14344 1440 14387 1440 14440V15160.5C1473.32 15175.5 1496.5 15209.1 1496.5 15248V15615C1496.5 15668 1453.52 15711 1400.5 15711H392V15911C392 15964 349.019 16007 296 16007H181C127.981 16007 85 15964 85 15911V15781C85 15728 127.981 15685 181 15685H365.244C362.472 15655.3 337.454 15632 307 15632H96C57.3401 15632 26 15663.3 26 15702V16490.5L26.0059 16491.4C26.49 16529.6 57.6419 16560.5 96 16560.5H703.582C710.152 16487.3 771.629 16430 846.5 16430C925.753 16430 990 16494.2 990 16573.5C990 16652.8 925.753 16717 846.5 16717C771.629 16717 710.152 16659.7 703.582 16586.5H96C43.395 16586.5 0.672358 16544.2 0.0078125 16491.7L0 16490.5V15702C8.35634e-07 15649 42.9807 15606 96 15606H307C351.82 15606 388.49 15640.9 391.323 15685H1400.5C1439.16 15685 1470.5 15653.7 1470.5 15615V15248C1470.5 15224 1458.42 15202.8 1440 15190.2V15391C1440 15444 1397.02 15487 1344 15487H1159.5C1106.48 15487 1063.5 15444 1063.5 15391V15248C1063.5 15195 1106.48 15152 1159.5 15152H1400.5C1405.08 15152 1409.59 15152.3 1414 15152.9V14440C1414 14401.3 1382.66 14370 1344 14370H1074C1049.54 14370 1029.59 14389.3 1028.55 14413.5H1264C1317.02 14413.5 1360 14456.5 1360 14509.5V14708C1360 14761 1317.02 14804 1264 14804H1096C1042.98 14804 1000 14761 1000 14708V14439.5H122.5C69.4807 14439.5 26.5 14396.5 26.5 14343.5V13839.5C26.5 13800.8 54.2926 13768.6 90.9951 13761.8V12997C90.9951 12995.8 91.1715 12994.5 91.5 12993.4V11972.2C91.5001 11923.9 127.288 11883.3 175.006 11877L176.136 11876.9L404.83 11800.3C441 11792 466.13 11766.7 466.54 11731.6L466.55 11730.8L460.5 8580C460.5 8531.67 499.67 8492.5 548 8492.5H582.5C621.16 8492.5 652.5 8461.16 652.5 8422.5V8320.25C652.5 8274 690 8236.5 736.25 8236.5H1309.5C1347.86 8236.5 1379.01 8205.65 1379.49 8167.4L1379.5 8166.5V7462.5C1379.5 7423.84 1348.16 7392.5 1309.5 7392.5H266.05C213.03 7392.5 170.05 7349.52 170.05 7296.5V6637C170.05 6583.98 213.03 6541 266.05 6541H1400C1438.38 6541 1469.51 6510.24 1469.99 6472.03L1470 6471.12V4898.76C1470 4897.89 1470.01 4897.25 1470.03 4896.66L1470.1 4894.92C1470.51 4883.65 1471.96 4823.54 1460.55 4733.13L1460.47 4732.5L1460.45 4731.86C1456.71 4597.44 1413.61 4515.7 1362.95 4467.66C1311.98 4419.34 1253.5 4410.33 1213.61 4404.5H1213.13L1212.66 4404.48C1157 4400 1090.5 4395.5 1059.21 4410.33C1021.5 4423.5 644.17 4758.28 644.17 4758.28C644.17 4758.28 440 4932.5 327.312 5004.38C291.5 5016 284 5018 260.59 5023.51C199.727 5039.99 136.551 5000.16 136.551 4936.84V3107.5C136.551 3054.48 179.532 3011.5 232.551 3011.5H626.551C665.211 3011.5 696.551 2980.16 696.551 2941.5V2723.5H187.046C134.027 2723.5 91.0459 2680.52 91.0459 2627.5V1303.5C91.046 1250.89 133.358 1208.17 185.806 1207.51L187.046 1207.5H1333.05C1371.71 1207.5 1403.05 1176.16 1403.05 1137.5V597C1403.05 558.34 1371.71 527 1333.05 527H187.051C134.446 527 91.7232 484.688 91.0586 432.241L91.0508 431.001L91.0469 13L91.0508 12.665C91.2285 5.64037 96.9784 0.00026117 104.046 5.74651e-10ZM846.5 16456C781.607 16456 729 16508.6 729 16573.5C729 16638.4 781.607 16691 846.5 16691C911.393 16691 964 16638.4 964 16573.5C964 16508.6 911.393 16456 846.5 16456ZM181 15711C142.34 15711 111 15742.3 111 15781V15911C111 15949.7 142.34 15981 181 15981H296C334.66 15981 366 15949.7 366 15911V15711H181ZM1159.5 15178C1120.84 15178 1089.5 15209.3 1089.5 15248V15391C1089.5 15429.7 1120.84 15461 1159.5 15461H1344C1382.66 15461 1414 15429.7 1414 15391V15179.3C1409.63 15178.4 1405.12 15178 1400.5 15178H1159.5ZM1026 14708C1026 14746.7 1057.34 14778 1096 14778H1264C1302.66 14778 1334 14746.7 1334 14708V14509.5C1334 14470.8 1302.66 14439.5 1264 14439.5H1026V14708ZM116.995 14020C116.995 14058.7 148.336 14090 186.995 14090H367.5C406.16 14090 437.5 14058.7 437.5 14020V13856.5C437.5 13817.8 406.16 13786.5 367.5 13786.5H116.995V14020ZM792.55 1886.5C753.89 1886.5 722.551 1917.84 722.551 1956.5V2697.5H1407.05C1445.71 2697.5 1477.05 2666.16 1477.05 2627.5V1956.5C1477.05 1917.84 1445.71 1886.5 1407.05 1886.5H792.55Z" strokeWidth="26" stroke="#ffffff" />
               </g>
@@ -284,7 +284,7 @@ export default function CatCard() {
           <p className="text-white text-2xl font-montserrat ">SCROLL <br /> DOWN</p>
         </div>
 
-        <div ref={svgContainerRefXL} className={`absolute  w-[40vw] -top-800 lg:left-[15%] min-[1600px]:left-0 z-[3] pointer-events-none ${styles.svgTopXL}`}>
+        <div ref={svgContainerRefXL} className={`absolute  w-[40vw] -top-800 md:left-[15%] min-[1600px]:left-0 z-[3] pointer-events-none ${styles.svgTopXL}`}>
 
           <svg width="1500" height="16718" viewBox="0 0 1500 16718" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: '86vw', height: 'auto' }}>
             <g clipPath="url(#clip0_79_6)">
@@ -304,13 +304,13 @@ export default function CatCard() {
           <div className='max-md:pt-[0vw] max-md:pl-[2vw]'>
             <CatDesc />
           </div>
-          <div className='pt-[30vw] md:pt-[20vw] lg:!pt-[65vw]'>
+          <div className='pt-[30vw] md:pt-[20vw] md:!pt-[15vw]'>
             <WhatYouGet />
           </div>
-          <div className='teacher-container max-md:pt-[50vw]'>
+          <div className=' max-md:pt-[50vw]'>
             <Teacher />
           </div>
-          <div className='benfits-container pt-[150vw] md:pt-[13vw] lg:pt-[3vw]'>
+          <div className='benfits-container pt-[150vw] md:pt-[13vw] md:pt-[3vw]'>
             <Benefits />
           </div>
         </div>
@@ -322,7 +322,7 @@ export default function CatCard() {
         <Steps />
       </div>
        
-      <div className='flex justify-evenly max-md:flex-col items-center pb-24 max-md:pt-[20vw] max-md:gap-[10vw]'>
+      <div className='flex justify-evenly max-md:flex-col items-center pb-[15vw] max-md:pt-[20vw] max-md:gap-[10vw]'>
         <div className='max-md:flex-col flex  justify-center items-center gap-[5vw]'>
           <Image
             src="/images/whatsappIcon.png"
