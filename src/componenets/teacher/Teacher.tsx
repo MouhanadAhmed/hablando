@@ -58,14 +58,14 @@ const Teacher = () => {
   //   const container = document.querySelector(".teacher-container");
 
   //   gsap.to(container, {
-  //     xPercent: 130, // move one full screen (100vw out of 200vw)
+  //     xPercent: 150, // move one full screen (100vw out of 200vw)
   //     ease: "none",
   //     duration: 10000,
   //     zIndex: 1000,
   //     scrollTrigger: {
   //       trigger: ".outer-container",
-  //       start: "top 80%",
-  //       end: 'top 80%', // Adjust scroll distance if needed
+  //       start: "top 60%",
+  //       end: 'bottom', // Adjust scroll distance if needed
   //       scrub: 1,
   //       pin: true,
   //     },

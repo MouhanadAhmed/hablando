@@ -41,7 +41,7 @@ export default function Benefits() {
               loading="lazy"
               className={`max-md:w-[70vw] object-contain w-full md:w-1/8 ${styles.restaurantsImg}`}
             />
-            <span className={`absolute uppercase text-nowrap -top-[8vw] -translate-x-[50%] left-[50%] max-md:!tracking-[0.5vw]  font-bebasNeue text-[12vw] font-bold ${styles.benefitsTextShadow}`}>
+            <span className={`absolute uppercase text-nowrap -top-[8vw] -translate-x-[45%] left-[50%] max-md:!tracking-[0.5vw]  font-bebasNeue text-[11vw] font-bold ${styles.benefitsTextShadow}`}>
               RESTAURANTS
             </span>
           </div>
@@ -54,7 +54,7 @@ export default function Benefits() {
               loading="lazy"
               className={`max-md:w-[70vw] object-contain w-full md:w-1/8 ${styles.restaurantsImg}`}
             />
-            <span className={`absolute uppercase text-nowrap -top-[8vw] -translate-x-[50%] left-[50%] max-md:!tracking-[0.5vw]  font-bebasNeue text-[12vw] font-bold ${styles.benefitsTextShadow}`}>
+            <span className={`absolute uppercase text-nowrap -top-[8vw] -translate-x-[55%] left-[50%] max-md:!tracking-[0.5vw]  font-bebasNeue text-[12vw] font-bold ${styles.benefitsTextShadow}`}>
               BOOK SHOPS
             </span>
           </div>
@@ -93,7 +93,7 @@ export default function Benefits() {
               loading="lazy"
               className={`max-md:w-[70vw] object-contain w-full md:w-1/8 ${styles.restaurantsImg}`}
             />
-            <span className={`absolute uppercase text-nowrap -top-[8vw] -translate-x-[50%] left-[50%] max-md:!tracking-[0.5vw]  font-bebasNeue text-[12vw] font-bold ${styles.benefitsTextShadow}`}>
+            <span className={`absolute uppercase text-nowrap -top-[8vw] -translate-x-[45%] left-[50%] max-md:!tracking-[0.5vw]  font-bebasNeue text-[12vw] font-bold ${styles.benefitsTextShadow}`}>
               beach clubs
             </span>
           </div>
@@ -145,7 +145,7 @@ export default function Benefits() {
               loading="lazy"
               className={`max-md:w-[70vw] object-contain w-full md:w-1/8 ${styles.restaurantsImg}`}
             />
-            <span className={`absolute uppercase text-nowrap -top-[8vw] -translate-x-[50%] left-[50%] max-md:!tracking-[0.5vw]  font-bebasNeue text-[12vw] font-bold ${styles.benefitsTextShadow}`}>
+            <span className={`absolute uppercase text-nowrap -top-[8vw] -translate-x-[45%] left-[50%] max-md:!tracking-[0.5vw]  font-bebasNeue text-[10vw] font-bold ${styles.benefitsTextShadow}`}>
               Entertainment
             </span>
           </div>
