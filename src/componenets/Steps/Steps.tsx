@@ -20,8 +20,8 @@ export default function Steps() {
                     PROCESS
                 </span>
             </div>
-            <div className="hidden max-md:block mt-[35vw]">
-                <h1 className="text-[23vw] font-bebasNeue leading-[25vw] text-center">
+            <div className="hidden max-md:block lg:mt-[35vw]">
+                <h1 className="text-7xl pt-30 lg:text-[23vw] font-bebasNeue lg:leading-[25vw] text-center">
 
                     <span className="block text-[#B10229] text-center">4 STEPS </span>
                     SEAMLESS PROCESS
@@ -30,7 +30,7 @@ export default function Steps() {
 
             <div className="md:flex max-md:ml-[5vw] md:flex-col md:gap-[2vw] md:pt-[vw]">
                 {/* step ONE */}
-                <div className={` max-md:pt-[30vw] flex max-md:flex-col`}>
+                <div className={` max-md:pt-[24vw] flex max-md:flex-col`}>
                     <div className="md:text-center ">
                         <p
                             className={`max-md:text-[7vw] md:text-[2vw] md:pl-0 max-md:p-0 max-md:text-center text-4xl font-montserrat ps-8 ${styles.stepOneStep}`}
