@@ -176,7 +176,7 @@
         bottom: unset !important;
     }
 }
-/* OZ Code */
+/* MA Code */
 
 @media (min-width:768px) and (max-width:1024px) {
     .svgTopScroll {
@@ -186,5 +186,12 @@
         top: 60vw !important;
         bottom: unset !important;
         left: 8vw;
+    }
+}
+
+@media (max-width:768px) {
+    .pushContainer{
+        padding-top: 51vw;
+        padding-bottom: 20vw;
     }
 }
