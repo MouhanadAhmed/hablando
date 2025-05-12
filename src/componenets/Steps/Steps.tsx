@@ -11,7 +11,7 @@ export default function Steps() {
 
 
         <div className={` md:ml-[14vw]`}>
-            <div className={`hidden md:block font-anton text-[5vw] leading-[7vw] `}>
+              <div className={`hidden md:block font-anton text-[5vw] leading-[7vw] `}>
                 <span className="font-anton text-red-hablando ">
                     4 STEPS
                 </span>                 SEAMLESS
@@ -20,8 +20,8 @@ export default function Steps() {
                     PROCESS
                 </span>
             </div>
-            <div className="hidden max-md:block lg:mt-[35vw]">
-                <h1 className="text-7xl pt-30 lg:text-[23vw] font-bebasNeue lg:leading-[25vw] text-center">
+            <div className="hidden max-md:block ">
+                <h1 className="text-[23vw] font-bebasNeue leading-tight text-center">
 
                     <span className="block text-[#B10229] text-center">4 STEPS </span>
                     SEAMLESS PROCESS
@@ -40,7 +40,7 @@ export default function Steps() {
                             Step
                         </p>
                         <p
-                            className={`max-md:text-[12vw] md:pt-[1vw] text-[7vw] md:text-[5vw] md:pl-0 max-md:p-0 max-md:text-center max-md:pt-[3vw] font-anton`}
+                            className={`max-md:text-[12vw] md:pt-[1vw] text-[7vw] md:text-[5vw] md:pl-0 max-md:p-0 max-md:text-center max-md:pt-[1vw] font-anton`}
                             data-aos="fade-right"
                             data-aos-duration="2000"
                         >
@@ -68,7 +68,7 @@ export default function Steps() {
                 </div>
 
                 <div className="max-md:min-[750px]:mt-[2vw] md:flex md:flex-col md:gap-[10vw] md:pt-[10vw] md:pt-[15vw]">
-                    <div className={`max-md:pt-[23vw] flex max-md:flex-col md:flex-row-reverse`}>
+                    <div className={`max-md:pt-[25vw] flex max-md:flex-col md:flex-row-reverse`}>
                         <div className="md:text-center md:pr-[28vw] max-md:pr-[3vw]">
                             <p
                                 className={`max-md:text-[7vw] md:text-[2vw] md:pl-0 max-md:p-0 max-md:text-center font-montserrat`}
@@ -78,7 +78,7 @@ export default function Steps() {
                                 Step
                             </p>
                             <p
-                                className={`max-md:text-[12vw] md:pt-[1vw] md:text-[5vw] md:pl-0 max-md:p-0 max-md:text-center max-md:pt-[3vw] font-anton `}
+                                className={`max-md:text-[12vw] md:pt-[1vw] md:text-[5vw] md:pl-0 max-md:p-0 max-md:text-center max-md:pt-[0vw] font-anton `}
                                 data-aos="fade-right"
                                 data-aos-duration="2000"
                             >
@@ -106,7 +106,7 @@ export default function Steps() {
                     </div>
                 </div>
                 <div className="max-md:min-[750px]:mt-[2vw] md:flex md:flex-col md:gap-[10vw] md:pt-[10vw] md:pt-[25.5vw]">
-                    <div className={`max-md:pt-[23vw] flex max-md:flex-col md:flex-row-reverse`}>
+                    <div className={`max-md:pt-[25vw] flex max-md:flex-col md:flex-row-reverse`}>
                         <div className="md:text-center md:pr-[24vw] max-md:pr-[3vw]">
                             <p
                                 className={`max-md:text-[7vw] md:text-[2vw] md:pl-0 max-md:p-0 max-md:text-center font-montserrat`}
@@ -116,7 +116,7 @@ export default function Steps() {
                                 Step
                             </p>
                             <p
-                                className={`max-md:text-[12vw] md:pt-[1vw] md:text-[5vw] md:pl-0 max-md:p-0 max-md:text-center max-md:pt-[3vw] font-anton `}
+                                className={`max-md:text-[12vw] md:pt-[1vw] md:text-[5vw] md:pl-0 max-md:p-0 max-md:text-center max-md:pt-[0vw] font-anton `}
                                 data-aos="fade-right"
                                 data-aos-duration="2000"
                             >
@@ -143,7 +143,7 @@ export default function Steps() {
                         </div>
                     </div>
                 </div>
-                <div className={` max-md:pt-[30vw] flex max-md:flex-col md:pt-[16.5vw]`}>
+                <div className={` max-md:pt-[40vw] flex max-md:flex-col md:pt-[16.5vw]`}>
                     <div className="md:text-center ">
                         <p
                             className={`max-md:text-[7vw] md:text-[2vw] md:pl-0 max-md:p-0 max-md:text-center font-montserrat`}
@@ -153,7 +153,7 @@ export default function Steps() {
                             Step
                         </p>
                         <p
-                            className={`max-md:text-[12vw] md:pt-[1vw] text-[7vw] md:text-[5vw] md:pl-0 max-md:p-0 max-md:text-center max-md:pt-[3vw]  font-anton`}
+                            className={`max-md:text-[12vw] md:pt-[1vw] text-[7vw] md:text-[5vw] md:pl-0 max-md:p-0 max-md:text-center max-md:pt-[0vw]  font-anton`}
                             data-aos="fade-right"
                             data-aos-duration="2000"
                         >
@@ -182,7 +182,7 @@ export default function Steps() {
             </div>
 
             {/* Call to action */}
-            <div className={`pt-[20vw] md:pt-[17.5vw] md:pr-[10.5vw] lg:pr-[11vw] flex justify-center`}>
+            <div className={`pt-[18vw] md:pt-[17.5vw] md:pr-[10.5vw] lg:pr-[11vw] flex justify-center`}>
                 <a href="+971 527667527 ">
                     <Image
                         src={callIcon}
