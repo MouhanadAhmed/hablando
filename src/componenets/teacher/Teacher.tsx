@@ -54,23 +54,23 @@ import styles from './styles.module.css'
 gsap.registerPlugin(ScrollTrigger);
 
 const Teacher = () => {
-  // useEffect(() => {
-  //   const container = document.querySelector(".teacher-container");
+  useEffect(() => {
+    const container = document.querySelector(".teacher-container");
 
-  //   gsap.to(container, {
-  //     xPercent: 130, // move one full screen (100vw out of 200vw)
-  //     ease: "none",
-  //     duration: 10000,
-  //     zIndex: 1000,
-  //     scrollTrigger: {
-  //       trigger: ".outer-container",
-  //       start: "top 80%",
-  //       end: 'top 80%', // Adjust scroll distance if needed
-  //       scrub: 1,
-  //       pin: true,
-  //     },
-  //   });
-  // }, []);
+    gsap.to(container, {
+      xPercent: 150, // move one full screen (100vw out of 200vw)
+      ease: "none",
+      duration: 10000,
+      zIndex: 1000,
+      scrollTrigger: {
+        trigger: ".outer-container",
+        start: "top 60%",
+        end: 'bottom', // Adjust scroll distance if needed
+        scrub: 1,
+        pin: true,
+      },
+    });
+  }, []);
 
   return (
     <div className="outer-container md:h-[210vw] md:pt-[50vw] relative">

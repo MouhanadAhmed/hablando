@@ -20,7 +20,7 @@ export default function Navbar () {
   return (
     <div className="flex justify-between md:px-[2vw] px-5 items-center max-md:py-3" >
       <Image
-        className="py-4 max-md:hidden md:h-[10vw] w-[15vw] lg:h-[7vw] h-[7vw] 2xl:w-[10vw] 2xl:h-[5vw] object-contain"
+        className="py-4 max-md:hidden md:h-[10vw] w-[15vw]  lg:h-[7vw] h-[7vw] 2xl:w-[10vw] 2xl:h-[5vw] object-contain"
         src="/images/logo.png"
         alt="CatCard logo"
         width={200}
@@ -45,7 +45,7 @@ export default function Navbar () {
             height={24}
           />
         </button>
-        <button className="max-md:py-1 max-md:px-3 max-md:bg-[#B1022980] max-md:rounded-[8px] max-md:text-xl max-md:uppercase text-[2vw] lg:text-[1.5vw] cursor-pointer" onClick={() => window.alert('login')}>
+        <button className="max-md:py-1 max-md:px-3 max-md:bg-[#B1022980] max-md:rounded-[8px] max-md:text-xl max-md:uppercase text-[2vw] lg:text-[1.5vw] cursor-pointer" onClick={openDialog}>
           <span className={styles.loginBtn}>Login</span>
         </button>
 
@@ -62,12 +62,12 @@ export default function Navbar () {
 
       </div>
       <dialog ref={dialogRef} id="my_modal_2" className="modal border-none">
-  <div className="modal-box bg-white text-black rounded-none w-5/12 max-w-5xl pt-12 px-12">
+  <div className="modal-box bg-white text-black rounded-none w-[85vw] md:w-7/12 xl:w-4/12 3xl:w-3/12 max-w-5xl pt-12 px-12">
 
-    <h3 className="text-5xl  mb-8 md:text-6xl lg:text-[80px] text-center font-anton uppercase py-4">
+    <h3 className="text-7xl  lg:mb-8 md:text-6xl lg:text-[80px] text-center font-anton uppercase py-4">
       LOGIN
     </h3>
-    <p className="py-2 mb-6 text-center font-montserrat text-lg md:text-3xl lg:text-[32px] font-medium">
+    <p className="py-2 lg:mb-6 text-center font-montserrat text-lg md:text-3xl lg:text-[32px] font-medium">
     Please login to proceed
     </p>
 
@@ -86,27 +86,24 @@ export default function Navbar () {
         // boxShadow: '0 10px 25px rgba(0, 0, 0, 0.1)',
         // fontFamily: 'Segoe UI, sans-serif',
         // maxWidth: '600px',
-        width:'90vw'
+        width:'80vw'
       }}>
-      <input type="text" placeholder="Username" {...register("Username", {required: true})} className="w-full border" style={{
-            borderRadius: '2vw',
-            padding: '1vw',
+      <input type="text" placeholder="Username" {...register("Username", {required: true})} className="w-full border p-[3vw] md:p-[2vw] 3xl:p-[1vw]  rounded-full" style={{
+            // borderRadius: '2vw',
+            // padding: '1vw',
             border:"0.1vw solid #B6B6B6",
       }}/>
-      <input type="password" placeholder="Password" {...register} className="w-full border " style={{
-            borderRadius: '2vw',
-            padding: '1vw',
+      <input type="password" placeholder="Password" {...register} className="w-full border p-[3vw] md:p-[2vw] 3xl:p-[1vw]  rounded-full" style={{
+            // borderRadius: '2vw',
+            // padding: '1vw',
             border:"0.1vw solid #B6B6B6",
             marginBottom :"0.5vw"
       }}/>
 
-      <button type="submit" style={{
-          padding: '1vw',
-          // backgroundColor: defaultValues ? '#ffa500' : '#4CAF50',
+      <button type="submit" className="p-[3vw] md:p-[2vw] 3xl:p-[1vw] rounded-full" style={{
           backgroundColor: '#B10229' ,
           color: 'white',
           border: 'none',
-          borderRadius: '2vw',
           cursor: 'pointer',
           fontWeight: 'bold',
           transition: 'background-color 0.3s ease',
