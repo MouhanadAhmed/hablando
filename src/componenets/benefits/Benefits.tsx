@@ -26,13 +26,13 @@ export default function Benefits() {
   // }, []);
 
   return (
-    <div className={`!h-full relative w-[100vw] ${styles.benefitSection}`}>
-      <Image className='w-full h-full object-contain absolute -top-[80vw] -z-[2]' src='/images/catCardTeacherImg.png' alt="catCardTeacherImg" width={180} height={300} loading="lazy" />
-      <h3 className={`min-h-[550px] md:!text-[5vw] w-[70vw] -translate-x-[50%] font-anton text-[20vw] text-center max-md:leading-[24vw] absolute max:md:min-[680px]:!-top-[28vw] md:top-[10vw] max-md:min-[715px]:!-top-[26vw] -top-[30.5vw] left-[50%] ${styles.benefitText}`}>BENEFITS ALL OVER <span className="text-red-hablando">DUBAI</span></h3>
+    <div className={`!h-full relative w-[100vw] max-md:min-[710px]:pt-[5vw] ${styles.benefitSection}`}>
+      <Image className='w-full h-full object-contain absolute -top-[85vw] -z-[2]' src='/images/catCardTeacherImg.png' alt="catCardTeacherImg" width={180} height={300} loading="lazy" />
+      <h3 className={`min-h-[550px] max-md:!leading-[25vw] md:!text-[5vw] w-[70vw] -translate-x-[50%] font-anton text-[20vw] text-center max-md:leading-[24vw] absolute max:md:min-[680px]:!-top-[28vw] md:-top-[1vw] -top-[31.5vw] max-md:min-[710px]:-top-[27vw]  left-[50%] ${styles.benefitText}`}>BENEFITS ALL OVER <span className="text-red-hablando">DUBAI</span></h3>
 
       <div className={` mx-auto pt-[70vw] md:pt-12`}>
         <div className="flex flex-wrap justify-center ">
-          <div className="hidden max-md:block relative min-[710px]:mt-[17vw] mr-[20vw] mt-[9vw]">
+          <div className="hidden max-md:block relative  mr-[20vw] mt-[9vw]">
             <Image
               src="/images/benefits-1.png"
               alt="restaurants Image"
@@ -58,7 +58,7 @@ export default function Benefits() {
               BOOK SHOPS
             </span>
           </div>
-          <div className="hidden max-md:block relative min-[710px]:mt-[37vw] mr-[20vw] mt-[34vw]">
+          <div className="hidden max-md:block relative mr-[20vw] mt-[34vw]">
             <Image
               src="/images/benefits-3.png"
               alt="restaurants Image"
@@ -84,7 +84,7 @@ export default function Benefits() {
               beauty
             </span>
           </div>
-          <div className="hidden max-md:block relative min-[710px]:mt-[37vw] mr-[20vw] mt-[32vw]">
+          <div className="hidden max-md:block relative  mr-[20vw] mt-[32vw]">
             <Image
               src="/images/benefits-5.png"
               alt="restaurants Image"
@@ -123,7 +123,7 @@ export default function Benefits() {
               Meal plan
             </span>
           </div>
-          <div className="hidden max-md:block relative min-[710px]:mt-[55vw] ml-[15vw] mt-[50vw]">
+          <div className="hidden max-md:block relative ml-[15vw] mt-[50vw]">
             <Image
               src="/images/benefits-8.png"
               alt="restaurants Image"
