@@ -322,8 +322,8 @@ export default function CatCard() {
         <Steps />
       </div>
        
-      <div className='flex justify-evenly max-md:flex-col items-center pb-[15vw] max-md:pt-[20vw] max-md:gap-[10vw]'>
-        <div className='max-md:flex-col flex  justify-center items-center gap-[5vw]'>
+      <div className='flex justify-between md:px-[3vw] md:gap-[1vw] max-md:flex-col max-md:items-center max-md:pb-[15vw] md:pb-[5vw] max-md:pt-[20vw] md:!pt-[15vw] max-md:gap-[10vw]'>
+        <div className='max-md:flex-col flex  justify-center items-center max-md:gap-[5vw]'>
           <Image
             src="/images/whatsappIcon.png"
             alt="Push up Image"
@@ -335,7 +335,7 @@ export default function CatCard() {
           />
           <p className='md:ps-4 text-3xl text-bold font-anton'>+971 527667527 </p>
         </div>
-        <div className='max-md:flex-col flex  justify-center items-center gap-[5vw]'>
+        <div className='max-md:flex-col flex  justify-center items-center max-md:gap-[5vw]'>
           <Image
             src="/images/instaIcon.png"
             alt="Push up Image"
@@ -347,7 +347,7 @@ export default function CatCard() {
           />
           <p className='md:ps-4 text-3xl text-bold font-anton'>catcard </p>
         </div>
-        <div className='max-md:flex-col flex  justify-center items-center gap-[5vw]'>
+        <div className='max-md:flex-col flex  justify-center items-center max-md:gap-[5vw]'>
           <Image
             src="/images/instaIcon.png"
             alt="Push up Image"

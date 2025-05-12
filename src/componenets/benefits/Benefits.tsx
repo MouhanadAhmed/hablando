@@ -27,10 +27,10 @@ export default function Benefits() {
 
   return (
     <div className={`!h-full relative w-[100vw] max-md:min-[710px]:pt-[5vw] ${styles.benefitSection}`}>
-      <Image className='w-full h-full object-contain absolute -top-[85vw] -z-[2]' src='/images/catCardTeacherImg.png' alt="catCardTeacherImg" width={180} height={300} loading="lazy" />
+      <Image className='hidden md:block w-full h-full object-contain absolute -top-[85vw] -z-[2]' src='/images/catCardTeacherImg.png' alt="catCardTeacherImg" width={180} height={300} loading="lazy" />
       <h3 className={`min-h-[550px] max-md:!leading-[25vw] md:!text-[5vw] w-[70vw] -translate-x-[50%] font-anton text-[20vw] text-center max-md:leading-[24vw] absolute max:md:min-[680px]:!-top-[28vw] md:-top-[1vw] -top-[31.5vw] max-md:min-[710px]:-top-[27vw]  left-[50%] ${styles.benefitText}`}>BENEFITS ALL OVER <span className="text-red-hablando">DUBAI</span></h3>
 
-      <div className={` mx-auto pt-[70vw] md:pt-12`}>
+      <div className={` mx-auto pt-[70vw] md:pt-0`}>
         <div className="flex flex-wrap justify-center ">
           <div className="hidden max-md:block relative  mr-[20vw] mt-[9vw]">
             <Image
@@ -150,7 +150,7 @@ export default function Benefits() {
             </span>
           </div>
         </div>
-        <div className="hidden pt-[5vw] md:flex flex flex-wrap gap-16 md:gap-[4vw] justify-center ">
+        <div className="hidden pt-[0vw] md:flex flex flex-wrap gap-16 md:gap-[4vw] justify-center ">
           <Image
             src="/images/restaurants.png"
             alt="restaurants Image"
