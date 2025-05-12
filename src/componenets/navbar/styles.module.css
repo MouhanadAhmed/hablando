@@ -19,3 +19,14 @@
     padding-right: 10px;
 }
 
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 10px;
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: red;
+  }
