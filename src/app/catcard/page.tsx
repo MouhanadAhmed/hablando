@@ -139,7 +139,13 @@ export default function CatCard() {
       whatSectionEnd = window.pageYOffset + rect.bottom;
     }
 
-
+   // Get vertical offset of .benefits-container for speed adjustment
+   const benefitsSec = document.querySelector('.benfits-container');
+   let  benefitsSectionStart: number | undefined;
+   if (benefitsSec) {
+     const rect = benefitsSec.getBoundingClientRect();
+     benefitsSectionStart = window.pageYOffset + rect.top;
+   }
 
 
     // console.log("teacherSec",teaherSec)
@@ -186,7 +192,15 @@ export default function CatCard() {
       end: "+=" + (window.innerHeight * 25),
       onUpdate: (self) => {
         let factor = 1;
-        // example: if we're within the y-range of your horizontal scroller:
+        if(screenX<769) {
+          factor=1.9
+        }
+        if(screenX<769 && typeof benefitsSectionStart !== 'undefined' && window.scrollY > benefitsSectionStart*1.5) {
+          factor=1.9
+        }
+        if(screenX<769 && typeof benefitsSectionStart !== 'undefined' && window.scrollY > benefitsSectionStart*1.7) {
+          factor=1.8
+        }
         if (typeof sectionStart !== 'undefined' && window.scrollY > sectionStart * 1.2 && screenX > 1900) {
           factor = 0.7;  // slow to 30% speed
         }
@@ -296,7 +310,7 @@ export default function CatCard() {
           <div className='teacher-container max-md:pt-[50vw]'>
             <Teacher />
           </div>
-          <div className='pt-[150vw] md:pt-[13vw] lg:pt-[3vw]'>
+          <div className='benfits-container pt-[150vw] md:pt-[13vw] lg:pt-[3vw]'>
             <Benefits />
           </div>
         </div>
