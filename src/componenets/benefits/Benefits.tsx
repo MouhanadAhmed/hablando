@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import styles from './styles.module.css'
 import { gsap } from "gsap";
@@ -7,26 +7,29 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Benefits() {
-
-  // useEffect(() => {
-  //   const benefitContainer = document.querySelector(".benefit-container");
-
-  //   gsap.to(benefitContainer, {
-  //     xPercent: 100, // Scroll horizontally from 0 to -100% (one full page)
-  //     ease: "power1.out",
-  //     duration: 900,
-  //     scrollTrigger: {
-  //       trigger: benefitContainer,
-  //       start: "center -50%", // Start scrolling from the middle of the image
-  //       pin: true,
-  //       scrub: 1,
-  //       end: "+=100%", // End scroll after 200% of the container width
-  //     },
-  //   });
-  // }, []);
+  const sectionRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el) return;
+    const st = gsap.to(el, {
+      x: 300,
+      opacity: 0,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: el,
+        start: () => `top+=${el.offsetHeight * 0.96} bottom`,
+        end: () => `bottom center`,
+        scrub: true,
+      }
+    });
+    return () => {
+      st.scrollTrigger && st.scrollTrigger.kill();
+      st.kill();
+    };
+  }, []);
 
   return (
-    <div className={`!h-full relative w-[100vw] max-md:min-[710px]:pt-[5vw] ${styles.benefitSection}`}>
+    <div ref={sectionRef} className={`!h-full relative w-[100vw] max-md:min-[710px]:pt-[5vw] ${styles.benefitSection}`}>
       <Image className='hidden md:block w-full h-full object-contain absolute -top-[85vw] -z-[2]' src='/images/catCardTeacherImg.png' alt="catCardTeacherImg" width={180} height={300} loading="lazy" />
       <h3 className={`min-h-[550px] max-md:!leading-[25vw] md:!text-[5vw] w-[70vw] -translate-x-[50%] font-anton text-[20vw] text-center max-md:leading-[24vw] absolute max:md:min-[680px]:!-top-[28vw] md:-top-[1vw] -top-[31.5vw] max-md:min-[710px]:-top-[27vw]  left-[50%] ${styles.benefitText}`}>BENEFITS ALL OVER <span className="text-red-hablando">DUBAI</span></h3>
 

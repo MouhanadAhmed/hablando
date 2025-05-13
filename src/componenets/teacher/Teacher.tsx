@@ -55,7 +55,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Teacher = () => {
   useEffect(() => {
-    // Only run on desktop
     if (window.innerWidth >= 768) {
       const imagePanel = document.querySelector('.teacher-desktop-img-panel');
       if (imagePanel) {

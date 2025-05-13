@@ -1,17 +1,11 @@
 import Image from "next/image";
 import callIcon from '../../../public/images/Ellipse 3355.png'
-import styles from './styles.module.css'
-
-
 
 export default function Steps() {
 
-
     return (
-
-
         <div className={` md:ml-[14vw]`}>
-              <div className={`hidden md:block font-anton text-[5vw] leading-[7vw] `}>
+            <div className={`hidden md:block font-anton text-[5vw] leading-[7vw] `}>
                 <span className="font-anton text-red-hablando ">
                     4 STEPS
                 </span>                 SEAMLESS
@@ -182,7 +176,7 @@ export default function Steps() {
             </div>
 
             {/* Call to action */}
-            <div className={`pt-[18vw] md:pt-[16vw] md:pr-[10.5vw] lg:pr-[11vw] flex justify-center`}>
+            <div className={`pt-[15vw] md:pt-[16vw] md:pr-[10.5vw] lg:pr-[11vw] flex justify-center`}>
                 <a href="+971 527667527 ">
                     <Image
                         src={callIcon}
