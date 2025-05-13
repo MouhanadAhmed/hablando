@@ -129,7 +129,7 @@
         width: 15vw;
     }
 
-    /* cat1*/
+    /* office dark*/
     .img5 {
         top: 22vw;
         left: 9vw;
@@ -137,15 +137,15 @@
         width: 23vw;
     }
 
-    /* officeDark*/
+    /* hablando*/
     .img2 {
-        top: 38vw;
-        left: 25vw;
+        top: 30vw;
+        left: 20vw;
         z-index: 2;
         width: 23vw;
     }
 
-    /* event*/
+    /* discussion*/
     .img4 {
         top: 20vw;
         right: 10vw;
@@ -153,9 +153,9 @@
         width: 20vw;
     }
 
-    /* discussion*/
+    /* event*/
     .img3 {
-        top: 52vw;
+        top: 40vw;
         right: 6vw;
         width: 28vw;
     }
