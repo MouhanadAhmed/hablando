@@ -54,23 +54,30 @@ import styles from './styles.module.css'
 gsap.registerPlugin(ScrollTrigger);
 
 const Teacher = () => {
-  // useEffect(() => {
-  //   const container = document.querySelector(".teacher-container");
-
-  //   gsap.to(container, {
-  //     xPercent: 150, // move one full screen (100vw out of 200vw)
-  //     ease: "none",
-  //     duration: 10000,
-  //     zIndex: 1000,
-  //     scrollTrigger: {
-  //       trigger: ".outer-container",
-  //       start: "top 60%",
-  //       end: 'bottom', // Adjust scroll distance if needed
-  //       scrub: 1,
-  //       pin: true,
-  //     },
-  //   });
-  // }, []);
+  useEffect(() => {
+    // Only run on desktop
+    if (window.innerWidth >= 768) {
+      const imagePanel = document.querySelector('.teacher-desktop-img-panel');
+      if (imagePanel) {
+        gsap.fromTo(
+          imagePanel,
+          { xPercent: 0 },
+          {
+            xPercent: -100, 
+            ease: 'none',
+            scrollTrigger: {
+              trigger: imagePanel,
+              start: 'top 20%',
+              end: '+=200%',
+              scrub: true,
+              pin: true,
+              anticipatePin: 1,
+            },
+          }
+        );
+      }
+    }
+  }, []);
 
   return (
     <div className="outer-container md:h-[210vw] md:pt-[50vw] relative">
@@ -87,7 +94,8 @@ const Teacher = () => {
           />
           <div className="absolute w-[calc(100%-100px)] h-[250px] left-0 bottom-0 z-[1000] bg-gradient-to-t from-black to-transparent" />
         </div>
-        <div className="hidden md:block">
+        {/* Desktop Panel with horizontal scroll effect */}
+        <div className="hidden md:block teacher-desktop-img-panel" style={{position:'relative'}}>
           <Image
             src="/images/teacherImg.png"
             alt="Teacher Image"
@@ -97,13 +105,11 @@ const Teacher = () => {
             className={`object-contain relative z-[1000] absolute bottom-[10vw] -z-[1] -left-[0] md:w-[100vw]`}
           />
         </div>
-
         {/* Second Panel - Placeholder Content */}
         {/* <div className="w-[100vw]  flex items-center justify-center ">
           <p className="text-4xl font-bold text-black">Another Panel</p>
         <Benefits/>
         </div> */}
-
       </div>
     </div>
   );
