@@ -272,7 +272,7 @@ export default function CatCard() {
               </g>
               <defs>
                 <clipPath id="clip0_283_359">
-                  <rect width="1500" height="16717"  />
+                  <rect width="1500" height="16717"   />
                 </clipPath>
               </defs>
             </svg>
