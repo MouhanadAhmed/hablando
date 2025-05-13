@@ -62,31 +62,32 @@ export default function Navbar () {
 
       </div>
       <dialog ref={dialogRef} id="my_modal_2" className="modal border-none">
-  <div className="modal-box bg-white text-black rounded-none w-[85vw] md:w-7/12 xl:w-4/12 3xl:w-3/12 max-w-5xl pt-12 px-12">
+  <div className="modal-box bg-white text-black rounded-none w-[85vw] md:w-7/12 xl:w-4/12 3xl:w-3/12 max-w-5xl pt-6 px-12">
+  <div className="flex flex-row-reverse">
 
-    <h3 className="text-7xl  lg:mb-8 md:text-6xl lg:text-[80px] text-center font-anton uppercase py-4">
+  <button
+      onClick={() => dialogRef.current?.close()}
+      className=" text-6xl  text-gray-700 font-extralight hover:text-black"
+    >
+      ×
+    </button>
+  </div>
+    <h3 className="text-7xl  lg:mb-8 md:text-6xl lg:text-[80px] text-center font-anton uppercase pb-4">
       LOGIN
     </h3>
     <p className="py-2 lg:mb-6 text-center font-montserrat text-lg md:text-3xl lg:text-[32px] font-medium">
     Please login to proceed
     </p>
 
-    <div className="flex flex-col md:flex-row px-4 md:px-8 gap-6 md:gap-8 items-center justify-center pb-8" >
+    <div className="flex flex-col md:flex-row px-4 md:px-8 lg:px-2 gap-6 md:gap-8 items-center justify-center " >
 
 
   
-    <form onSubmit={handleSubmit(onSubmit)} style={{
+    <form onSubmit={handleSubmit(onSubmit)} className="w-[80vw] lg:w-[100vw]" style={{
         display: 'flex',
         flexDirection: 'column',
         gap: '16px',
         padding: '24px',
-        // margin: '0 auto',
-        // backgroundColor: '#fefefe',
-        // borderRadius: '12px',
-        // boxShadow: '0 10px 25px rgba(0, 0, 0, 0.1)',
-        // fontFamily: 'Segoe UI, sans-serif',
-        // maxWidth: '600px',
-        width:'80vw'
       }}>
       <input type="text" placeholder="Username" {...register("Username", {required: true})} className="w-full border p-[3vw] md:p-[2vw] 3xl:p-[1vw]  rounded-full" style={{
             // borderRadius: '2vw',
@@ -129,5 +130,6 @@ export default function Navbar () {
 
     )
 }
+
 
 
