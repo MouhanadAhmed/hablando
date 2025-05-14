@@ -6,7 +6,6 @@ import bg from '../../public/background-curve.svg'
 import teacherIcon from '../../public/images/teacherIcon.png'
 import companyIcon from '../../public/images/companyIcon.png'
 import instituteIcon from '../../public/images/instituteIcon.png'
-import catcard from '../../public/images/catcard.png'
 import { useRef } from "react";
 
 export default function Home() {
@@ -88,7 +87,7 @@ export default function Home() {
             <Image
               id="catcardImg"
 
-              src={catcard}
+              src="/images/catcard.png"
               alt="cat card image"
               width={180}
               height={38}
@@ -100,7 +99,7 @@ export default function Home() {
               {/* Card logo */}
               <Image
                 className="logo py-4"
-                src="/images/Group 49.png"
+                src="/images/Group49.png"
                 alt="CatCard logo"
                 width={160}
                 height={820}
