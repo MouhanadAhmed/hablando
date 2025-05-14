@@ -147,7 +147,10 @@ body::after {
   width: 19.875rem; /* Adjust size as needed */
   height: 26.438rem;
    /* overflow: hidden; */
-  transition: border 0.5s ease-in-out;
+  transition: all 1s ease-out;
+}
+.homeCard:hover  {
+   transform: scale(1.15);
 }
 
 /* Card image */
@@ -324,33 +327,6 @@ img.logo{
   overflow: hidden;
 }
 
-.svgSm{
-  transform: rotateY('180deg');
-}
-
-@media (width <= 1350px) {
-  .svgLg{
-  display: none;
-  opacity: 0;
-}
-
-}@media (width >= 64rem) {
-  .svgLg {
-    transform: translateY(71px) scaleY(0.6) translateX(-72px) scaleX(1.0555)
-  }
-
-
-.svgSm {
-  display: none;
-  opacity: 0;
-}
-}
-
-.text-red-hablando{
-  color: #B10229;
-
-}
-
 
 .animate-stroke {
   stroke-dasharray: 2000;     /* Adjust based on path length */
@@ -364,6 +340,105 @@ img.logo{
     stroke-dashoffset: 0;     /* Draws the line */
   }
 }
+@media (width <= 1350px) {
+  .svgSm{
+    transform: scaleY(1.2);
+  }
+  .svgLg{
+  /* display: none; */
+  /* opacity: 0; */
+}
+.comm{
+  position: absolute;
+  top: 50px;
+}
+.mobilePad{
+  padding-top: 300px;
+}
+
+.animate-stroke {
+  stroke-dasharray: 3000;     /* Adjust based on path length */
+  stroke-dashoffset: 2000;    /* Start with full offset */
+  animation: draw 3s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 100;     /* Draws the line */
+  }
+}
+}
+@media (width >= 64rem) {
+  .svgLg {
+    /* display: block !important; */
+    transform: translateY(-5px) scaleX(1.1) translateX(-25px) scaleX(1.0555)
+  }
+
+
+.svgSm {
+  /* display: none; */
+  opacity: 0;
+}
+}
+
+@media (min-width:768px) and (max-width:1250px) {
+  .svgLg {
+    /* display: block !important; */
+    transform: translateY(35px) scaleX(1.1) translateX(-25px) scaleX(1.0555)
+  }
+  .homeCard {
+    width: 19.875rem;
+  }
+
+  .animate-stroke {
+    stroke-dasharray: 3000;     /* Adjust based on path length */
+    stroke-dashoffset: -2000;    /* Start with full offset */
+    animation: draw 3s ease-in-out forwards;
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 100;     /* Draws the line */
+    }
+  }
+}
+@media (width >= 96.063rem)  {
+
+  .homeCard {
+    width: 21.875rem;
+    height: 27.438rem;
+  }
+
+  .svgLg {
+    /* display: block !important; */
+    transform: translateY(-15px) scaleX(1.1) translateX(-25px) scaleX(1.0555)
+  }
+
+}
+@media (width >= 101.063rem)  {
+
+  .homeCard {
+    width: 25.875rem;
+    height: 33.438rem;
+  }
+
+  .svgLg {
+    /* display: block !important; */
+    transform: translateY(-155px) scaleX(1.1) translateX(-25px) scaleX(1.0555)
+  }
+  .homeCard #bailandoImg {
+    transform: scale(1.5) translateY(-60px);
+}
+}
+.text-red-hablando{
+  color: #B10229;
+
+}
+
+
+
 
 .pin-spacer{
   padding-top: none !important;
@@ -381,3 +456,4 @@ input::placeholder {
 ::-ms-input-placeholder { /* Edge 12 -18 */
   color: red;
 }
+

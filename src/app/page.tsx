@@ -19,35 +19,39 @@ export default function Home() {
 
   return (
     // Main container with grid layout and gradient background
-    <div className="relative grid grid-rows-[20px_1fr_20px] items-center justify-items-center 2xl:min-h-screen p-8  gap-16 sm:p-20  sm:py-0 font-[family-name:var(--font-geist-sans)]  bg-red-gradient">
+    <div className="relative grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 lg:px-0  gap-16 lg:gap-8 sm:p-20  sm:py-0 font-[family-name:var(--font-geist-sans)]  bg-red-gradient">
 
-<svg height={673} viewBox="0 0 1411 673" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute svgLg top-10 left-0 w-full h-full object-cover z-0 pointer-events-none animate-stroke">
-<path opacity="0.7" d="M1401.71 1C1411.39 82.8829 1401.71 157.002 1345.47 189.331C1231.52 254.837 1144.44 382.183 1115.15 437.668C965.753 697.101 715.878 290.834 735.736 449.447C755.595 608.06 720.564 773.048 594.643 579.089C586.557 566.634 493.771 413.104 314.457 428.457C239.629 434.863 125.587 462.373 5 579.089" stroke="#B10229" strokeWidth="12"/>
+<svg height={673} viewBox="0 0 1411 673" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute lg:block svgLg -top-10 left-0 w-full h-full object-cover z-0 pointer-events-none animate-stroke" >
+<path opacity="0.7" d="M1401.71 1C1411.39 82.8829 1401.71 157.002 1345.47 189.331C1231.52 254.837 1144.44 382.183 1115.15 437.668C965.753 697.101 715.878 290.834 735.736 449.447C755.595 608.06 720.564 773.048 594.643 579.089C586.557 566.634 493.771 413.104 314.457 428.457C239.629 434.863 125.587 462.373 5 579.089" stroke="#B10229" strokeWidth="5"/>
 </svg>
-
-<svg width="375" height="1247" viewBox="0 0 375 1247" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute svgSm -top-10 left-0 w-full h-full object-cover z-0 pointer-events-none animate-stroke">
+<svg width="393" height="1247" viewBox="0 0 393 1247" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute lg:hidden svgSm top-[18] left-0 w-full h-full object-cover z-0 pointer-events-none animate-stroke">
 <path d="M2 3C113.667 25.8333 345.1 151.4 369.5 233C400 335 71 356 35.0002 500.5C3.59464 604.009 -0.5 681.5 85.5 764C171.5 846.5 369.5 878.5 369.5 994.5C369.5 1110.5 75.5 1196 -12.5 1244" stroke="#B10229" stroke-width="6" stroke-linecap="round"/>
 </svg>
+{/* <svg width="578" height="1372" viewBox="0 0 578 1372" fill="none" xmlns="http://www.w3.org/2000/svg"  className="absolute svgSm top-[18] left-0 w-full h-full object-cover z-0 pointer-events-none animate-stroke">
+<path d="M3 3.5C116.413 26.4621 548.193 215.237 572.975 297.297C603.952 399.873 269.806 420.991 233.243 566.306C201.346 670.399 197.188 748.327 284.533 831.293C371.878 914.258 572.975 946.438 572.975 1063.09C572.975 1179.75 116.876 1320.23 27.5 1368.5" stroke="#B10229" stroke-width="6" stroke-linecap="round"/>
+</svg> */}
+
+
 
 
       {/* Main content wrapper */}
-      <main className="flex flex-col gap-[0px]  row-start-2 items-center sm:items-start">
+      <main className="relative flex flex-col gap-[0px]  row-start-2 items-center sm:items-start w-[90vw] mx-[auto]">
         {/* Header section */}
         <h3 className="font-montserrat text-center w-full uppercase text-white fs-34px">
           Welcome to the
         </h3>
         {/* <h1 className="font-anton w-full absolute md:relative top-50  text-center text-white fs-80px mb-24"> */}
-        <h1 className="font-anton w-full   text-center text-white fs-80px mb-0">
+        <h1 className="font-anton w-full  comm text-center text-white fs-80px mb-0">
           Hablando Community
         </h1>
 {/* 
         <div className="relative w-full  flex items-center justify-center pt-90 md-pt-0  text-white"> */}
-        <div className="relative w-full  flex items-center justify-center pt-10 md-pt-0  text-white">
+        <div className="relative w-full mobilePad flex items-center justify-center pt-10 md-pt-0  text-white ">
 
 
 
         {/* Cards container - column on mobile, row on large screens */}
-        <div className="flex gap-8 w-full items-center justify-center flex-col lg:flex-row  z-10">
+        <div className="flex gap-8 lg:gap-0 w-full items-center justify-center flex-col lg:flex-row  z-10">
           {/* Hablando Card */}
           <div className="border-gradient homeCard  lg:me-24  mb-24 lg:mb-0 ">
             {/* Card background image */}
@@ -81,6 +85,8 @@ export default function Home() {
           <div className="border-gradient homeCard  lg:me-24  mb-24 lg:mb-0">
             {/* Card background image */}
             <Image
+              id="catcardImg"
+
               src="/images/catcard.png"
               alt="cat card image"
               width={180}
