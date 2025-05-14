@@ -38,7 +38,7 @@ export default function Navbar () {
 
         <button className="font-montserrat text-2xl font-semibold cursor-pointer">
           <Image
-            className="w-[28px] h-[28px] md:w-[2.5vw]  md:h-[2.5vw] md:w-[1.5vw] md:h-[1.5vw]"
+            className="w-[28px] h-[28px] md:w-[2vw]  md:h-[2vw] "
             src='/images/searchIcon.png'
             alt="CatCard logo"
             width={24}

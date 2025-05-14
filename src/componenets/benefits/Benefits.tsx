@@ -29,12 +29,11 @@ export default function Benefits() {
   }, []);
 
   return (
-    <div ref={sectionRef} className={`!h-full relative w-[100vw] max-md:min-[710px]:pt-[5vw] ${styles.benefitSection}`}>
-      <Image className='hidden md:block w-full h-full object-contain absolute -top-[85vw] -z-[2]' src='/images/catCardTeacherImg.png' alt="catCardTeacherImg" width={180} height={300} loading="lazy" />
+    <div ref={sectionRef} className={`!h-full w-[100vw] relative max-md:min-[710px]:pt-[5vw] ${styles.benefitSection}`}>
       <h3 className={`min-h-[550px] max-md:!leading-[25vw] md:!text-[5vw] w-[70vw] -translate-x-[50%] font-anton text-[20vw] text-center max-md:leading-[24vw] absolute max:md:min-[680px]:!-top-[28vw] md:-top-[1vw] -top-[31.5vw] max-md:min-[710px]:-top-[27vw]  left-[50%] ${styles.benefitText}`}>BENEFITS ALL OVER <span className="text-red-hablando">DUBAI</span></h3>
 
-      <div className={` mx-auto pt-[70vw] md:pt-0`}>
-        <div className="flex flex-wrap justify-center ">
+      <div className={` mx-auto pt-[70vw] md:pt-0 relative z-[20]`}>
+        <div className="flex flex-wrap justify-center">
           <div className="hidden max-md:block relative  mr-[20vw] mt-[9vw]">
             <Image
               src="/images/benefits-1.png"
@@ -153,7 +152,7 @@ export default function Benefits() {
             </span>
           </div>
         </div>
-        <div className="hidden pt-[0vw] md:flex flex flex-wrap gap-16 md:gap-[4vw] justify-center ">
+        <div className="hidden pt-[0vw] md:flex flex flex-wrap gap-16 md:gap-[4vw] justify-center">
           <Image
             src="/images/restaurants.png"
             alt="restaurants Image"
@@ -161,8 +160,8 @@ export default function Benefits() {
             height={300}
             loading="lazy"
             className={`object-contain !w-[17vw] w-full ${styles.restaurantsImg}`}
-          // data-aos="fade-up"
-          // data-aos-delay="1200"
+            data-aos="fade-up"
+            data-aos-delay="700"
           />
           <Image
             src="/images/bookshop.png"
@@ -171,8 +170,8 @@ export default function Benefits() {
             height={300}
             loading="lazy"
             className={`object-contain !w-[22vw] w-full pt-[25vw] md:w-1/6 ${styles.bookshopImg}`}
-          // data-aos="fade-up"
-          // data-aos-delay="1000"
+            data-aos="fade-up"
+          data-aos-delay="1000"
           />
           <Image
             src="/images/languages.png"
@@ -181,8 +180,8 @@ export default function Benefits() {
             height={300}
             loading="lazy"
             className={`w-full align-bottom !w-[17vw] object-contain pt-[45vw] md:w-1/8 ${styles.languagesImg}`}
-          // data-aos="fade-up"
-          // data-aos-delay="1600"
+            data-aos="fade-up"
+          data-aos-delay="1600"
           />
         </div>
         <div className="hidden md:flex flex-wrap gap-16 md:gap-[4vw] justify-center items-center">
@@ -193,8 +192,8 @@ export default function Benefits() {
             height={300}
             loading="lazy"
             className={`object-contain !w-[17vw] w-full ${styles.beautyImg}`}
-          // data-aos="fade-up"
-          // data-aos-delay="1400"
+            data-aos="fade-up"
+          data-aos-delay="1400"
           />
           <Image
             src="/images/beachClub.png"
@@ -203,8 +202,8 @@ export default function Benefits() {
             height={300}
             loading="lazy"
             className={`object-contain !w-[17vw] pb-[25vw] w-full ${styles.beachImg}`}
-          // data-aos="fade-up"
-          // data-aos-delay="1200"
+            data-aos="fade-up"
+          data-aos-delay="1200"
           />
           <Image
             src="/images/fitness.png"
@@ -213,8 +212,8 @@ export default function Benefits() {
             height={300}
             loading="lazy"
             className={`object-contain !w-[22vw] w-full ${styles.fitnessImg}`}
-          // data-aos="fade-up"
-          // data-aos-delay="1000"
+            data-aos="fade-up"
+          data-aos-delay="1000"
           />
         </div>
         <div className={`hidden md:flex flex-wrap gap-16 md:gap-[4vw] justify-center ${styles.lastRow}`}>
@@ -225,8 +224,8 @@ export default function Benefits() {
             height={300}
             loading="lazy"
             className={`object-contain !w-[22vw] w-full ${styles.wellnessImg}`}
-          // data-aos="fade-up"
-          // data-aos-delay="1000"
+            data-aos="fade-up"
+          data-aos-delay="1000"
           />
           <Image
             src="/images/melPlan.png"
@@ -235,8 +234,8 @@ export default function Benefits() {
             height={300}
             loading="lazy"
             className={`object-contain !w-[17vw] pb-[25vw] w-full ${styles.mealImg}`}
-          // data-aos="fade-up"
-          // data-aos-delay="800"
+            data-aos="fade-up"
+          data-aos-delay="800"
           />
           <Image
             src="/images/entertainment.png"
@@ -245,8 +244,8 @@ export default function Benefits() {
             height={300}
             loading="lazy"
             className={`object-contain !w-[22vw] w-full ${styles.entertainmentImg}`}
-          // data-aos="fade-up"
-          // data-aos-delay="1200"
+            data-aos="fade-up"
+          data-aos-delay="1200"
           />
         </div>
       </div>

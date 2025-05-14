@@ -286,7 +286,7 @@ export default function CatCard() {
           {/* <div ref={svgContainerRef} className="absolute w-[30vw] left-[15%]  z-10"> */}
           {/* <div ref={svgContainerRef} className="absolute w-[30vw] left-[15%] z-10"> */}
           <div ref={svgContainerRef} className={`absolute w-[30vw] ${styles.svgTop} !left-[0vw] md:!left-[3vw] md:!-top-[37vw] z-[-1] pointer-events-none`}>
-            <svg className='max-md:!w-[90vw] max-md:hidden' width="1500" height="16718" viewBox="0 0 1500 16718" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: '85vw', height: 'auto' }}>
+            <svg className='max-md:!w-[90vw] max-md:hidden relative' width="1500" height="16718" viewBox="0 0 1500 16718" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: '85vw', height: 'auto' }}>
               <g clipPath="url(#clip0_476_627)">
                 <mask id="mask0_476_627" maskUnits="userSpaceOnUse" x="0" y="0" width="1500" height="16717">
                   <path d="M1500 0H0V16717H1500V0Z" fill="white" />
@@ -345,11 +345,11 @@ export default function CatCard() {
           <div className=' max-md:pt-[50vw]'>
             <Teacher />
           </div>
-          <div className='benfits-container pt-[150vw] md:pt-[13vw] md:pt-[3vw]'>
+          <div className='benfits-container relative pt-[150vw] md:pt-[13vw] md:pt-[3vw]'>
+      <Image className='hidden md:block w-full pt-[18vw] h-full object-contain absolute -top-[85vw] -z-[1000]' src='/images/catCardTeacherImg.png' alt="catCardTeacherImg" width={180} height={300} loading="lazy" />
             <Benefits />
           </div>
         </div>
-
       </div>
 
       <PushUp />
@@ -394,7 +394,7 @@ export default function CatCard() {
           />
           <p className='ps-4 text-3xl text-bold font-anton'>HABLANDODUBAI </p>
         </div>
-
+        <Image className='absolute top-0 -right-[5vw] -z-[100] hidden md:block' src='/images/main-bg.png' alt='' width={5000} height={5000} />
       </div>
     </div>
 
