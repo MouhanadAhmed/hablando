@@ -4,8 +4,10 @@ import callIcon from '../../../public/images/Ellipse 3355.png'
 export default function Steps() {
 
     return (
-        <div className={` md:ml-[14vw]`}>
-            <div className={`hidden md:block font-anton text-[5vw] leading-[7vw] `}>
+        <div className={` md:ml-[14vw] relative z-[1]`}>
+            <div
+                data-aos="fade-up"
+                className={`hidden md:block font-anton text-[5vw] leading-[7vw] `}>
                 <span className="font-anton text-red-hablando ">
                     4 STEPS
                 </span>                 SEAMLESS
@@ -190,6 +192,8 @@ export default function Steps() {
 
 
             </div>
+                    <Image className="absolute max-md:hidden top-[10%] w-1/2 -left-[20%]" src="/images/small-bg.png" alt="Push up Image" width={5000} height={250} loading="lazy" />
+            
         </div>
 
     )
