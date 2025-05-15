@@ -179,7 +179,7 @@ export default function Steps() {
 
             {/* Call to action */}
             <div className={`pt-[15vw] md:pt-[16vw] md:pr-[10.5vw] lg:pr-[11vw] flex justify-center`}>
-                <a href="+971 527667527 ">
+                <a href="tel:+971527667527">
                     <Image
                         src={callIcon}
                         width={280}

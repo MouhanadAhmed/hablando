@@ -37,7 +37,7 @@ export default function Home() {
       {/* Main content wrapper */}
       <main className="relative flex flex-col gap-[0px]  row-start-2 items-center sm:items-start w-[90vw] mx-[auto]">
         {/* Header section */}
-        <h3 className="font-montserrat text-center w-full uppercase text-white fs-34px">
+        <h3 className="font-montserrat wellcome text-center w-full uppercase text-white fs-34px">
           Welcome to the
         </h3>
         {/* <h1 className="font-anton w-full absolute md:relative top-50  text-center text-white fs-80px mb-24"> */}

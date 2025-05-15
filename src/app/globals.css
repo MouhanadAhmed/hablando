@@ -346,11 +346,15 @@ img.logo{
   }
   .svgLg{
   /* display: none; */
-  /* opacity: 0; */
+  opacity: 0;
+}
+.wellcome{
+  position: absolute;
+  top: -95px;
 }
 .comm{
   position: absolute;
-  top: 50px;
+  top: -45px;
 }
 .mobilePad{
   padding-top: 300px;
@@ -358,7 +362,7 @@ img.logo{
 
 .animate-stroke {
   stroke-dasharray: 3000;     /* Adjust based on path length */
-  stroke-dashoffset: 2000;    /* Start with full offset */
+  stroke-dashoffset: 3000;    /* Start with full offset */
   animation: draw 3s ease-in-out forwards;
   animation-delay: 0.5s;
 }
