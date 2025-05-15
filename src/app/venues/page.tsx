@@ -81,7 +81,7 @@ export default function Venues() {
           //  className={`object-contain ${styles.pushUpImg}`}
           //  style={{transform:"scale(0.5) translate(-774px, -2057px)"}}
           />
-          <p className='md:ps-4 text-xl  font-montserrat max-w-[50vw] break-words'>www.wellnesscentre.com</p>
+          <p className='md:ps-4 text-xl  font-montserrat max-w-[50vw] lg:max-w-full break-words'>www.wellnesscentre.com</p>
         </div>
     </div>
   </div>
@@ -137,7 +137,7 @@ export default function Venues() {
           //  className={`object-contain ${styles.pushUpImg}`}
           //  style={{transform:"scale(0.5) translate(-774px, -2057px)"}}
           />
-          <p className='md:ps-4 text-xl  font-montserrat max-w-[50vw] break-words'>www.wellnesscentre.com</p>
+          <p className='md:ps-4 text-xl  font-montserrat max-w-[50vw] lg:max-w-full break-words'>www.wellnesscentre.com</p>
         </div>
     </div>
   </div>
@@ -192,7 +192,7 @@ export default function Venues() {
           //  className={`object-contain ${styles.pushUpImg}`}
           //  style={{transform:"scale(0.5) translate(-774px, -2057px)"}}
           />
-          <p className='md:ps-4 text-xl  font-montserrat max-w-[50vw] break-words'>www.wellnesscentre.com</p>
+          <p className='md:ps-4 text-xl  font-montserrat max-w-[50vw] lg:max-w-full break-words'>www.wellnesscentre.com</p>
         </div>
     </div>
   </div>
@@ -247,7 +247,7 @@ export default function Venues() {
           //  className={`object-contain ${styles.pushUpImg}`}
           //  style={{transform:"scale(0.5) translate(-774px, -2057px)"}}
           />
-          <p className='md:ps-4 text-xl  font-montserrat max-w-[50vw] break-words'>www.wellnesscentre.com</p>
+          <p className='md:ps-4 text-xl  font-montserrat max-w-[50vw] lg:max-w-full break-words'>www.wellnesscentre.com</p>
         </div>
     </div>
   </div>
@@ -302,7 +302,7 @@ export default function Venues() {
           //  className={`object-contain ${styles.pushUpImg}`}
           //  style={{transform:"scale(0.5) translate(-774px, -2057px)"}}
           />
-          <p className='md:ps-4 text-xl  font-montserrat max-w-[50vw] break-words'>www.wellnesscentre.com</p>
+          <p className='md:ps-4 text-xl  font-montserrat max-w-[50vw] lg:max-w-full break-words'>www.wellnesscentre.com</p>
         </div>
     </div>
   </div>
@@ -357,7 +357,7 @@ export default function Venues() {
           //  className={`object-contain ${styles.pushUpImg}`}
           //  style={{transform:"scale(0.5) translate(-774px, -2057px)"}}
           />
-          <p className='md:ps-4 text-xl  font-montserrat max-w-[50vw] break-words'>www.wellnesscentre.com</p>
+          <p className='md:ps-4 text-xl  font-montserrat max-w-[50vw] lg:max-w-full break-words'>www.wellnesscentre.com</p>
         </div>
     </div>
   </div>
