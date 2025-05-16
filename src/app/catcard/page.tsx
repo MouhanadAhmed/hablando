@@ -10,7 +10,7 @@ import { useGSAP } from "@gsap/react";
 import WhatYouGet from '@/componenets/whatYouGet/WhatYouGet';
 import Teacher from '@/componenets/teacher/Teacher';
 import Navbar from '@/componenets/navbar/Navbar';
-import HorizontalScroller from '@/componenets/horizontalScroller/HorizontalScroller';
+
 import Benefits from '@/componenets/benefits/Benefits';
 import Image from "next/image";
 import PushUp from '@/componenets/pushUp/PushUp';
