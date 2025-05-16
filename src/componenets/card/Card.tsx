@@ -110,7 +110,7 @@ export default function Card({ data }: CatCardProps) {
           {name}
         </h2>
 
-        <div className="flex justify-start items-center gap-2 mb-2 3xl:mb-4">
+        <div className="flex justify-start items-center flex-wrap gap-2 mb-2 3xl:mb-4">
           {tags.map((tag, tagIdx) => (
             <div
               key={tagIdx}
