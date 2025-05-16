@@ -64,7 +64,7 @@ export default function Steps() {
                 </div>
 
                 <div className="max-md:min-[750px]:mt-[2vw] md:flex md:flex-col md:gap-[10vw] md:pt-[10vw] md:pt-[15vw]">
-                    <div className={`max-md:pt-[25vw] flex max-md:flex-col md:flex-row-reverse`}>
+                    <div className={`max-md:pt-[29vw] flex max-md:flex-col md:flex-row-reverse`}>
                         <div className="md:text-center md:pr-[28vw] max-md:pr-[3vw]">
                             <p
                                 className={`max-md:text-[7vw] md:text-[2vw] md:pl-0 max-md:p-0 max-md:text-center font-montserrat`}
