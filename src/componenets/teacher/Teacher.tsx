@@ -62,7 +62,7 @@ const Teacher = () => {
           imagePanel,
           { xPercent: 0 },
           {
-            xPercent: -100, 
+            xPercent: -100,
             ease: 'none',
             scrollTrigger: {
               trigger: imagePanel,
@@ -90,11 +90,13 @@ const Teacher = () => {
             height={250}
             loading="lazy"
             className={`object-contain relative z-[1000] md:w-[100vw]`}
+            data-aos="fade-right"
+            data-aos-duration="1000"
           />
           <div className="absolute w-[calc(100%-100px)] h-[250px] left-0 bottom-0 z-[1000] bg-gradient-to-t from-black to-transparent" />
         </div>
         {/* Desktop Panel with horizontal scroll effect */}
-        <div className="hidden md:block teacher-desktop-img-panel" style={{position:'relative'}}>
+        <div className="hidden md:block teacher-desktop-img-panel" style={{ position: 'relative' }}>
           <Image
             src="/images/teacherImg.png"
             alt="Teacher Image"
