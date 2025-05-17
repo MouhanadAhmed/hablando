@@ -970,3 +970,15 @@ padding-left: 90px;;
         padding: 47vw   15vw ;
     }
 }
+
+.parallelogram {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background: #B10229;
+    position: absolute;
+    top: -8vw;
+    left: -100vw;
+    z-index: -10;
+    width: 300%;
+    height: 44vw;
+    rotate: 28deg;
+}

@@ -29,8 +29,8 @@ const WhatYouGet = () => {
             sizes="100vw"
           />
         </div>
-          <Image className="hidden max-md:block absolute -bottom-[55vw] left-0 -z-[10]" src='/images/bg-mobile-red.png' alt="" width={1000} height={1000}/>
-          <Image className="hidden md:block absolute -rotate-[10deg] -bottom-[60vw] h-[130vw] w-full left-0 -z-[10]" src='/images/bg-desktop-red.png' alt="" width={1000} height={1000}/>
+        <div className={`hidden md:block ${styles.parallelogram}`}></div>
+        <Image className="hidden max-md:block absolute -bottom-[55vw] left-0 -z-[10]" src='/images/bg-mobile-red.png' alt="" width={1000} height={1000} />
       </div>
     </div>
   </div>

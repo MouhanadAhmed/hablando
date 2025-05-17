@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import "tailwindcss";
 @plugin "daisyui";
- /* @font-face {
+/* @font-face {
   font-family: 'Montserrat';
   src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('ttf');
 }
@@ -16,8 +16,9 @@
 @font-face {
   font-family: 'Bebas Neue';
   src: url('/fonts/BebasNeue-Regular.ttf') format('ttf');
-} 
-.font-bebasNeue{
+}
+
+.font-bebasNeue {
   font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -36,13 +37,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000; 
+    --background: #000000;
     --foreground: #ededed;
   }
 }
 
-html{
-  @apply overflow-x-hidden; /* Review This */
+html {
+  @apply overflow-x-hidden;
+  /* Review This */
 }
 
 body {
@@ -53,7 +55,8 @@ body {
   overflow-x: hidden;
   position: relative;
   z-index: 0;
-  overflow-y: hidden;  /* Review This */
+  overflow-y: hidden;
+  /* Review This */
 
 }
 
@@ -64,12 +67,14 @@ body::after {
   bottom: 0;
   width: 100%;
   height: 183vh;
-  background: linear-gradient(
-    202.86deg,
-    rgba(0, 0, 0, 0) 40%,     /* Transparent start */
-    rgba(0, 0, 0, 0.6) 10%,   /* Gradually appears */
-    #43000F 100%              /* Deep end color */
-  );
+  background: linear-gradient(202.86deg,
+      rgba(0, 0, 0, 0) 40%,
+      /* Transparent start */
+      rgba(0, 0, 0, 0.6) 10%,
+      /* Gradually appears */
+      #43000F 100%
+      /* Deep end color */
+    );
   pointer-events: none;
   z-index: -2;
 }
@@ -77,33 +82,34 @@ body::after {
 
 
 /* Home page background gradient */
-.bg-red-gradient{
+.bg-red-gradient {
   background: linear-gradient(240.43deg, #000000 -0.34%, #43000F 100.82%);
 }
+
 /*  Typography */
-.font-montserrat{
+.font-montserrat {
   font-family: 'Montserrat', sans-serif;
 }
 
-.font-anton{
+.font-anton {
   font-family: 'Anton', sans-serif;
 }
 
-.font-bebas-neue{
+.font-bebas-neue {
   font-family: 'Bebas Neue', sans-serif;
 }
 
-.fs-80px{
+.fs-80px {
   font-size: 5rem;
 }
 
-.fs-34px{
+.fs-34px {
   font-size: 2.125rem;
 }
 
 
 /* Border gradient */
-.border-gradient{
+.border-gradient {
   border: 0.1px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, red, white);
@@ -112,7 +118,7 @@ body::after {
   border-radius: 10px;
 }
 
-.border-red-gradient{
+.border-red-gradient {
   border: 20px solid;
 
   border-image-source: linear-gradient(159.22deg, #FF0000 0%, #FFFFFF 52.56%, #FF0000 100%);
@@ -122,13 +128,15 @@ body::after {
 
 @keyframes borderAnimation {
   0% {
-      border-image-source: linear-gradient(0deg, red, white);
+    border-image-source: linear-gradient(0deg, red, white);
   }
+
   50% {
-      border-image-source: linear-gradient(90deg, red, white);
+    border-image-source: linear-gradient(90deg, red, white);
   }
+
   100% {
-      border-image-source: linear-gradient(180deg, red, white);
+    border-image-source: linear-gradient(180deg, red, white);
   }
 }
 
@@ -142,23 +150,23 @@ body::after {
   border-radius: 10px;
 }
 
-.homeCard  {
+.homeCard {
   position: relative;
-  width: 19.875rem; /* Adjust size as needed */
+  width: 19.875rem;
+  /* Adjust size as needed */
   height: 26.438rem;
-   /* overflow: hidden; */
+  /* overflow: hidden; */
   transition: all 1s ease-out;
+  overflow: hidden;
 }
-.homeCard:hover  {
-   transform: scale(1.15);
-}
+
 
 /* Card image */
 .homeCard img:not(.logo) {
   width: 80%;
   height: 100%;
   object-fit: contain;
-  filter: grayscale(100%) ;
+  filter: grayscale(100%);
   transition: all 0.5s ease-in-out;
   scale: 1;
   margin-top: 0px;
@@ -173,19 +181,19 @@ body::after {
   transform: translateY(-80px);
   transition: all 0.5s ease-in-out;
 }
-.homeCard #hablandoImg
-{
+
+.homeCard #hablandoImg {
   margin: "unset";
   width: 100%;
-  height: 80%;;
+  height: 90%;
   filter: grayscale(100%);
   scale: 1;
   transform: translateY(30px);
   transition: all 0.5s ease-in-out;
   /* object-fit: fill; */
 }
-.homeCard #bailandoImg
-{
+
+.homeCard #bailandoImg {
   margin: "unset";
   width: 100%;
   filter: grayscale(100%);
@@ -193,30 +201,43 @@ body::after {
   transition: all 0.5s ease-in-out;
   /* object-fit: fill; */
   height: 100%;
-    color: transparent;
-    transform: scale(1.5) translateY(-44px);
+  color: transparent;
+  transform: scale(1.5) translateY(-44px);
 
 }
-.homeCard:hover #hablandoImg {
-  filter: grayscale(0%);
-  scale: 1;
-  transform: translateY(-50px);
-  transition: all 0.5s ease-in-out;
-  height: 100%;;
-  /* object-fit: fill; */
+
+@media (min-width: 1024px) {
+  .homeCard{
+    overflow: visible;
+  }
+  .homeCard:hover {
+    transform: scale(1.15);
+  }
+
+  .homeCard:hover #hablandoImg {
+    filter: grayscale(0%);
+    scale: 1;
+    transform: translateY(-30px);
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    ;
+    /* object-fit: fill; */
+  }
 }
+
 .homeCard:hover #bailandoImg {
   filter: grayscale(0%);
   /* scale: 1; */
 
   transform: scale(1.5) translateY(-80px);
   transition: all 0.5s ease-in-out;
-  height: 100%;;
+  height: 100%;
+  ;
   /* object-fit: fill; */
 }
 
 
-.homeCard:hover  {
+.homeCard:hover {
   /* filter: grayscale(0%); */
   scale: 1;
   /* transform: translateY(-80px); */
@@ -224,8 +245,8 @@ body::after {
 }
 
 .homeCard:hover .explore-btn {
-/* border-color:  #d32f2f;; */
-background-color: #d32f2f;
+  /* border-color:  #d32f2f;; */
+  background-color: #d32f2f;
 }
 
 .inactive-img {
@@ -277,13 +298,15 @@ background-color: #d32f2f;
 }
 
 .highlight {
-  color: rgba(137, 134, 135, 1);; /* grey highlight */
+  color: rgba(137, 134, 135, 1);
+  ;
+  /* grey highlight */
 
 }
 
 .explore-btn {
   background-color: transparent;
-border: 1px solid #B10229 !important;
+  border: 1px solid #B10229 !important;
 
   color: white;
   border: none;
@@ -305,7 +328,7 @@ border: 1px solid #B10229 !important;
 
 
 /* Setting a max height for the logo */
-img.logo{
+img.logo {
   max-height: 76.16px;
 
 }
@@ -329,61 +352,73 @@ img.logo{
 
 
 .animate-stroke {
-  stroke-dasharray: 2000;     /* Adjust based on path length */
-  stroke-dashoffset: -2000;    /* Start with full offset */
+  stroke-dasharray: 2000;
+  /* Adjust based on path length */
+  stroke-dashoffset: -2000;
+  /* Start with full offset */
   animation: draw 3s ease-in-out forwards;
   animation-delay: 0.5s;
 }
 
 @keyframes draw {
   to {
-    stroke-dashoffset: 0;     /* Draws the line */
+    stroke-dashoffset: 0;
+    /* Draws the line */
   }
 }
-@media (width <= 1350px) {
-  .svgSm{
+
+@media (width <=1350px) {
+  .svgSm {
     transform: scaleY(1.2);
   }
-  .svgLg{
-  /* display: none; */
-  opacity: 0;
-}
-.wellcome{
-  position: absolute;
-  top: -95px;
-}
-.comm{
-  position: absolute;
-  top: -45px;
-}
-.mobilePad{
-  padding-top: 300px;
-}
 
-.animate-stroke {
-  stroke-dasharray: 3000;     /* Adjust based on path length */
-  stroke-dashoffset: 3000;    /* Start with full offset */
-  animation: draw 3s ease-in-out forwards;
-  animation-delay: 0.5s;
-}
+  .svgLg {
+    /* display: none; */
+    opacity: 0;
+  }
 
-@keyframes draw {
-  to {
-    stroke-dashoffset: 100;     /* Draws the line */
+  .wellcome {
+    position: absolute;
+    top: -95px;
+  }
+
+  .comm {
+    position: absolute;
+    top: -45px;
+  }
+
+  .mobilePad {
+    padding-top: 300px;
+  }
+
+  .animate-stroke {
+    stroke-dasharray: 3000;
+    /* Adjust based on path length */
+    stroke-dashoffset: 3000;
+    /* Start with full offset */
+    animation: draw 3s ease-in-out forwards;
+    animation-delay: 0.5s;
+  }
+
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 100;
+      /* Draws the line */
+    }
   }
 }
-}
-@media (width >= 64rem) {
+
+@media (width >=64rem) {
   .svgLg {
     /* display: block !important; */
     transform: translateY(-5px) scaleX(1.1) translateX(-25px) scaleX(1.0555)
   }
 
 
-.svgSm {
-  /* display: none; */
-  opacity: 0;
-}
+  .svgSm {
+    /* display: none; */
+    opacity: 0;
+  }
 }
 
 @media (min-width:768px) and (max-width:1250px) {
@@ -391,24 +426,29 @@ img.logo{
     /* display: block !important; */
     transform: translateY(35px) scaleX(1.1) translateX(-25px) scaleX(1.0555)
   }
+
   .homeCard {
     width: 19.875rem;
   }
 
   .animate-stroke {
-    stroke-dasharray: 3000;     /* Adjust based on path length */
-    stroke-dashoffset: -2000;    /* Start with full offset */
+    stroke-dasharray: 3000;
+    /* Adjust based on path length */
+    stroke-dashoffset: -2000;
+    /* Start with full offset */
     animation: draw 3s ease-in-out forwards;
     animation-delay: 0.5s;
   }
-  
+
   @keyframes draw {
     to {
-      stroke-dashoffset: 100;     /* Draws the line */
+      stroke-dashoffset: 100;
+      /* Draws the line */
     }
   }
 }
-@media (width >= 96.063rem)  {
+
+@media (width >=96.063rem) {
 
   .homeCard {
     width: 21.875rem;
@@ -421,7 +461,8 @@ img.logo{
   }
 
 }
-@media (width >= 101.063rem)  {
+
+@media (width >=101.063rem) {
 
   .homeCard {
     width: 25.875rem;
@@ -432,11 +473,13 @@ img.logo{
     /* display: block !important; */
     transform: translateY(-155px) scaleX(1.1) translateX(-25px) scaleX(1.0555)
   }
+
   .homeCard #bailandoImg {
     transform: scale(1.5) translateY(-60px);
+  }
 }
-}
-.text-red-hablando{
+
+.text-red-hablando {
   color: #B10229;
 
 }
@@ -444,23 +487,25 @@ img.logo{
 
 
 
-.pin-spacer{
+.pin-spacer {
   padding-top: none !important;
   height: 0 !important;
 }
 
 input::placeholder {
   color: black;
-  opacity: 1; /* Firefox */
+  opacity: 1;
+  /* Firefox */
   font-weight: bold;
   text-transform: uppercase;
   padding-left: 10px;
 }
+
 select {
   color: black;
-  opacity: 1; /* Firefox */
+  opacity: 1;
+  /* Firefox */
   font-weight: bold;
   text-transform: uppercase;
   /* padding-left: 20px; */
 }
-
