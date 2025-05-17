@@ -30,9 +30,9 @@ export default function Benefits() {
     };
   }, []);
 
-  return (
+  return (  
     <div ref={sectionRef} className={`!h-full w-[100vw] relative max-md:min-[710px]:pt-[5vw] ${styles.benefitSection}`}>
-      <h3 className={`min-h-[550px] max-md:!leading-[25vw] md:!text-[5vw] w-[70vw] -translate-x-[50%] font-anton text-[20vw] text-center max-md:leading-[24vw] absolute max:md:min-[680px]:!-top-[28vw] md:-top-[1vw] -top-[31.5vw] max-md:min-[710px]:-top-[27vw]  left-[50%] ${styles.benefitText}`}>BENEFITS ALL OVER <span className="text-red-hablando">DUBAI</span></h3>
+      <h3 className={`min-h-[550px] max-md:!leading-[25vw] md:!text-[5vw] w-[70vw] -translate-x-[50%] font-anton text-[20vw] text-center max-md:leading-[24vw] absolute max:md:min-[680px]:!-top-[28vw] md:-top-[1vw] -top-[35vw] max-md:min-[710px]:-top-[27vw]  left-[50%] ${styles.benefitText}`}>BENEFITS ALL OVER <span className="text-red-hablando">DUBAI</span></h3>
 
       <div className={` mx-auto pt-[70vw] md:pt-0 relative z-[20]`}>
         <div className="flex flex-wrap justify-center">
