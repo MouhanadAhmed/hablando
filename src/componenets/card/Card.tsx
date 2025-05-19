@@ -71,6 +71,7 @@
 'use client';
 import Image from 'next/image';
 import { CatCard } from '@/types/catCard';
+import Link from 'next/link';
 
 interface CatCardProps {
   data: CatCard;
@@ -92,7 +93,7 @@ export default function Card({ data }: CatCardProps) {
 
   return (
     <div className="card lg:card-side max-md:shadow-sm border lg:border-0 p-4 w-[80vw] mb-4 lg:ps-8">
-      <div className="flex items-start lg:items-center justify-center pl-[4vw]">
+      <div className="flex items-center lg:items-center justify-center pl-[4vw]">
         <Image
           src={bg || 'https://res.cloudinary.com/dylxc3c5f/image/upload/v1744382944/hablando/1744382944080-816355529-Group%2049.png.png'}
           width={440}
@@ -106,9 +107,18 @@ export default function Card({ data }: CatCardProps) {
       </div>
 
       <div className="card-body bg-none lg:max-w-3/4">
+      <div className="flex items-start lg:items-start justify-start ">
         <h2 className="card-title uppercase text-4xl md:text-5xl 3xl:mb-4 mb-2 pt-8 3xl:pt-0 hidden lg:block">
           {name}
         </h2>
+        <Image
+          src={logo || 'https://res.cloudinary.com/dylxc3c5f/image/upload/v1744382944/hablando/1744382944080-816355529-Group%2049.png.png'}
+          width={50}
+          height={50}
+          className="w-[8vw] rounded lg:pl-8 lg:pt-8 hidden lg:block"
+          alt={name}
+        />
+      </div>
 
         <div className="flex justify-start items-center flex-wrap gap-2 mb-2 3xl:mb-4">
           {tags.map((tag, tagIdx) => (
@@ -123,7 +133,13 @@ export default function Card({ data }: CatCardProps) {
             {discountType}
           </div>
         </div>
-
+        <Image
+          src={logo || 'https://res.cloudinary.com/dylxc3c5f/image/upload/v1744382944/hablando/1744382944080-816355529-Group%2049.png.png'}
+          width={60}
+          height={60}
+          className="w-[20vw] rounded lg:pl-8 lg:pt-8 block lg:hidden"
+          alt={name}
+        />
         <span className="text-xl text-gray-400 mb-2 3xl:mb-2">
           Location: <span className="text-white block md:inline">{location}</span>
         </span>
@@ -137,18 +153,18 @@ export default function Card({ data }: CatCardProps) {
 
         <div className="flex flex-col">
           {instaLink && (
-            <div className="flex justify-center items-center max-md:gap-[5vw] mb-1 3xl:mb-4">
+              <a href={"https://" +instaLink} target='_blank'   rel="noopener noreferrer" className="flex justify-center items-center max-md:gap-[5vw] mb-1 3xl:mb-4">       
               <Image src="/images/instaIcon.png" alt="Insta" width={25} height={25} />
               <p className="md:ps-4 text-xl font-montserrat">{instaLink}</p>
-            </div>
+              </a>
           )}
           {webLink && (
-            <div className="flex justify-center items-center max-md:gap-[5vw] 3xl:mb-2">
+              <a href={"https://" +webLink} target='_blank'   rel="noopener noreferrer"  className="flex justify-center items-center max-md:gap-[5vw] 3xl:mb-2">
               <Image src="/images/globe.png" alt="Website" width={25} height={25} />
               <p className="md:ps-4 text-xl font-montserrat max-w-[50vw] lg:max-w-full break-words">
                 {webLink}
               </p>
-            </div>
+              </a>
           )}
         </div>
       </div>

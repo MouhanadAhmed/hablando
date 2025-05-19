@@ -104,7 +104,7 @@ export default function Home() {
           Welcome to the
         </h3>
         {/* <h1 className="font-anton w-full absolute md:relative top-50  text-center text-white fs-80px mb-24"> */}
-        <h1 className="font-anton w-full  comm text-center text-white fs-80px mb-0">
+        <h1 className="font-anton w-full  comm text-center text-white fs-80px mb-0 uppercase">
           Hablando Community
         </h1>
         {/* 
