@@ -12,7 +12,8 @@ export default function Navbar() {
 
 
   const { register, handleSubmit, formState: { errors } } = useForm();
-  const onSubmit = (data: any) =>{ 
+  const { register:search, handleSubmit:handleSearch, formState: { errors:searchErr } } = useForm();
+  const onSearchSubmit = (data: any) =>{ 
   console.log(data);
   const keyword: any = {};
 
@@ -55,6 +56,7 @@ export default function Navbar() {
     redirect(`/venues/${queryString}`)
   };
   console.log(errors);
+  const onSubmit =(data:any) => console.log("login",data)
   const openDialog = () => {
     dialogRef.current?.showModal();
   }
@@ -197,7 +199,7 @@ export default function Navbar() {
 
 
             <form
-              onSubmit={handleSubmit(onSubmit)}
+              onSubmit={handleSearch(onSearchSubmit)}
               className="w-[70vw] py-6 md:w-[80vw] lg:w-[100vw] md:p-12 3xl:pb-18"
               style={{
                 display: 'flex',
@@ -209,7 +211,7 @@ export default function Navbar() {
               <input
                 type="text"
                 placeholder="Search Keyword"
-                {...register("SearchKeyword")}
+                {...search("SearchKeyword")}
                 className="w-full border p-[3vw] md:p-[1vw] 3xl:p-[1vw] rounded-full"
                 style={{
                   border: "0.1vw solid #B6B6B6",
@@ -219,7 +221,7 @@ export default function Navbar() {
               {/* Location Select */}
               <div className="relative w-full">
                 <select
-                  {...register("Location")}
+                  {...search("Location")}
                   className="appearance-none w-full border p-[3vw] md:p-[1vw] 3xl:p-[1vw] rounded-full"
                   style={{
                     border: "0.1vw solid #B6B6B6",
@@ -246,7 +248,7 @@ export default function Navbar() {
               {/* Activity Type Select */}
               <div className="relative w-full">
                 <select
-                  {...register("tags")}
+                  {...search("tags")}
                   className="appearance-none w-full border p-[3vw] md:p-[1vw] 3xl:p-[1vw] rounded-full"
                   style={{
                     border: "0.1vw solid #B6B6B6",
@@ -280,7 +282,7 @@ export default function Navbar() {
               {/* Discount Type Select */}
               <div className="relative w-full">
                 <select
-                  {...register("discountType")}
+                  {...search("discountType")}
                   className="appearance-none w-full border p-[3vw] md:p-[1vw] 3xl:p-[1vw] rounded-full"
                   style={{
                     border: "0.1vw solid #B6B6B6",
@@ -309,7 +311,7 @@ export default function Navbar() {
               {/* Availability Select */}
               <div className="relative w-full">
                 <select
-                  {...register("availability")}
+                  {...search("availability")}
                   className="appearance-none w-full border p-[3vw] md:p-[1vw] 3xl:p-[1vw] rounded-full"
                   style={{
                     border: "0.1vw solid #B6B6B6",
