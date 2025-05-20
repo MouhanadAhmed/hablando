@@ -4,6 +4,7 @@ import styles from './styles.module.css'
 import Link from "next/link";
 import React, { useRef } from "react";
 import { useForm } from 'react-hook-form';
+import { redirect } from "next/navigation";
 
 export default function Navbar() {
   const dialogRef = useRef<HTMLDialogElement>(null);
@@ -11,7 +12,48 @@ export default function Navbar() {
 
 
   const { register, handleSubmit, formState: { errors } } = useForm();
-  const onSubmit = (data: any) => console.log(data);
+  const onSubmit = (data: any) =>{ 
+  console.log(data);
+  const keyword: any = {};
+
+  let tags = '';
+
+  if (data.tags) tags += data.tags + ' ';
+  if (data.discountType) tags += data.discountType + ' ';
+  if (data.SearchKeyword) tags += data.SearchKeyword;
+
+  if (tags.trim()) keyword.tags = tags.trim();
+  if (data.availability) keyword.availability = data.availability;
+  if (data.Location) keyword.Location = data.Location;
+
+  console.log("keyword", keyword);
+
+    // Convert keyword object to query string
+    const queryParts = Object.entries(keyword).map(([key, value]) =>
+      `keyword[${key}]=${value}`
+    );
+    const queryString = queryParts.join('&');
+  
+    console.log("query string:", queryString);
+    // href={{
+    //   pathname: '/venues/yoga/pages',
+    //   query: {
+    //     'keyword[tags]': 'Wellness 50%',
+    //     'keyword[availability]': 'Everyday',
+    //     'keyword[Location]': 'Dubai',
+    //   },
+    // }}
+    // redirect(`/venues/pages?${{
+    //   pathname: '/venues/yoga/pages',
+    //   query: {
+    //     'keyword[tags]': 'Wellness 50%',
+    //     'keyword[availability]': 'Everyday',
+    //     'keyword[Location]': 'Dubai',
+    //   },
+    // }}`)
+    localStorage.setItem("search",queryString)
+    redirect(`/venues/${queryString}`)
+  };
   console.log(errors);
   const openDialog = () => {
     dialogRef.current?.showModal();
@@ -183,6 +225,8 @@ export default function Navbar() {
                     border: "0.1vw solid #B6B6B6",
                   }}
                 >
+                  <option disabled value="">Select Location</option>
+                  <option  value="">Any</option>
                   <option value="Dubai">Dubai</option>
                   <option value="Sharqa">Sharqa</option>
                 </select>
@@ -202,14 +246,23 @@ export default function Navbar() {
               {/* Activity Type Select */}
               <div className="relative w-full">
                 <select
-                  {...register("Activity type")}
+                  {...register("tags")}
                   className="appearance-none w-full border p-[3vw] md:p-[1vw] 3xl:p-[1vw] rounded-full"
                   style={{
                     border: "0.1vw solid #B6B6B6",
                   }}
                 >
+                  <option disabled value="">Select Category</option>
+                  <option  value="">Any</option>
+                  <option value="Restaurants">Restaurants</option>
+                  <option value="Bookshop">Bookshops</option>
+                  <option value="Languages">Languages</option>
+                  <option value="Fitness">Fitness</option>
+                  <option value="beachclub">Beach Clubs</option>
+                  <option value="Beauty">Beauty</option>
+                  <option value="Wellness">wellness</option>
+                  <option value="Mealplan">Meal Plan</option>
                   <option value="Entertaiment">Entertaiment</option>
-                  <option value="wellness">wellness</option>
                 </select>
                 <div className="pointer-events-none absolute right-[2vw] top-1/2 transform -translate-y-1/2 text-gray-800">
                   <svg
@@ -227,14 +280,18 @@ export default function Navbar() {
               {/* Discount Type Select */}
               <div className="relative w-full">
                 <select
-                  {...register("Discount type")}
+                  {...register("discountType")}
                   className="appearance-none w-full border p-[3vw] md:p-[1vw] 3xl:p-[1vw] rounded-full"
                   style={{
                     border: "0.1vw solid #B6B6B6",
                   }}
                 >
+                  <option disabled value="">Select Discount type</option>
+                  <option  value="">Any</option>
+                  <option value="10%">10%</option>
                   <option value="25%">25%</option>
                   <option value="50%">50%</option>
+                  <option value="70%">70%</option>
                 </select>
                 <div className="pointer-events-none absolute right-[2vw] top-1/2 transform -translate-y-1/2 text-gray-800">
                   <svg
@@ -252,12 +309,14 @@ export default function Navbar() {
               {/* Availability Select */}
               <div className="relative w-full">
                 <select
-                  {...register("Availability")}
+                  {...register("availability")}
                   className="appearance-none w-full border p-[3vw] md:p-[1vw] 3xl:p-[1vw] rounded-full"
                   style={{
                     border: "0.1vw solid #B6B6B6",
                   }}
                 >
+                  <option disabled value="">Select availability</option>
+                  <option  value="">Any</option>
                   <option value="Everyday">Everyday</option>
                   <option value="Monday">Monday</option>
                 </select>

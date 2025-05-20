@@ -13,7 +13,7 @@ export default function CardsWrapper({ keyword }: { keyword?: string }) {
     return (
       <div className="loader-container">
         <div className="spinner"></div>
-      </div>
+      </div> 
     );
   }
 

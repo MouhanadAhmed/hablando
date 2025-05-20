@@ -4,19 +4,30 @@ import Footer from "@/componenets/footer/footer"
 import Navbar from "@/componenets/navbar/Navbar"
 import Image from "next/image"
 import arrowLeft from "../../../../public/images/arrow-left.png"
-import Card from "@/componenets/card/Card"
 import Link from "next/link"
 import CardsWrapper from "@/componenets/cardsWrapper/cardsWrapper"
 import { useParams } from "next/navigation"
 
 
 
-
-
-
 export default function Venues() {
   const params = useParams();
-  const keyword = params?.keyword as string;
+  let keyword = params?.keyword as string;
+
+// const router = useRouter();
+console.log(params, typeof keyword);
+
+if (decodeToReadableString(keyword).toLowerCase().startsWith("keyword[")) {
+    keyword="Search Results"
+  }else{
+    localStorage.removeItem("search")
+  }
+  
+function decodeToReadableString(encoded: string) {
+    return decodeURIComponent(encoded as string);
+  }
+
+  console.log("decoded",decodeToReadableString(keyword))
 
     return(
         <>
