@@ -155,7 +155,7 @@ export default function Card({ data }: CatCardProps) {
           {instaLink && (
               <a href={"https://" +instaLink} target='_blank'   rel="noopener noreferrer" className="flex justify-center items-center max-md:gap-[5vw] mb-1 3xl:mb-4">       
               <Image src="/images/instaIcon.png" alt="Insta" width={25} height={25} />
-              <p className="md:ps-4 text-xl font-montserrat">{instaLink}</p>
+              <p className="md:ps-4 text-xl font-montserrat  max-w-[50vw] lg:max-w-full break-words">{instaLink}</p>
               </a>
           )}
           {webLink && (
